@@ -2,6 +2,17 @@
 
 Quoteverse is a simple web application that generates random quotes to inspire, motivate, and enlighten. This open-source project aims to spread positivity though words.
 
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Shariar-Hasan/QuoteVerse)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Shariar-Hasan/QuoteVerse)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shariar-Hasan/QuoteVerse)
+![GitHub issues](https://img.shields.io/github/issues/Shariar-Hasan/QuoteVerse)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Shariar-Hasan/QuoteVerse)
+![GitHub contributors](https://img.shields.io/github/contributors/Shariar-Hasan/QuoteVerse)
+![GitHub stars](https://img.shields.io/github/stars/Shariar-Hasan/QuoteVerse?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Shariar-Hasan/QuoteVerse?style=social)
+
+
 ## Features
 
 - **Random Quote Generation:** Click `Generate Quote` button and get a new quote every time.
