@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>QuoteVerse</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Quote Section -->
+      <section>
+        <div class="quote">
+          <h1 class="quote-text">
+            "For the first time, i am seeing this things hapening to the world,
+            you guys can carry on"
+          </h1>
+          <h5 class="quote-author">- Shariar Hasan</h5>
+        </div>
+      </section>
+
+      <!-- Control Section Section -->
+      <section>
+        <div class="controller">
+          <span class="clip-box added-by-box"
+            >Added by :
+            <span class="added-by capitalise"
+              ><a href="#"
+                > Shariar
+                Hasan</a
+              ></span
+            ></span
+          ><span class="clip-box contribute"
+            ><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/Shariar-Hasan/" target="_blank" rel="noopener noreferrer"></a> contribute on this repository</span
+          >
+          <div class="controller-wrapper">
+            <div class="controller-group">
+              <button class="btn-generator">
+                Generate Quote <i class="fa-solid fa-rotate"></i>
+              </button>
+              <select name="quote-category" id="quote-category">
+                <option value="random" class="capitalise" selected>
+                  random
+                </option>
+                <option value="motivational" class="capitalise">
+                  motivational
+                </option>
+                <option value="inspirational" class="capitalise">
+                  inspirational
+                </option>
+                <option value="life related" class="capitalise">
+                  life related
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./Quotes.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,300;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: none;
+}
+
+body {
+  background-color: #222f3e;
+  background: linear-gradient(to left, #222f3e, #576574);
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quote {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  margin: 30px auto;
+}
+
+.quote-text {
+  font-family: "Exo 2", sans-serif;
+  font-size: 3.1rem;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.quote-author {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px auto;
+}
+
+.controller {
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 30px;
+  width: 60%;
+  margin: 70px auto;
+  position: relative;
+}
+@media screen and (width <= 500px) {
+  .controller {
+    width: 100%;
+  }
+}
+.controller .clip-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border: 1px solid whitesmoke;
+}
+.controller .clip-box.added-by-box {
+  bottom: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.controller .clip-box.contribute {
+  top: 100%;
+  border-radius: 0 0 5px 5px;
+  background-color: #929292;
+}
+.controller .clip-box .added-by a {
+  color: rgb(0, 133, 250);
+}
+
+.controller-wrapper {
+  text-align: center;
+}
+
+.controller-group button {
+  border: 0.5px solid #222f3e;
+}
+
+.controller-group button,
+.controller-group select {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  width: 50%;
+  cursor: pointer;
+  background-color: #222f3e;
+  color: whitesmoke;
+  transition: all 0.15s ease-in-out;
+}
+.controller-group button:hover,
+.controller-group select:hover {
+  background-color: #576574;
+}
+
+.controller-group button {
+  border-radius: 9px 9px 0 0;
+  border-bottom: 0.5px solid whitesmoke;
+}
+.controller-group button:active {
+  transform: scale(0.97);
+}
+
+.controller-group select {
+  border-radius: 0 0 9px 9px;
+}
+
+.controller-group select option {
+  padding: 10px 20px;
+}
+
+.capitalise {
+  text-transform: capitalize;
+}
