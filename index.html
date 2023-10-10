@@ -18,49 +18,37 @@
       <!-- Quote Section -->
       <section>
         <div class="quote">
-          <h1 class="quote-text">
+          <h1 class="quote-text" id="quoteTextTag">
             "The only way to do great work is to love what you do."
           </h1>
-          <h5 class="quote-author">- Steve Jobs</h5>
+          <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
         </div>
       </section>
 
       <!-- Control Section Section -->
       <section>
         <div class="controller">
-          <span class="clip-box added-by-box"
-            >Added by :
-            <span class="added-by capitalise"
-              ><a href="#"> Shariar Hasan</a></span
-            ></span
+          <span class="clip-box added-by-box" id="addedByTag"></span
           ><span class="clip-box contribute"
             ><i class="fab fa-github" aria-hidden="true"></i>
             <a
-              href="https://github.com/Shariar-Hasan/"
+              href="https://github.com/Shariar-Hasan/QuoteVerse"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
-            contribute on this repository</span
+            >
+              contribute on this repository</a
+            ></span
           >
           <div class="controller-wrapper">
             <div class="controller-group">
-              <button class="btn-generator">
+              <button class="btn-generator" id="generateQuoteBtn">
                 Generate Quote <i class="fa-solid fa-rotate"></i>
               </button>
-              <select name="quote-category" id="quote-category">
-                <option value="random" class="capitalise" selected>
-                  random
-                </option>
-                <option value="motivational" class="capitalise">
-                  motivational
-                </option>
-                <option value="inspirational" class="capitalise">
-                  inspirational
-                </option>
-                <option value="life related" class="capitalise">
-                  life related
-                </option>
-              </select>
+              <select
+                name="selectedCategoryTag"
+                id="selectedCategoryTag"
+                class="capitalise"
+              ></select>
             </div>
           </div>
         </div>
@@ -68,6 +56,8 @@
     </div>
 
     <script src="./Quotes.js"></script>
+    <script src="./assets/js/others.js"></script>
+    <script src="./assets/js/settings.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

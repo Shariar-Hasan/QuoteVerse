@@ -2,12 +2,12 @@
 
 ### Add Quote :
 
-Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse, follow these steps:
+Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse, first of all `Star the repository` then follow these steps:
 
 1. Fork the repository and clone it to your local machine.
 
    ```sh
-   https://github.com/Shariar-Hasan/QuoteVerse.git
+   git clone https://github.com/<your-username>/QuoteVerse.git
    cd QuoteVerse
    ```
 
@@ -35,7 +35,10 @@ Contributions are welcome and encouraged! If you want to add Quote to the QuoteV
    ```
 
 4. Open a pull request on the original repository.
-<!-- 
+
+#### follow all the steps to get your PR successfully merged
+
+<!--
 <br/>
 
 ### Add Feature/ Fix Bug:

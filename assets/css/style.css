@@ -7,6 +7,8 @@
 
 a {
   color: none;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 body {
@@ -37,11 +39,21 @@ body {
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
+@media screen and (width <= 500px) {
+  .quote-text {
+    font-size: 1.1rem;
+  }
+}
 
 .quote-author {
   font-size: 1rem;
   font-weight: 300;
   margin: 10px auto;
+}
+@media screen and (width <= 500px) {
+  .quote-author {
+    font-size: 0.5rem;
+  }
 }
 
 .controller {
@@ -55,6 +67,7 @@ body {
 @media screen and (width <= 500px) {
   .controller {
     width: 100%;
+    padding: 10px;
   }
 }
 .controller .clip-box {
@@ -76,8 +89,8 @@ body {
   border-radius: 0 0 5px 5px;
   background-color: #929292;
 }
-.controller .clip-box .added-by a {
-  color: rgb(0, 133, 250);
+.controller .clip-box .added-by {
+  color: rgb(49, 155, 248);
 }
 
 .controller-wrapper {
@@ -90,7 +103,7 @@ body {
 
 .controller-group button,
 .controller-group select {
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   outline: none;
   width: 50%;
@@ -98,10 +111,17 @@ body {
   background-color: #222f3e;
   color: whitesmoke;
   transition: all 0.15s ease-in-out;
+  font-weight: bold;
 }
 .controller-group button:hover,
 .controller-group select:hover {
   background-color: #576574;
+}
+@media screen and (width <= 500px) {
+  .controller-group button,
+  .controller-group select {
+    width: 100%;
+  }
 }
 
 .controller-group button {

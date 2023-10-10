@@ -30,4 +30,42 @@ window.quotes = [
     author: "Helen Keller",
     addedBy: "Shariar-Hasan",
   },
+  {
+    quote: "Life is what happens when you're busy making other plans.",
+    category: "Life",
+    author: "Allen Sanders",
+    addedBy: "Shariar-Hasan",
+  },
+  {
+    quote:
+      "Success is not final, failure is not fatal It is the courage to continue that counts.",
+    category: "Motivation",
+    author: "Winston Churchill",
+    addedBy: "Shariar-Hasan",
+  },
+  {
+    quote:
+      "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    category: "Friendship",
+    author: "Martin Luther King Jr.",
+    addedBy: "Shariar-Hasan",
+  },
+  {
+    quote: "The best preparation for tomorrow is doing your best today.",
+    category: "Motivation",
+    author: "H. Jackson Brown Jr.",
+    addedBy: "Shariar-Hasan",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    category: "Inspiration",
+    author: "Theodore Roosevelt",
+    addedBy: "Shariar-Hasan",
+  },
+  {
+    quote: "It does not matter how slowly you go as long as you do not stop.",
+    category: "Persistence",
+    author: "Confucius",
+    addedBy: "Shariar-Hasan",
+  },
 ];
