@@ -9,7 +9,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/Shariar-Hasan/QuoteVerse?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shariar-Hasan/QuoteVerse?style=social)
 
-# Quoteverse
+# QuoteVerse
 
 Quoteverse is a simple web application that generates random quotes to inspire, motivate, and enlighten. This open-source project aims to spread positivity though words.
 ## Table of Contents
@@ -22,7 +22,7 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 - [License](#license)
 - [Contributor List](#contributor-list)
 
-## Features
+## 🗒️Features
 
 - **Random Quote Generation:** Click `Generate Quote` button and get a new quote every time.
 - **Categories:** Choose from various categories such as Life, Motivation, Friendship, and more.
@@ -31,7 +31,7 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 - **Open for Contributions:** This project is open for contributions. Feel free to add new quotes and categories to enrich the collection.
 
 ### `Star` the repository, if you found it helpful/wonderfull.
-## Preview
+## 🖼️Preview
 
 <div align="center">
 
@@ -39,7 +39,7 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 
 </div>
 
-## Getting Started
+## 🗒️Getting Started
 
 To get started with Quoteverse, You can use QuoteVerse from [Live Site](https://shariar-hasan.github.io/QuoteVerse/) or follow these steps:
 
@@ -53,7 +53,7 @@ To get started with Quoteverse, You can use QuoteVerse from [Live Site](https://
 2. **Open `index.html` in Your Browser:**
    Simply open the `index.html` file in your preferred web browser to start using Quoteverse.
 
-## How to Contribute
+## 🧩How to Contribute
 
 ### Add Quote:
 
@@ -94,11 +94,11 @@ Contributions are welcome and encouraged! If you want to add Quote to the QuoteV
 #### follow all the steps to get your PR successfully merged
 
 
-## License
+## 🔑License
 
 This project is licensed under the [MIT License](LICENSE)
 
-## Contributor List
+## 🛂Contributor List
 
 Thanks to all the contributors:
 <br/>
