@@ -55,7 +55,7 @@ To get started with Quoteverse, You can use QuoteVerse from [Live Site](https://
 
 ## How to Contribute
 
-### Add Quote :
+### Add Quote:
 
 Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse, first of all `Star the repository` then follow these steps:
 
