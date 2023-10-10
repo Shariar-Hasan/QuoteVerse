@@ -43,7 +43,7 @@ To get started with Quoteverse, You can use QuoteVerse from [Live Site](https://
 2. **Open `index.html` in Your Browser:**
    Simply open the `index.html` file in your preferred web browser to start using Quoteverse.
 
-If you are interested in contributing, then please make sure to follow the [Contributing Guidelines](CONTRIBUTING.md) before submitting your pull request.
+If you are interested in contributing, then please make sure to follow the [Contributing Guidelines](Contribution.md) before submitting your pull request.
 
 ## License
 

@@ -35,7 +35,7 @@ Contributions are welcome and encouraged! If you want to add Quote to the QuoteV
    ```
 
 4. Open a pull request on the original repository.
-
+<!-- 
 <br/>
 
 ### Add Feature/ Fix Bug:
@@ -73,4 +73,4 @@ If you want to add feature or fix bug in the QuoteVerse, follow these steps:
    git push origin branch-name
    ```
 
-5. Open a pull request on the original repository .
+5. Open a pull request on the original repository . -->
