@@ -1,4 +1,10 @@
+<div align="center">
 
+![Screenshot](./assets/images/image.png)
+
+</div>
+
+# QuoteVerse
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shariar-Hasan/QuoteVerse)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Shariar-Hasan/QuoteVerse)
@@ -9,16 +15,15 @@
 ![GitHub stars](https://img.shields.io/github/stars/Shariar-Hasan/QuoteVerse?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shariar-Hasan/QuoteVerse?style=social)
 
-# QuoteVerse
-
 Quoteverse is a simple web application that generates random quotes to inspire, motivate, and enlighten. This open-source project aims to spread positivity though words.
+
 ## Table of Contents
 
 - [Features](#features)
 - [Preview](#preview)
 - [Getting Started](#getting-started)
 - [How to Contribute](#how-to-contribute)
-    - [Add Quote](#add-quote)
+  - [Add Quote](#add-quote)
 - [License](#license)
 - [Contributor List](#contributor-list)
 
@@ -31,13 +36,6 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 - **Open for Contributions:** This project is open for contributions. Feel free to add new quotes and categories to enrich the collection.
 
 ### `Star` the repository, if you found it helpful/wonderfull.
-## 🖼️Preview
-
-<div align="center">
-
-![Screenshot](./assets/images/image.png)
-
-</div>
 
 ## 🗒️Getting Started
 
@@ -92,7 +90,6 @@ Contributions are welcome and encouraged! If you want to add Quote to the QuoteV
 4. Open a pull request on the original repository.
 
 #### follow all the steps to get your PR successfully merged
-
 
 ## 🔑License
 
