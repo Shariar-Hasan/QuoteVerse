@@ -38,11 +38,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectedCategory = selectedCategoryTag.value;
 
     // categorically selected quotes
-    const quotes = window.quotes.filter(
-      (quote) =>
-        isIncluded(quote.category, selectedCategory) ||
-        isIncluded(selectedCategory, "random")
-    );
+    const quotes = window.quotes
+      .sort((a, b) => Math.random() - 0.6)
+      .filter(
+        (quote) =>
+          isIncluded(quote.category, selectedCategory) ||
+          isIncluded(selectedCategory, "random")
+      );
 
     // make a random selection from quotes\
     const selectedQuote = quotes[randomInteger(0, quotes.length)];
