@@ -21,7 +21,7 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 - **Contributor Information:** Each quote includes the name of the contributor who added the it.
 - **Open for Contributions:** This project is open for contributions. Feel free to add new quotes and categories to enrich the collection.
 
-`Star` the repository, if you found it helpful/wonderfull.
+### `Star` the repository, if you found it helpful/wonderfull.
 ## Preview
 
 <div align="center">
