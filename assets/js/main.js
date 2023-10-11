@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectedCategoryTag = document.getElementById("selectedCategoryTag");
     categories.forEach((category) => {
       const option = new Option(
-        category,
+        category + " category",
         category,
         isIncluded(category, "random")
       );
@@ -61,11 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
     ${selectedQuote.addedBy}</a
     >`
     );
-    console.log({
-      quotes,
-      selectedCategory,
-      rnd: randomInteger(2, 5),
-    });
+    // console.log({
+    //   quotes,
+    //   selectedCategory,
+    //   rnd: randomInteger(2, 5),
+    // });
   };
   // set all funtionalities
   setCategories();
