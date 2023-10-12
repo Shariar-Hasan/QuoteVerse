@@ -17,8 +17,9 @@
 
 Quoteverse is a simple web application that generates random quotes to inspire, motivate, and enlighten. This open-source project aims to spread positivity though words.
 
-### Note : This Repository is under Hacktoberfest 2023
-#### STAR⭐ The Repository, Open First PULL REQUEST & Get it Merged! 🎉
+### 🥳🎉🎊Note : This Repository is under Hacktoberfest 2023
+
+#### ⚠️⚠️STAR⭐ The Repository, Open First PULL REQUEST & Get it Merged! 🎉
 
 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the challenge and earn a limited edition rewards!🚀
 
@@ -60,41 +61,7 @@ To get started with Quoteverse, You can use QuoteVerse from [Live Site](https://
 
 ## 🧩How to Contribute
 
-### Add Quote:
-
-Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse, first of all `Star the repository` then follow these steps:
-
-1. Fork the repository and clone it to your local machine.
-
-   ```sh
-   git clone https://github.com/<your-username>/QuoteVerse.git
-   cd QuoteVerse
-   ```
-
-2. Open `Quote.js` and add a new Object in the array, for example :
-
-```javascript
-{
-    quote: "your-quote-text",
-    category: "quote-category",
-    author: "author-of-the-quote",
-    addedBy: "your-guthub-username"
-}
-```
-
-2. Now save the file and make a commit.
-
-   ```sh
-   git commit -m "Added new feature: your feature description"
-   ```
-
-3. Push your changes to your forked repository.
-
-   ```sh
-   git push origin main
-   ```
-
-4. Open a pull request on the original repository.
+- Go to [Contributing.md](Contributing.md) to have a brief idea about how to make a pull request and contribute to this repository.
 
 #### follow all the steps to get your PR successfully merged
 
