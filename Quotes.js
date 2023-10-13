@@ -163,5 +163,36 @@ window.quotes = [
     "category": "Life",
     "author": "John Lennon",
     "addedBy": "iqbalcodes6602"
+  },
+  {
+    quote: "The only limit to our realization of tomorrow will be our doubts of today.",
+    category: "Inspirational",
+    author: "Franklin D. Roosevelt",
+    addedBy: "Thanush19",
+  },
+  {
+    quote: "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    category: "Motivational",
+    author: "Joel Brown",
+    addedBy: "Thanush19",
+  },
+  {
+    quote: "Success is not in what you have, but who you have become.",
+    category: "Success",
+    author: "Bo Bennett",
+    addedBy: "Thanush19",
+  },
+  {
+    quote: "Life is short, and it is up to you to make it sweet.",
+    category: "Life",
+    author: "Sarah Louise Delany",
+    addedBy: "Thanush19",
+  },
+  {
+    quote: "In the end, it's not the years in your life that count. It's the life in your years.",
+    category: "Life",
+    author: "Abraham Lincoln",
+    addedBy: "Thanush19",
   }
+  
 ];
