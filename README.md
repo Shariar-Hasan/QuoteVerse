@@ -77,5 +77,5 @@ Thanks to all the contributors:
    <img src = "https://contrib.rocks/image?repo=Shariar-Hasan/QuoteVerse"/>
 </a>
 <a href = "https://github.com/Skb08/QuoteVerse">
-   <img src = "https://avatars.githubusercontent.com/u/113046759?v=4"/>
+   <img src = "https://contrib.rocks/image?repo=Skb08/QuoteVerse"/>
 </a>
