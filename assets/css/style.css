@@ -57,7 +57,7 @@ body {
 }
 
 .controller {
-  border: 1px solid whitesmoke;
+  border: 3px solid #222f3e;
   border-radius: 8px;
   padding: 30px;
   width: 60%;
@@ -78,7 +78,7 @@ body {
   width: fit-content;
   margin: 0 auto;
   padding: 5px 10px;
-  border: 1px solid whitesmoke;
+  border: 3px solid #222f3e;
 }
 .controller .clip-box.added-by-box {
   bottom: 100%;
@@ -126,7 +126,7 @@ body {
 
 .controller-group button {
   border-radius: 9px 9px 0 0;
-  border-bottom: 0.5px solid whitesmoke;
+  border-bottom: 3px solid #222f3e;
 }
 .controller-group button:active {
   transform: scale(0.97);
@@ -153,21 +153,33 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(279deg, #c70039, #f94c10, #f8de22);
+  background: linear-gradient(30deg, #c70039, #222f3ec2, #000000);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
 }
 
 .container {
-  background: linear-gradient(45deg, #ffd700, #ffa500);
+  /* background: linear-gradient(45deg, #ffd700, #ffa500); */
   padding: 2px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 8px rgb(255 255 255 / 34%);
   max-width: 700px;
   text-align: center;
   margin: 0 auto;
   transition: background-color 0.3s ease;
   position: relative;
+  border: 2px solid #bdbdbde8;
+}
+
+.container {
+  background: rgba(0,0,0,0.2);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .container {
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+  }
 }
 
 
@@ -176,10 +188,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-color: #f1f1f1;
-  border-radius: 0 5px 5px 0;
   padding: 5px;
-  box-shadow: 0 0 10px 0 rgba(3, 11, 1, 0.5);
 }
 
 .theme_changer_button div input{
