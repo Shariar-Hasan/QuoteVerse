@@ -152,4 +152,16 @@ window.quotes = [
     author: "Helen Keller",
     addedBy: "Skb08",
   },
+  {
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": "Inspirational",
+    "author": "Winston Churchill",
+    "addedBy": "iqbalcodes6602"
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": "Life",
+    "author": "John Lennon",
+    "addedBy": "iqbalcodes6602"
+  }
 ];
