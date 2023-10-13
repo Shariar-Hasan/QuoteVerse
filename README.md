@@ -1,6 +1,6 @@
 <div align="center">
 
-![Screenshot](./assets/images/image.png)
+![Screenshot](./assets/images/image1.png)
 
 </div>
 
@@ -74,5 +74,8 @@ This project is licensed under the [MIT License](LICENSE)
 Thanks to all the contributors:
 <br/>
 <a href = "https://github.com/Shariar-Hasan/QuoteVerse/graphs/contributors">
-<img src = "https://contrib.rocks/image?repo=Shariar-Hasan/QuoteVerse"/>
+   <img src = "https://contrib.rocks/image?repo=Shariar-Hasan/QuoteVerse"/>
+</a>
+<a href = "https://github.com/Skb08/QuoteVerse">
+   <img src = "https://avatars.githubusercontent.com/u/113046759?v=4"/>
 </a>
