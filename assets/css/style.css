@@ -33,7 +33,7 @@ body {
 
 .quote-text {
   font-family: "Exo 2", sans-serif;
-  font-size: 3.1rem;
+  font-size: 2.4rem;
   font-weight: 300;
   position: relative;
   text-align: center;
@@ -142,4 +142,71 @@ body {
 
 .capitalise {
   text-transform: capitalize;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(279deg, #c70039, #f94c10, #f8de22);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+.container {
+  background: linear-gradient(45deg, #ffd700, #ffa500);
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+
+.theme_changer_button{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #f1f1f1;
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+  box-shadow: 0 0 10px 0 rgba(3, 11, 1, 0.5);
+}
+
+.theme_changer_button div input{
+  display: none;
+}
+.theme_changer_button div label{
+  display: block;
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #c70039;
+}
+.theme_changer_button div input:checked ~label,
+.theme_changer_button div label:hover{
+  outline: 3px solid rgba(0, 0, 0, 0.284) ;
+  cursor: pointer;
+}
+.theme_changer_button div:nth-child(1) label{
+  background-color: rgb(118, 118, 231);
+}
+.theme_changer_button div:nth-child(2) label{
+  background-color: rgb(235, 118, 118);
+}
+.theme_changer_button div:nth-child(3) label{
+  background-color: rgb(102, 241, 130);
+}
+.theme_changer_button div:last-child label{
+  background-color: rgb(227, 227, 135);
 }

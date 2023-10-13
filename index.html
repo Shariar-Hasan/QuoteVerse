@@ -51,6 +51,25 @@
               ></select>
             </div>
           </div>
+
+        </div>
+        <div class="theme_changer_button">
+          <div>
+            <input type="radio" name="color" id="blue">
+            <label for="blue" class="select_color" data-number="1"></label>
+          </div>
+          <div>
+            <input type="radio" name="color" id="red">
+            <label for="red" class="select_color" data-number="2"></label>
+          </div>
+          <div>
+            <input type="radio" name="color" id="green">
+            <label for="green" class="select_color" data-number="3"></label>
+          </div>
+          <div>
+            <input type="radio" name="color" id="yellow">
+            <label for="yellow" class="select_color" data-number="4"></label>
+          </div>
         </div>
       </section>
     </div>
@@ -58,5 +77,18 @@
     <script src="./Quotes.js"></script>
     <script src="./assets/js/others.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+      var color_selection=document.querySelectorAll('.select_color')
+      var color_array=['#81CACF','#E68398','#7EDE80','rgb(229 229 62)'];
+      var container=document.querySelector('.container');
+      color_selection.forEach(item =>{
+        item.addEventListener('click',()=>{
+          var getItemNumber=item.getAttribute('data-number');
+          // document.body.style.background=color_array[getItemNumber-1];
+          container.style.background=color_array[getItemNumber-1];
+        })
+      })
+    </script>
+
   </body>
 </html>
