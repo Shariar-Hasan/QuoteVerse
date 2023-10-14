@@ -69,7 +69,8 @@ window.quotes = [
     addedBy: "Shariar-Hasan",
   },
   {
-    quote: "Description begins in the writer's imagination but should finish in the reader's.",
+    quote:
+      "Description begins in the writer's imagination but should finish in the reader's.",
     category: "Motivation",
     author: "Stephen King",
     addedBy: "Skb08",
@@ -87,7 +88,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "Education is the most powerful weapon which you can use to change the world.",
+    quote:
+      "Education is the most powerful weapon which you can use to change the world.",
     category: "Inspirational",
     author: "Nelson Mandela",
     addedBy: "Shariar-Hasan",
@@ -99,7 +101,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "You're braver than you believe, stronger than you seem, and smarter than you think.",
+    quote:
+      "You're braver than you believe, stronger than you seem, and smarter than you think.",
     category: "Inspirational",
     author: "A.A. Milne",
     addedBy: "Skb08",
@@ -129,7 +132,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    quote:
+      "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
     category: "Philosophical",
     author: " Albert Einstein",
     addedBy: "Skb08",
@@ -147,31 +151,35 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "I would rather walk with a friend in the dark than walk alone in the light.",
+    quote:
+      "I would rather walk with a friend in the dark than walk alone in the light.",
     category: "Friendship",
     author: "Helen Keller",
     addedBy: "Skb08",
   },
   {
-    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-    "category": "Inspirational",
-    "author": "Winston Churchill",
-    "addedBy": "iqbalcodes6602"
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    category: "Inspirational",
+    author: "Winston Churchill",
+    addedBy: "iqbalcodes6602",
   },
   {
-    "quote": "Life is what happens when you're busy making other plans.",
-    "category": "Life",
-    "author": "John Lennon",
-    "addedBy": "iqbalcodes6602"
+    quote: "Life is what happens when you're busy making other plans.",
+    category: "Life",
+    author: "John Lennon",
+    addedBy: "iqbalcodes6602",
   },
   {
-    quote: "The only limit to our realization of tomorrow will be our doubts of today.",
+    quote:
+      "The only limit to our realization of tomorrow will be our doubts of today.",
     category: "Inspirational",
     author: "Franklin D. Roosevelt",
     addedBy: "Thanush19",
   },
   {
-    quote: "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    quote:
+      "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
     category: "Motivational",
     author: "Joel Brown",
     addedBy: "Thanush19",
@@ -189,10 +197,55 @@ window.quotes = [
     addedBy: "Thanush19",
   },
   {
-    quote: "In the end, it's not the years in your life that count. It's the life in your years.",
+    quote:
+      "In the end, it's not the years in your life that count. It's the life in your years.",
     category: "Life",
     author: "Abraham Lincoln",
     addedBy: "Thanush19",
-  }
-  
+  },
+  {
+    quote: "Don't watch the clock; do what it does. Keep going.",
+    category: "Success",
+    author: "Sam Levenson",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote: "Opportunities don't happen. You create them.",
+    category: "Success",
+    author: "Chris Grosser",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote: "Your time is limited, don't waste it living someone else's life.",
+    category: "Success",
+    author: "Steve Jobs",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote:
+      "It's not that I'm so smart, it's just that I stay with problems longer.",
+    category: "Persistence",
+    author: "Albert Einstein",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote:
+      "Perseverance is not a long race; it is many short races one after the other.",
+    category: "Persistence",
+    author: "Walter Elliot",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote:
+      "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    category: "Persistence",
+    author: "Winston S. Churchill",
+    addedBy: "izabela-marcinkowska",
+  },
+  {
+    quote: "The best way out is always through.",
+    category: "Persistence",
+    author: "Robert Frost",
+    addedBy: "izabela-marcinkowska",
+  },
 ];
