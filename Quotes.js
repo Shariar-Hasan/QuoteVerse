@@ -458,9 +458,9 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Do not wait; the time will never be just right. Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.",
+    quote: "In order to be able to think, you have to risk being offensive.",
     category: "Life",
-    author: "Napoleon Hill",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   },
   {
@@ -476,9 +476,9 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "A lot of us surround ourselves with people who speak to our desire for comfort. People who would rather treat the pain of our wounds and prevent further injury than help us callous over them and try again. We need to surround ourselves with people who will tell us what we need to hear, not what we want to hear, but at the same time not make us feel we're up against the impossible.",
+    quote: "To suffer terribly and to know yourself as the cause: that is Hell",
     category: "Life",
-    author: "David Goggins",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   },
   {
@@ -488,15 +488,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Most of us sweep our failures and evil secrets under the rug, but when we run into problems, that rug gets lifted up, and our darkness re-emerges, floods our soul, and influences the decisions which determine our character.",
+    quote: "Perhaps you are overvaluing what you don't have and undervaluing what you do",
     category: "Life",
-    author: "David Goggins",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   },
   {
-    quote: "If you want to master the mind and remove your governor, you'll have to become addicted to hard work. Because passion and obsession, even talent, are only useful tools if you have the work ethic to back them up.",
+    quote: "If you are not willing to be a fool, you can't become a master.",
     category: "Life",
-    author: "David Goggins",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   },
   {
@@ -506,9 +506,9 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Breaking the shackles and stretching beyond our own perceived limits takes hard fucking work—oftentimes physical work—and when you put yourself on the line, self doubt and pain will greet you with a stinging combination that will buckle your knees.",
+    quote: "If you fulfill your obligations everyday you don't need to worry about the future",
     category: "Inspiration",
-    author: "David Goggins",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   },
   {
@@ -590,9 +590,9 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "My mother was my biggest fan. Whenever I failed in life she was always asking me when and where I would go after it again. She never said, Well, maybe it isn't meant to be.",
-    category: "Motivation",
-    author: "David Goggins",
+    quote: "If you don't say what you think then you kill your unborn self",
+    category: "Inspiration",
+    author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
   }
 ];
