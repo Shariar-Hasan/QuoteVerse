@@ -594,5 +594,70 @@ window.quotes = [
     category: "Inspiration",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
-  }
+  },
+  {
+    quote: "Every day may not be good… but there's something good in every day",
+    category: "Inspiration",
+    author: "Alice Morse Earle",
+    addedBy: "Oblivious19",
+  },
+
+  {
+    quote: "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
+    category: "Motivation",
+    author: "Bill Gates",
+    addedBy: "Oblivious19",
+  },
+  {
+    quote: "To live is the rarest thing in the world. Most people exist, that is all",
+    category: "Life",
+    author: "Oscar Wilde",
+    addedBy: "Oblivious19",
+  },
+
+  {
+    quote: "Pain is inevitable. Suffering is optional.",
+    category: "Life",
+    author: "Haruki Murakami",
+    addedBy: "Oblivious19",
+  },
+  {
+    quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do",
+    category: "Inspiration",
+    author: "Steve Jobs",
+    addedBy: "Oblivious19",
+  },
+
+  {
+    quote: "I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.",
+    category: "Inspiration",
+    author: "Jeff Bezo ",
+    addedBy: "Oblivious19",
+  },
+  {
+    quote: "Unable are the loved to die for love is immortality.",
+    category: "Life",
+    author: "Emily Dickinson",
+    addedBy: "Oblivious19",
+  },
+
+  {
+    quote: "Be kind, for everyone you meet is fighting a hard battle.",
+    category: "Life",
+    author: "Plato",
+    addedBy: "Oblivious19",
+  },
+  {
+    quote: "Intelligence without ambition is a bird without wings.",
+    category: "Inspiration",
+    author: "Walter H. Cottingham",
+    addedBy: "Oblivious19",
+  },
+
+  {
+    quote: "The desire to reach for the stars is ambitious. The desire to reach hearts is wise.",
+    category: "Inspiration",
+    author: "Maya Angelou",
+    addedBy: "Oblivious19",
+  },
 ];
