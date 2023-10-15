@@ -720,4 +720,11 @@ window.quotes = [
     author:"Helen Keller",
     addedBy:"Rekha Giri"
   },
+  {
+    quote: "Enthusiasm makes up for a host of deficiencies.",
+    category: "Motivation",
+    author: "Barack Obama",
+    addedBy: "Shayy841"
+  },
+
 ];
