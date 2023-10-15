@@ -7,7 +7,6 @@
 # QuoteVerse
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shariar-Hasan/QuoteVerse)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Shariar-Hasan/QuoteVerse)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Shariar-Hasan/QuoteVerse)
 ![GitHub issues](https://img.shields.io/github/issues/Shariar-Hasan/QuoteVerse)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Shariar-Hasan/QuoteVerse)
