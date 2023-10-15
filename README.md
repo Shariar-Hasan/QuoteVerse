@@ -72,7 +72,9 @@ This project is licensed under the [MIT License](LICENSE)
 ## 🛂Contributor List
 
 Thanks to all the contributors:
+
 <br/>
-<a href = "https://github.com/Shariar-Hasan/QuoteVerse/graphs/contributors">
-<img src = "https://contrib.rocks/image?repo=Shariar-Hasan/QuoteVerse"/>
+
+<a href="https://github.com/Shariar-Hasan/QuoteVerse/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shariar-Hasan/QuoteVerse" />
 </a>
