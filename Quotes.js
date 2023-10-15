@@ -667,57 +667,84 @@ window.quotes = [
     addedBy: "Rekha Giri",
   },
   {
-    quote:"Don't cry because it's over. Smile because it happened.",
-    category:"Life",
-    author:"Dr. Seuss",
-    addedBy:"Rekha Giri",
+    quote: "Don't cry because it's over. Smile because it happened.",
+    category: "Life",
+    author: "Dr. Seuss",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"Everything is hard before it is easy." ,
-    category:"Motivation",
-    author:"Johann Wolfgang von Goethe",
-    addedBy:"Rekha Giri",
+    quote: "Everything is hard before it is easy.",
+    category: "Motivation",
+    author: "Johann Wolfgang von Goethe",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"Anyone who has never made a mistake has never tried anything new." ,
-    category:"Motivation",
-    author:"Albert Einstein",
-    addedBy:"Rekha Giri",
+    quote: "Anyone who has never made a mistake has never tried anything new.",
+    category: "Motivation",
+    author: "Albert Einstein",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"Don't let your happiness depend on something you may lose.",
-    category:"Life",
-    author:"C.S. Lewis",
-    addedBy:"Rekha Giri",
+    quote: "Don't let your happiness depend on something you may lose.",
+    category: "Life",
+    author: "C.S. Lewis",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"Never look back unless you are planning to go that way.",
-    category:"Motivation",
-    author:"​Henry David Thoreau",
-    addedBy:"Rekha Giri",
+    quote: "Never look back unless you are planning to go that way.",
+    category: "Motivation",
+    author: "​Henry David Thoreau",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"Life is a journey, not a destination.",
-    category:"Life",
-    author:"Ralph Waldo Emerson",
-    addedBy:"Rekha Giri",
+    quote: "Life is a journey, not a destination.",
+    category: "Life",
+    author: "Ralph Waldo Emerson",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"The future belongs to those who believe in the beauty of their dreams.",
-    category:"Motivation",
-    author:"Eleanor Roosevelt",
-    addedBy:"Rekha Giri",
+    quote: "The future belongs to those who believe in the beauty of their dreams.",
+    category: "Motivation",
+    author: "Eleanor Roosevelt",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"You must be the change you wish to see in the world",
-    category:"Motivation",
-    author:"Mahatma Gandhi",
-    addedBy:"Rekha Giri",
+    quote: "You must be the change you wish to see in the world",
+    category: "Motivation",
+    author: "Mahatma Gandhi",
+    addedBy: "Rekha Giri",
   },
   {
-    quote:"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
-    category:"Life",
-    author:"Helen Keller",
-    addedBy:"Rekha Giri"
+    quote: "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    category: "Life",
+    author: "Helen Keller",
+    addedBy: "Rekha Giri"
   },
+  {
+    quote: "Enthusiasm makes up for a host of deficiencies.",
+    category: "Motivation",
+    author: "Barack Obama",
+    addedBy: "Shayy841"
+  }, {
+    quote: "When everything seems to be going against you, remember that the airplant takes off against the wind, not with it",
+    category: "Motivation",
+    author: "Henry Ford",
+    addedBy: "Shayy841"
+  }, {
+    quote: "If you're offered a seat on a rocket ship, don't ask what seat! Just get on.",
+    category: "Motivation",
+    author: "Sheryl Sandberg",
+    addedBy: "Shayy841"
+  }, {
+    quote: "I don't need an alarm clock, my ideas wake me.",
+    category: "Motivation",
+    author: "Ray Bradburry",
+    addedBy: "Shayy841"
+  }, {
+    quote: "An idea that is not dangerous is unworthy of being called an idea at all.",
+    category: "Life",
+    author: "Oscar Wilde",
+    addedBy: "Shayy841"
+  },
+
 ];
