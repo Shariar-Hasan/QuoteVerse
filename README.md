@@ -1,6 +1,6 @@
 <div align="center">
 
-![Screenshot](./assets/images/image.png)
+![Screenshot](./assets/images/QuoteVeerseText.png)
 
 </div>
 
