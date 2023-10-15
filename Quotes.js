@@ -428,9 +428,9 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Your vision must align with who you want to be. Your choices must align with your vision. Your effort must align with the size of your vision. Your behavior must align with your values and principles.",
-    category: "Entrepreneurship",
-    author: "Patrick Bet-David",
+    quote: "There is unpanned gold in every soul you run into, no matter what walk of life they are from.",
+    category: "Life",
+    author: "Robert Downey Jr.",
     addedBy: "rohits-web03",
   },
   {
