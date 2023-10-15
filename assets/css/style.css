@@ -24,6 +24,11 @@ body {
   margin: 0 auto;
 }
 
+#contributor{
+    margin-top: 2.25rem;
+    
+}
+
 .quote {
   text-align: center;
   box-sizing: border-box;
