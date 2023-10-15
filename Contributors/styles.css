@@ -1,0 +1,48 @@
+body {
+    padding-top: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contributor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 1rem;
+}
+.contributor img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.contributors-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contributors-heading h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .contributor {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contributor {
+        width: 100px;
+    }
+}
