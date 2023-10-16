@@ -67,26 +67,47 @@
             <label for="yellow" class="select_color" data-number="4"></label>
           </div>
         </div>
-      </section>
+          <!-- Share Button -->
+          <div class="share-buttons">
+            <a href="#" class="whatsapp-btn">
+              <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
+            </a>
+          </div>
+        </section>
     </div>
   </main>
+    
 
-
-  <script src="./Quotes.js"></script>
-  <script src="./assets/js/others.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <script>
-    var color_selection = document.querySelectorAll('.select_color')
-    var color_array = ['rgb(25 116 122 / 50%)', 'rgb(154 72 89/ 50%)', 'rgb(95 190 97 / 50%)', 'rgb(154 210 231/ 50%)'];
-    var container = document.querySelector('.container');
-    color_selection.forEach(item => {
-      item.addEventListener('click', () => {
-        var getItemNumber = item.getAttribute('data-number');
-        // document.body.style.background=color_array[getItemNumber-1];
-        container.style.background = color_array[getItemNumber - 1];
+    <script src="./Quotes.js"></script>
+    <script src="./assets/js/others.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      let postUrl = "https://quote-verse.netlify.app/";
+      const whatsappBtn = document.querySelector(".whatsapp-btn");
+      var color_selection=document.querySelectorAll('.select_color')
+      var color_array=['rgb(25 116 122 / 50%)','rgb(154 72 89/ 50%)','rgb(95 190 97 / 50%)','rgb(255 255 0 / 50%)'];
+      var container=document.querySelector('.container');
+      color_selection.forEach(item =>{
+        item.addEventListener('click',()=>{
+          var getItemNumber=item.getAttribute('data-number');
+          // document.body.style.background=color_array[getItemNumber-1];
+          container.style.background=color_array[getItemNumber-1];
+        })
       })
-    })
-  </script>
+      whatsappBtn.addEventListener("click",()=>{
+        let quoteBody = document.querySelector(".quote .quote-text").innerHTML;
+        let quoteAuthor = document.querySelector(".quote .quote-author").innerHTML;
+        let postTitle=quoteBody+quoteAuthor+" "+"\nLink:";
+        console.log(quoteBody,quoteAuthor,postUrl);
+        whatsappBtn.setAttribute(
+        "href",
+        `https://wa.me/?text=${postTitle} ${postUrl}`
+      );
+      })
+    </script>
 
 </body>
 
