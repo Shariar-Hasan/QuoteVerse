@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const contributorDiv = document.createElement('div');
                 contributorDiv.classList.add('contributor');
 
+                const contributorLink = document.createElement('a');
+                contributorLink.href = contributor.html_url;
+                contributorLink.target = '_blank';
+                contributorLink.rel = 'noopener noreferrer';
+
                 const img = document.createElement('img');
                 img.src = contributor.avatar_url;
                 img.alt = contributor.login;
@@ -15,8 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const h3 = document.createElement('h3');
                 h3.textContent = contributor.login;
 
-                contributorDiv.appendChild(img);
-                contributorDiv.appendChild(h3);
+                contributorLink.appendChild(img);
+                contributorLink.appendChild(h3);
+                contributorDiv.appendChild(contributorLink);
                 contributorsContainer.appendChild(contributorDiv);
             });
         });

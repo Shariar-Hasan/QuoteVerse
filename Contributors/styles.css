@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy&display=swap');
+
 body {
-    padding-top: 2rem;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(30deg, #032553, #6265ff);
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+a:active {
+    color: gray;
 }
 
 .contributors {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 3rem;
 }
 
@@ -16,7 +32,18 @@ body {
     align-items: center;
     width: 200px;
     margin: 1rem;
+    border: 2px solid #bdbdbde8;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
+    transition: all 0.5s;
 }
+
+.contributor:hover {
+    transform: scale(1.1);
+}
+
 .contributor img {
     width: 100%;
     max-width: 200px;
