@@ -248,8 +248,6 @@ window.quotes = [
     author: "Robert Frost",
     addedBy: "izabela-marcinkowska",
   },
-];
-window.quotes = [
   {
     quote: "The only way to do great work is to love what you do.",
     category: "Motivational",
@@ -320,7 +318,8 @@ window.quotes = [
     addedBy: "Shariar-Hasan",
   },
   {
-    quote: "Description begins in the writer's imagination but should finish in the reader's.",
+    quote:
+      "Description begins in the writer's imagination but should finish in the reader's.",
     category: "Motivation",
     author: "Stephen King",
     addedBy: "Skb08",
@@ -338,7 +337,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "Education is the most powerful weapon which you can use to change the world.",
+    quote:
+      "Education is the most powerful weapon which you can use to change the world.",
     category: "Inspirational",
     author: "Nelson Mandela",
     addedBy: "Shariar-Hasan",
@@ -350,7 +350,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "You're braver than you believe, stronger than you seem, and smarter than you think.",
+    quote:
+      "You're braver than you believe, stronger than you seem, and smarter than you think.",
     category: "Inspirational",
     author: "A.A. Milne",
     addedBy: "Skb08",
@@ -380,7 +381,8 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    quote:
+      "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
     category: "Philosophical",
     author: " Albert Einstein",
     addedBy: "Skb08",
@@ -398,43 +400,49 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote: "I would rather walk with a friend in the dark than walk alone in the light.",
+    quote:
+      "I would rather walk with a friend in the dark than walk alone in the light.",
     category: "Friendship",
     author: "Helen Keller",
     addedBy: "Skb08",
   },
   {
-    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-    "category": "Inspirational",
-    "author": "Winston Churchill",
-    "addedBy": "iqbalcodes6602"
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    category: "Inspirational",
+    author: "Winston Churchill",
+    addedBy: "iqbalcodes6602",
   },
   {
-    "quote": "Life is what happens when you're busy making other plans.",
-    "category": "Life",
-    "author": "John Lennon",
-    "addedBy": "iqbalcodes6602"
+    quote: "Life is what happens when you're busy making other plans.",
+    category: "Life",
+    author: "John Lennon",
+    addedBy: "iqbalcodes6602",
   },
   {
-    quote: "If you always make the right decision, the safe decision, the one most people make, you will be the same as everyone else.",
+    quote:
+      "If you always make the right decision, the safe decision, the one most people make, you will be the same as everyone else.",
     category: "College",
     author: "Patrick Bet-David",
     addedBy: "rohits-web03",
   },
   {
-    quote: "The downside is that a person spends $20 to watch that hero instead of being that hero himself.",
+    quote:
+      "The downside is that a person spends $20 to watch that hero instead of being that hero himself.",
     category: "Life",
     author: "Patrick Bet-David",
     addedBy: "rohits-web03",
   },
   {
-    quote: "There is unpanned gold in every soul you run into, no matter what walk of life they are from.",
+    quote:
+      "There is unpanned gold in every soul you run into, no matter what walk of life they are from.",
     category: "Life",
     author: "Robert Downey Jr.",
     addedBy: "rohits-web03",
   },
   {
-    quote: "Change will come ONLY when the pain of staying the same is greater than the pain of change.",
+    quote:
+      "Change will come ONLY when the pain of staying the same is greater than the pain of change.",
     category: "Life",
     author: "Dora Lee Scott",
     addedBy: "rohits-web03",
@@ -446,13 +454,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "If experts say you have ADHD use that God-given gift to ignore naysayers. Learn to use your crutches in life as secret weapons",
+    quote:
+      "If experts say you have ADHD use that God-given gift to ignore naysayers. Learn to use your crutches in life as secret weapons",
     category: "Entrepreneurship",
     author: "Patrick Bet-David",
     addedBy: "rohits-web03",
   },
   {
-    quote: "And if you think tough men are dangerous, wait until you see what weak men are capable of",
+    quote:
+      "And if you think tough men are dangerous, wait until you see what weak men are capable of",
     category: "Life",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
@@ -464,13 +474,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "A talented entrepreneur with bad habits eventually becomes an employee. An average employee with great habits can eventually become a great entrepreneur",
+    quote:
+      "A talented entrepreneur with bad habits eventually becomes an employee. An average employee with great habits can eventually become a great entrepreneur",
     category: "Entrepreneurship",
     author: "Patrick Bet-David",
     addedBy: "rohits-web03",
   },
   {
-    quote: "I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion. ",
+    quote:
+      "I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion. ",
     category: "Motivation",
     author: "Alexander the Great",
     addedBy: "rohits-web03",
@@ -482,13 +494,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "My happiness is my reflection on the suffering during my journey and knowing that I never quit nor was I guided by anybody on this earth.",
+    quote:
+      "My happiness is my reflection on the suffering during my journey and knowing that I never quit nor was I guided by anybody on this earth.",
     category: "Life",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "Perhaps you are overvaluing what you don't have and undervaluing what you do",
+    quote:
+      "Perhaps you are overvaluing what you don't have and undervaluing what you do",
     category: "Life",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
@@ -500,13 +514,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Always be ready to adjust, recalibrate, and stay after it to become better, somehow.",
+    quote:
+      "Always be ready to adjust, recalibrate, and stay after it to become better, somehow.",
     category: "Life",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "If you fulfill your obligations everyday you don't need to worry about the future",
+    quote:
+      "If you fulfill your obligations everyday you don't need to worry about the future",
     category: "Inspiration",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
@@ -518,19 +534,22 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Everyone fails sometimes and life isn't supposed to be fair, much less bend to your every whim.",
+    quote:
+      "Everyone fails sometimes and life isn't supposed to be fair, much less bend to your every whim.",
     category: "Inspiration",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "You must recognize what you are about to do, highlight what you do not like about it, and spend time visualizing each and every obstacle you can.",
+    quote:
+      "You must recognize what you are about to do, highlight what you do not like about it, and spend time visualizing each and every obstacle you can.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "The ticket to victory often comes down to bringing your very best when you feel your worst.",
+    quote:
+      "The ticket to victory often comes down to bringing your very best when you feel your worst.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
@@ -542,7 +561,8 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Everyone fails sometimes and life isn't supposed to be fair, much less bend to your every whim.",
+    quote:
+      "Everyone fails sometimes and life isn't supposed to be fair, much less bend to your every whim.",
     category: "Inspiration",
     author: "David Goggins",
     addedBy: "rohits-web03",
@@ -560,13 +580,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "Pain unlocks a secret doorway in the mind, one that leads to both peak performance and beautiful silence.",
+    quote:
+      "Pain unlocks a secret doorway in the mind, one that leads to both peak performance and beautiful silence.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "The most important conversations you'll ever have are the ones you'll have with yourself.",
+    quote:
+      "The most important conversations you'll ever have are the ones you'll have with yourself.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
@@ -578,13 +600,15 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote: "It's a lot more than mind over matter. It takes relentless self-discipline to schedule suffering into your day, every day.",
+    quote:
+      "It's a lot more than mind over matter. It takes relentless self-discipline to schedule suffering into your day, every day.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote: "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
+    quote:
+      "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
     category: "Motivation",
     author: "David Goggins",
     addedBy: "rohits-web03",
@@ -603,13 +627,15 @@ window.quotes = [
   },
 
   {
-    quote: "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
+    quote:
+      "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
     category: "Motivation",
     author: "Bill Gates",
     addedBy: "Oblivious19",
   },
   {
-    quote: "To live is the rarest thing in the world. Most people exist, that is all",
+    quote:
+      "To live is the rarest thing in the world. Most people exist, that is all",
     category: "Life",
     author: "Oscar Wilde",
     addedBy: "Oblivious19",
@@ -622,14 +648,16 @@ window.quotes = [
     addedBy: "Oblivious19",
   },
   {
-    quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do",
+    quote:
+      "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do",
     category: "Inspiration",
     author: "Steve Jobs",
     addedBy: "Oblivious19",
   },
 
   {
-    quote: "I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.",
+    quote:
+      "I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.",
     category: "Inspiration",
     author: "Jeff Bezo ",
     addedBy: "Oblivious19",
@@ -655,7 +683,8 @@ window.quotes = [
   },
 
   {
-    quote: "The desire to reach for the stars is ambitious. The desire to reach hearts is wise.",
+    quote:
+      "The desire to reach for the stars is ambitious. The desire to reach hearts is wise.",
     category: "Inspiration",
     author: "Maya Angelou",
     addedBy: "Oblivious19",
