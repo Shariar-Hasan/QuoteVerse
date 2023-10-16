@@ -824,6 +824,36 @@ window.quotes = [
     "addedBy": "HarjjotSinghh"
   },
   {
+   "quote": "There is always light. If only we're brave enough to see it. If only we're brave enough to be it.",
+   "category": "Inspirational",
+   "author": "Amanda Gorman",
+   "addedBy": "dheerajydv19"
+  },
+    {
+   "quote": "When you give joy to other people, you get more joy in return. You should give a good thought to happiness that you can give out.",
+   "category": "Motivation",
+   "author": "Eleanor Roosevelt",
+   "addedBy": "dheerajydv19"
+  },
+    {
+   "quote": "Learn as if you will live forever, live like you will die tomorrow.",
+   "category": "Motivation",
+   "author": "Mahatma Gandhi",
+   "addedBy": "dheerajydv19"
+  },
+    {
+   "quote": "We cannot solve problems with the kind of thinking we employed when we came up with them.",
+   "category": "Motivation",
+   "author": "Albert Einstein",
+   "addedBy": "dheerajydv19"
+  },
+    {
+   "quote": "In order to write about life first you must live it.",
+   "category": "Life",
+   "author": "Ernest Hemingway",
+   "addedBy": "dheerajydv19"
+  },
+  {
     "quote": "Perseverance is not a long race; it is many short races one after another.",
     "category": "Persistence",
     "author": "Walter Elliot",
