@@ -746,5 +746,58 @@ window.quotes = [
     author: "Oscar Wilde",
     addedBy: "Shayy841"
   },
-
+  {
+    "quote": "Perseverance is not a long race; it is many short races one after another.",
+    "category": "Persistence",
+    "author": "Walter Elliot",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Keep your head high, keep your chin up, and most importantly, keep smiling, because life's a beautiful thing and there's so much to smile about.",
+    "category": "Persistence",
+    "author": "Marilyn Monroe",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": "Persistence",
+    "author": "Winston Churchill",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Persistence guarantees that results are inevitable.",
+    "category": "Persistence",
+    "author": "Paramahansa Yogananda",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Perseverance is not a long race; it is many short races one after another.",
+    "category": "Persistence",
+    "author": "Walter Elliot",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Keep your head high, keep your chin up, and most importantly, keep smiling, because life's a beautiful thing and there's so much to smile about.",
+    "category": "Persistence",
+    "author": "Marilyn Monroe",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": "Persistence",
+    "author": "Winston Churchill",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Persistence guarantees that results are inevitable.",
+    "category": "Persistence",
+    "author": "Paramahansa Yogananda",
+    "addedBy": "HarjjotSinghh"
+  },
+  {
+    "quote": "Perseverance is not a long race; it is many short races one after another.",
+    "category": "Persistence",
+    "author": "Walter Elliot",
+    "addedBy": "HarjjotSinghh"
+  }
 ];
