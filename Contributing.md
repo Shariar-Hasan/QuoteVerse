@@ -1,41 +1,3 @@
-### Add Quote:
-
-Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse, first of all ⭐`Star the repository` then follow these steps:
-
-1. Fork the repository and clone it to your local machine.
-
-   ```sh
-   git clone https://github.com/<your-username>/QuoteVerse.git
-   cd QuoteVerse
-   ```
-
-2. Open `Quote.js` and add a new Object in the array, for example :
-
-   ```javascript
-   {
-      quote: "your-quote-text",
-      category: "quote-category",
-      author: "author-of-the-quote",
-      addedBy: "your-guthub-username"
-   }
-   ```
-
-3. Now save the file and make a commit.
-
-   ```sh
-   git commit -m "Added new quote"
-   ```
-
-4. Push your changes to your forked repository.
-
-   ```sh
-   git push origin main
-   ```
-
-5. Open a pull request on the original repository.
-
-6. Wait until your PR get merged.
-
 # Contribution Guideline
 
 Contributions are welcome and encouraged! If you want to add Quote to the QuoteVerse or Add any features or fix any bug.
@@ -108,14 +70,28 @@ There can be many things you can do.
 
 ## Rules for adding Quotes
 
-- Each logos must be in their corresponding folder
-- In case you want to add a logo which is already in our list, then you have to provide a better resolution for the logo and also give a short description why your logo is better (You can give a one line comparison).
-- In case you want to add a logo which is not in our list, then you have to add all the size in the folder structure mentions [in here](./README.md#logos). And you have to update the readme file, according to your logo change.
-- In case you want to add any new size, you have to do it for all the other logos available in this project. Then you have to crete logo for each, make folder for each, update the readme file as you added new logo.
-- For pull request add `feat:` in prefix of your PR title for adding logo. for example:
-  ```
-  feat: adding logo of <your-logo-brand-name> of <size | sizes> square pixels
-  ```
+- The Quotes must be added in Quote.js file.
+- You must maintain sequence.
+- Make sure to follow the below example.
+   ```javascript
+   {
+      quote: "your-quote-text",
+      category: "quote-category",
+      author: "author-of-the-quote",
+      addedBy: "your-guthub-username"
+   }
+   ```
+- No need to add quote in JSON format.
+- In case you want to add a quote which is already in our list, then you can not add it.
+- You must add minimum of 5 Quotes to get your PR considered for merge
+- Be carefull about long quote. Quote length must not exceed 30 words.
+- You must add valid Quote. you can not add a made up quote, we will manually review your added quotes. You can copy paste any quote from the internet, in your own concern.
+- While adding Quotes in pull request, add `feat:` in prefix of your PR title. 
+   
+   For example:
+   ```sh
+   feat: adding quotes of inspirational category
+   ```
 
 ## Rules for adding features
 
