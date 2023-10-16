@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,300;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +22,19 @@ body {
 .container {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
+  padding: 3rem;
 }
 
-#contributor{
-    margin-top: 2.25rem;
-    
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contributor {
+  margin-top: 2.25rem;
+
 }
 
 .quote {
@@ -34,6 +42,7 @@ body {
   box-sizing: border-box;
   padding: 20px 10px;
   margin: 30px auto;
+  max-width: 1000px;
 }
 
 .quote-text {
@@ -44,7 +53,8 @@ body {
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
-@media screen and (width <= 500px) {
+
+@media screen and (width <=500px) {
   .quote-text {
     font-size: 1.1rem;
   }
@@ -55,26 +65,29 @@ body {
   font-weight: 300;
   margin: 10px auto;
 }
-@media screen and (width <= 500px) {
+
+@media screen and (width <=500px) {
   .quote-author {
     font-size: 0.5rem;
   }
 }
 
 .controller {
-  border: 3px solid #222f3e;
+  /* border: 3px solid #222f3e; */
   border-radius: 8px;
   padding: 30px;
   width: 60%;
   margin: 70px auto;
   position: relative;
 }
-@media screen and (width <= 500px) {
+
+@media screen and (width <=500px) {
   .controller {
     width: 100%;
     padding: 10px;
   }
 }
+
 .controller .clip-box {
   position: absolute;
   left: 0;
@@ -83,17 +96,20 @@ body {
   width: fit-content;
   margin: 0 auto;
   padding: 5px 10px;
-  border: 3px solid #222f3e;
+  /* border: 3px solid #222f3e; */
 }
+
 .controller .clip-box.added-by-box {
   bottom: 100%;
   border-radius: 5px 5px 0 0;
 }
+
 .controller .clip-box.contribute {
   top: 100%;
   border-radius: 0 0 5px 5px;
   background-color: #929292;
 }
+
 .controller .clip-box .added-by {
   color: rgb(49, 155, 248);
 }
@@ -103,7 +119,7 @@ body {
 }
 
 .controller-group button {
-  border: 0.5px solid #222f3e;
+  /* border: 0.5px solid #222f3e; */
 }
 
 .controller-group button,
@@ -118,11 +134,14 @@ body {
   transition: all 0.15s ease-in-out;
   font-weight: bold;
 }
+
 .controller-group button:hover,
 .controller-group select:hover {
   background-color: #576574;
 }
-@media screen and (width <= 500px) {
+
+@media screen and (width <=500px) {
+
   .controller-group button,
   .controller-group select {
     width: 100%;
@@ -133,6 +152,7 @@ body {
   border-radius: 9px 9px 0 0;
   border-bottom: 3px solid #222f3e;
 }
+
 .controller-group button:active {
   transform: scale(0.97);
 }
@@ -158,16 +178,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(30deg, #c70039, #222f3ec2, #000000);
+  background: linear-gradient(30deg, #032553, #6265ff);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
 }
 
 .container {
   /* background: linear-gradient(45deg, #ffd700, #ffa500); */
-  padding: 2px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 8px rgb(255 255 255 / 34%);
+  /* padding: 2px; */
+  border-radius: 25px;
+  box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
   max-width: 700px;
   text-align: center;
   margin: 0 auto;
@@ -177,7 +197,7 @@ body {
 }
 
 .container {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -188,7 +208,7 @@ body {
 }
 
 
-.theme_changer_button{
+.theme_changer_button {
   position: absolute;
   top: 50%;
   left: 0;
@@ -196,10 +216,11 @@ body {
   padding: 5px;
 }
 
-.theme_changer_button div input{
+.theme_changer_button div input {
   display: none;
 }
-.theme_changer_button div label{
+
+.theme_changer_button div label {
   display: block;
   margin: 10px;
   width: 25px;
@@ -207,20 +228,25 @@ body {
   border-radius: 50%;
   background-color: #c70039;
 }
-.theme_changer_button div input:checked ~label,
-.theme_changer_button div label:hover{
-  outline: 3px solid rgba(0, 0, 0, 0.284) ;
+
+.theme_changer_button div input:checked~label,
+.theme_changer_button div label:hover {
+  outline: 3px solid rgba(0, 0, 0, 0.284);
   cursor: pointer;
 }
-.theme_changer_button div:nth-child(1) label{
+
+.theme_changer_button div:nth-child(1) label {
   background-color: rgb(118, 118, 231);
 }
-.theme_changer_button div:nth-child(2) label{
+
+.theme_changer_button div:nth-child(2) label {
   background-color: rgb(235, 118, 118);
 }
-.theme_changer_button div:nth-child(3) label{
+
+.theme_changer_button div:nth-child(3) label {
   background-color: rgb(102, 241, 130);
 }
-.theme_changer_button div:last-child label{
+
+.theme_changer_button div:last-child label {
   background-color: rgb(227, 227, 135);
 }
