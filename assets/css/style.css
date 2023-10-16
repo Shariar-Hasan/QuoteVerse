@@ -15,7 +15,7 @@ a {
 body {
   background-color: #222f3e;
   background: linear-gradient(to left, #222f3e, #576574);
-  color: whitesmoke;
+  color: rgb(41, 41, 41);
   font-family: "Lato", sans-serif;
 }
 
@@ -42,6 +42,16 @@ main {
 #contributor {
   margin-top: 2.25rem;
 
+}
+
+.contribute a {
+  color: #ffffff !important;
+  font-size: 12px;
+}
+
+.contribute a i {
+  font-size: 16px;
+  margin-right: 5px;
 }
 
 .quote {
@@ -114,7 +124,7 @@ main {
 .controller .clip-box.contribute {
   top: 100%;
   border-radius: 0 0 5px 5px;
-  background-color: #929292;
+  background-color: #272727;
 }
 
 .controller .clip-box .added-by {
@@ -185,7 +195,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(30deg, #032553, #6265ff);
+  background: linear-gradient(30deg, #ffffff, #bebebe);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
 }
@@ -200,11 +210,11 @@ body {
   margin: 0 auto;
   transition: background-color 0.3s ease;
   position: relative;
-  border: 2px solid #bdbdbde8;
+  border: 25px solid #272727;
 }
 
 .container {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(237, 237, 237, 1);
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -255,5 +265,5 @@ body {
 }
 
 .theme_changer_button div:last-child label {
-  background-color: rgb(227, 227, 135);
+  background-color: rgb(154, 210, 231);
 }

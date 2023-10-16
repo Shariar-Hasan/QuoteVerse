@@ -1,85 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>QuoteVerse</title>
-  </head>
-  <body>
-    <main>
-        <div class="container">
-        <!-- Quote Section -->
-        <section>
-          <div class="quote">
-            <h1 class="quote-text" id="quoteTextTag">
-              "The only way to do great work is to love what you do."
-            </h1>
-            <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
-          </div>
-        </section>
 
-        <!-- Control Section Section -->
-        <section>
-          <div class="controller">
-            <span class="clip-box added-by-box" id="addedByTag"></span
-            ><span class="clip-box contribute"
-              ><i class="fab fa-github" aria-hidden="true"></i>
-              <a
-                href="https://github.com/Shariar-Hasan/QuoteVerse"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contribute to this repository</a
-              ></span
-            >
-            
-            <div class="controller-wrapper w-full">
-              <div class="controller-group w-full">
-                <button class="btn-generator w-full" id="generateQuoteBtn">
-                  Generate Quote <i class="fa-solid fa-rotate"></i>
-                </button>
-                <select
-                  name="selectedCategoryTag"
-                  id="selectedCategoryTag"
-                  class="capitalise w-full"
-                ></select>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>QuoteVerse</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <!-- Quote Section -->
+      <section>
+        <div class="quote">
+          <h1 class="quote-text" id="quoteTextTag">
+            "The only way to do great work is to love what you do."
+          </h1>
+          <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
+        </div>
+      </section>
+
+      <!-- Control Section Section -->
+      <section>
+        <div class="controller">
+          <span class="clip-box added-by-box" id="addedByTag"></span><span class="clip-box contribute"><i class="fab"
+              aria-hidden="true"></i>
+            <a href="https://github.com/Shariar-Hasan/QuoteVerse" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github" aria-hidden="true"></i>Contribute to this repository</a></span>
+
+          <div class="controller-wrapper w-full">
+            <div class="controller-group w-full">
+              <button class="btn-generator w-full" id="generateQuoteBtn">
+                Generate Quote <i class="fa-solid fa-rotate"></i>
+              </button>
+              <select name="selectedCategoryTag" id="selectedCategoryTag" class="capitalise w-full"></select>
             </div>
-            
-            <span class="clip-box contribute" id="contributor">
+          </div>
+          <span class="clip-box contribute" id="contributor">
             <a class="contributor" href="./Contributors/contributors.html">
               <i class="fab fa-github" aria-hidden="true"></i>
               Contributors
             </a>
-            </span>
+          </span>
 
+        </div>
+        <div class="theme_changer_button">
+          <div>
+            <input type="radio" name="color" id="blue">
+            <label for="blue" class="select_color" data-number="1"></label>
           </div>
-          <div class="theme_changer_button">
-            <div>
-              <input type="radio" name="color" id="blue">
-              <label for="blue" class="select_color" data-number="1"></label>
-            </div>
-            <div>
-              <input type="radio" name="color" id="red">
-              <label for="red" class="select_color" data-number="2"></label>
-            </div>
-            <div>
-              <input type="radio" name="color" id="green">
-              <label for="green" class="select_color" data-number="3"></label>
-            </div>
-            <div>
-              <input type="radio" name="color" id="yellow">
-              <label for="yellow" class="select_color" data-number="4"></label>
-            </div>
+          <div>
+            <input type="radio" name="color" id="red">
+            <label for="red" class="select_color" data-number="2"></label>
           </div>
           <!-- Share Button -->
           <div class="share-buttons">
@@ -123,5 +100,6 @@
       })
     </script>
 
-  </body>
+</body>
+
 </html>
