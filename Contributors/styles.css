@@ -23,6 +23,7 @@ body {
     height: auto;
     border-radius: 50%;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .contributors-heading {

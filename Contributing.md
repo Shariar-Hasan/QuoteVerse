@@ -21,7 +21,7 @@ Contributions are welcome and encouraged! If you want to add Quote to the QuoteV
 
 - **Add your changes:**
 
-  Add a Quote for website, fix bug or add new feature. You can see [here](#what-can-you-do) to get acknoledged about what can you do.
+  Add a Quote for website, fix bug or add new feature. You can see [here](#what-can-you-do) to get acknowledged about what can you do.
 
 - **Check the changed files**
 
