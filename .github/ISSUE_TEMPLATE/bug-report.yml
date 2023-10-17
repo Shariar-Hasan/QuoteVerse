@@ -1,8 +1,7 @@
-name: 🐞Create a Bug Report
+name: 🐞 Bug Report
 description: Create a issue mentioning bug 
-title: "[BUG]: "
+title: "[BUG]: <your-issue-title>"
 labels: ["bug","hacktoberfest","hacktoberfest-accepted"]
-body:
 body:
   - type: markdown
     attributes:
