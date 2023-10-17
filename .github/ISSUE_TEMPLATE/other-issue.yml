@@ -1,27 +1,22 @@
-name: 💡Feature Request
-description: Create a feature request issue
-title: "[FEATURE]: <your-issue-title>"
-labels: ["feature", "hacktoberfest", "hacktoberfest-accepted"]
+name: 🔀 Other issue
+description: Found any other issue? You can use this one!
+title: "[OTHER] <what do you have to add>"
+labels: ["other", "hacktoberfest"]
 body:
-  - type: markdown
-    attributes:
-      value: "## Hello Welcome to QuoteVerse issue section!"
-
   - type: textarea
-    id: reason
+    id: description
     attributes:
       label: Description
-      description: A brief description of the feature, also include what you trying?
-      placeholder: Tell us what you found
+      description: A brief description of the issue, also include what you tried and what didn't work
     validations:
       required: true
-
   - type: textarea
-    id: screenshot
+    id: screenshots
     attributes:
-      label: Screenshots.
+      label: Screenshots
       description: Please add screenshots if applicable
-
+    validations:
+      required: false
   - type: textarea
     id: extrainfo
     attributes:
@@ -31,14 +26,19 @@ body:
       required: false
 
   - type: checkboxes
-    id: terms
+    id: no-duplicate-issues
     attributes:
-      label: Code of Conduct
-      description: Fill up the boxes carefully.
+      label: "👀 Have you checked if this issue has been raised before?"
       options:
-        - label: i have read the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md#rules-for-fixing-bugs)
-          required: true
         - label: "I checked and didn't find similar issue"
+          required: true
+
+  - type: checkboxes
+    id: read-code-of-conduct
+    attributes:
+      label: "🏢 Have you read the Contributing Guidelines?"
+      options:
+        - label: "I have read and understood the rules in the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md#rules-for-fixing-bugs)"
           required: true
 
   - type: dropdown
