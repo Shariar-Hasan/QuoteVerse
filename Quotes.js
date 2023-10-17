@@ -893,4 +893,64 @@ window.quotes = [
     author: "Walter Elliot",
     addedBy: "HarjjotSinghh",
   },
+  {
+    quote:"It is never too late to be what you might have been.",
+    category:"Motivation",
+    author:"George Eliot",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"Be kind, for everyone you meet is fighting a hard battle.",
+    category:"Life",
+    author:"Plato",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"I am who I am today because of the choices I made yesterday." ,
+    category:"Motivation",
+    author:"Eleanor Roosevelt",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"The only thing standing between you and outrageous success is continuous progress.",
+    category:"Motivation",
+    author:"Dan Waldschmidt",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"If you really look closely, most overnight successes took a long time.",
+    category:"Motivation",
+    author:"Steve Jobs",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"A day without laughter is a day wasted.",
+    category:"Life",
+    author:"Nicolas Chamfort",
+    addedBy:"Rekha Giri"
+  },
+  {
+    quote:"You talk when you cease to be at peace with your thoughts.",
+    category:"Philosophical",
+    author:"Kahlil Gibran",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"There is nothing either good or bad, but thinking makes it so.",
+    category:"Life",
+    author:"William Shakespear",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"Consistency is the hallmark of the unimaginative.",
+    category:"Life",
+    author:"Oscar Wilde",
+    addedBy:"Rekha Giri",
+  },
+  {
+    quote:"Success is the sum of small efforts, repeated day in and day out.",
+    category:"Motivation",
+    author:"Robert Collier",
+    addedBy:"Rekha Giri",
+  },
 ];
