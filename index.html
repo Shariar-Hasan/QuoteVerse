@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    <!-- Include Javascript SDK for FB Share button -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0" nonce="bSahpDYq"></script>
   <main>
     <div class="container">
       <!-- Quote Section -->
@@ -72,9 +75,9 @@
             <a href="#" class="whatsapp-btn">
               <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
             </a>
-            <a>
+            <div class="fbshare">
               <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
-            </a>
+            </div>
           </div>
         </section>
     </div>
@@ -88,6 +91,8 @@
       let postUrl = "https://quote-verse.netlify.app/";
       const whatsappBtn = document.querySelector(".whatsapp-btn");
       var color_selection=document.querySelectorAll('.select_color')
+      let fbbtn=document.querySelector(".fbshare");
+      let fbcount=0;
       var color_array=['rgb(25 116 122 / 50%)','rgb(154 72 89/ 50%)','rgb(95 190 97 / 50%)','rgb(255 255 0 / 50%)'];
       var container=document.querySelector('.container');
       color_selection.forEach(item =>{
@@ -106,6 +111,14 @@
         "href",
         `https://wa.me/?text=${postTitle} ${postUrl}`
       );
+      })
+      fbbtn.addEventListener("mouseenter",()=>{
+      if(!fbcount){        
+        console.log(fbbtn.innerHTML);
+        fbbtn.innerHTML='<div class="fb-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i></a></div>';
+        console.log("after",fbbtn)
+      }
+        fbcount++;
       })
     </script>
 
