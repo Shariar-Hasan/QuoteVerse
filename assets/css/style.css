@@ -37,6 +37,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 #contributor {
@@ -254,17 +255,17 @@ body {
 }
 
 .theme_changer_button div:nth-child(1) label {
-  background-color: rgb(118, 118, 231);
+  background-color: rgb(57, 150, 255);
 }
 
 .theme_changer_button div:nth-child(2) label {
-  background-color: rgb(235, 118, 118);
+  background-color: rgb(154 72 89);
 }
 
 .theme_changer_button div:nth-child(3) label {
-  background-color: rgb(102, 241, 130);
+  background-color: rgb(36, 183, 158);
 }
 
 .theme_changer_button div:last-child label {
-  background-color: rgb(154, 210, 231);
+  background-color: rgb(255, 253, 145);
 }
