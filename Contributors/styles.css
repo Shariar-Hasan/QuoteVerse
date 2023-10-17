@@ -2,7 +2,6 @@
 
 body {
     background: linear-gradient(30deg, #032553, #6265ff);
-    padding-top: 1rem;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
 }
@@ -16,6 +15,24 @@ a {
 
 a:active {
     color: gray;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 1rem;
+    border: 2px solid #bdbdbde8;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.back-btn:hover {
+    transform: scale(1.05);
+    background: rgba(0, 0, 100, 0.4);
 }
 
 .contributors {
