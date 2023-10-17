@@ -983,4 +983,64 @@ window.quotes = [
     author: "Felienne Hermans",
     addedBy: "SyedSumaimaly",
   },
+  {
+    quote: "The most important property of a program is whether it accomplishes the intention of its user.",
+    category: "Programming",
+    author: "C.A.R. Hoare",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Computers are good at following instructions, but not at reading your mind.",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Show me your code and I will tell you who you are",
+    category: "Programming",
+    author: "Donald",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "cheap, fast, good: pick two",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "computer science is no more about computers than astronomy is about telescopes",
+    category: "Programming",
+    author: "Edsger Dijkstra",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine",
+    category: "Motivational",
+    author: "Roy T. Bennett",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "Every artist was first an amateur.",
+    category: "Art",
+    author: "Ralph Waldo Emerson",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "Happiness is not something ready made. It comes from your own actions.",
+    category: "Happiness",
+    author: "Dalai Lama XIV",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "The greatest wealth is health.",
+    category: "Health",
+    author: "Virgil",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "You miss 100% of the shots you don't take.",
+    category: "Motivational",
+    author: "Wayne Gretzky",
+    addedBy: "bemoierian"
+  },
 ];
