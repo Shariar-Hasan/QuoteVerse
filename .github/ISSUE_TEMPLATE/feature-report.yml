@@ -36,7 +36,7 @@ body:
       label: Code of Conduct
       description: Fill up the boxes carefully.
       options:
-        - label: i have read the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md#rules-for-fixing-bugs)
+        - label: i have read the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md)
           required: true
         - label: "I checked and didn't find similar issue"
           required: true

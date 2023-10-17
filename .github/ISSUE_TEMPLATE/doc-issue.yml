@@ -38,7 +38,7 @@ body:
     attributes:
       label: "🏢 Have you read the Contributing Guidelines?"
       options:
-        - label: "I have read and understood the rules in the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md#rules-for-fixing-bugs)"
+        - label: "I have read and understood the rules in the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md)"
           required: true
 
   - type: dropdown
