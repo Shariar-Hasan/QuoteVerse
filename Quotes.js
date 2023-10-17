@@ -983,4 +983,34 @@ window.quotes = [
     author: "Felienne Hermans",
     addedBy: "SyedSumaimaly",
   },
+  {
+    quote: "The most important property of a program is whether it accomplishes the intention of its user.",
+    category: "Programming",
+    author: "C.A.R. Hoare",
+    addedBy: "shadmehr-salehi"
+ },
+  {
+    quote: "Computers are good at following instructions, but not at reading your mind.",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+ },
+  {
+    quote: "Show me your code and I will tell you who you are",
+    category: "Programming",
+    author: "Donald",
+    addedBy: "shadmehr-salehi"
+ },
+  {
+    quote: "cheap, fast, good: pick two",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+ },
+  {
+    quote: "computer science is no more about computers than astronomy is about telescopes",
+    category: "Programming",
+    author: "Edsger Dijkstra",
+    addedBy: "shadmehr-salehi"
+ },
 ];
