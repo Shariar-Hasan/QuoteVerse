@@ -1,0 +1,50 @@
+name: 💡Feature Request
+description: Create a feature request issue
+title: "[FEATURE]: <your-issue-title>"
+labels: ["feature","hacktoberfest","hacktoberfest-accepted"]
+body:
+
+  - type: markdown
+    attributes:
+      value: "## Hello Welcome to QuoteVerse issue section!"
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Explain your feature details 
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Any image or screenshot for your feature (Not Mandatory).
+      description: Give a snap example of the feature?
+      placeholder: paste your screenshot here!
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Fill up the boxes carefully.
+      options:
+        - label: i have read the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md#rules-for-fixing-bugs)
+          required: true
+        - label: i am sure, this issue is not raised before.
+          required: true
+
+  - type: dropdown
+    id: willing
+    attributes:
+      label: Do you want to implement the feature?
+      options:
+        - Yes, I want to implement it
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug! 
+        Please give a ⭐ star to the repository
+        Join us in github https://github.com/Shariar-Hasan
