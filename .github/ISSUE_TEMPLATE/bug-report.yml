@@ -54,11 +54,11 @@ body:
         - label: i am sure, this issue is not raised before.
           required: true
   - type: dropdown
-      id: accept
-      attributes:
-        label: Do you want to fix the issue?
-        options:
-          - Yes, I want to fix it
+    id: willing
+    attributes:
+      label: Do you want to fix the issue?
+      options:
+        - Yes, I want to fix it
   - type: markdown
     attributes:
       value: |
