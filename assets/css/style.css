@@ -25,11 +25,11 @@ body {
   padding: 3rem;
 }
 
-.share-buttons{
-    margin-top: 6rem;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+.share-buttons {
+  margin-top: 6rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 main {
@@ -60,6 +60,7 @@ main {
   padding: 20px 10px;
   margin: 30px auto;
   max-width: 1000px;
+  height: 200px;
 }
 
 .quote-text {
@@ -73,7 +74,7 @@ main {
 
 @media screen and (width <=500px) {
   .quote-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
