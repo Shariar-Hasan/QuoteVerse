@@ -61,6 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
     ${selectedQuote.addedBy}</a
     >`
     );
+    addedByTag.classList.remove('animate');
+
+    // Trigger reflow to restart the animation
+    void addedByTag.offsetWidth;
+
+    // Add the 'animate' class to apply the animation
+    addedByTag.classList.add('animate');
+
     // console.log({
     //   quotes,
     //   selectedCategory,
