@@ -1167,5 +1167,36 @@ window.quotes = [
     category: "Motivational",
     author: "Swami Vivekananda",
     addedBy: "Aditi22Bansal",
-  },  
+  },
+  {
+    quote: "Keep your face always toward the sunshine, and shadows will fall behind you",
+    category: "Motivational",
+    author: " Walt Whitman",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "Nothing is impossible. The word itself says 'I'm possible!",
+    category: "Motivational",
+    author: "Audrey Hepburn",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
+    category: "Happiness",
+    author: "Dr. Seuss",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    category: "Inspirational",
+    author: "Winston Churchill",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "You are never too old to set another goal or to dream a new dream.",
+    category: "Inspirational",
+    author: "Malala Yousafzai",
+    addedBy: "Maruf1075",
+  },
+  
 ];
