@@ -93,9 +93,9 @@ const copyIcon = document.getElementById('copy-icon');
 // Event listener for copy button click
 copyToClipboardButton.addEventListener('click', function () {
   // Get quote body and author text
-  const quoteBody = document.querySelector('.quote .quote-text').innerHTML;
-  const quoteAuthor = document.querySelector('.quote .quote-author').innerHTML;
-  const text = quoteBody + quoteAuthor;
+  const quoteBody = document.querySelector('.quote .quote-text').innerText;
+  const quoteAuthor = document.querySelector('.quote .quote-author').innerText;
+  const text = `${quoteBody} ${quoteAuthor}`;
 
   // Copy to clipboard and handle success or failure
   copyToClipboard(text)
@@ -209,9 +209,9 @@ const quoteSection = document.querySelector('.quote')
 
 quoteSection.addEventListener('click', async function () {
   // Get quote body and author text
-  const quoteBody = document.querySelector('.quote .quote-text').innerHTML;
-  const quoteAuthor = document.querySelector('.quote .quote-author').innerHTML;
-  const text = quoteBody + quoteAuthor;
+  const quoteBody = document.querySelector('.quote .quote-text').innerText;
+  const quoteAuthor = document.querySelector('.quote .quote-author').innerText;
+  const text = `${quoteBody} ${quoteAuthor}`;
 
   // Copy to clipboard and display tooltip
   await copyToClipboard(text)
