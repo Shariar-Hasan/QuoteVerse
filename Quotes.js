@@ -1198,5 +1198,41 @@ window.quotes = [
     author: "Malala Yousafzai",
     addedBy: "Maruf1075",
   },
+  {
+    quote: "It's hard to beat a person who never gives up.",
+    category: "Motivational",
+    author: "Babe Ruth",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "Impossible is just an opinion.",
+    category: "Motivational",
+    author: "Paulo Coelho",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "The hard days are what make you stronger.",
+    category: "Motivational",
+    author: "Aly Raisman",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "Testing leads to failure, and failure leads to understanding.",
+    category: "Programming",
+    author: "Burt Rutan",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "The only way to learn a new programming language is by writing programs in it.",
+    category: "Programming",
+    author: "Dennis Ritchie",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "If, at first, you do not succeed, call it version 1.0.",
+    category: "Programming",
+    author: "Khayri R.R. Woulfe",
+    addedBy: "Aaryash-Shakya",
+  },
   
 ];
