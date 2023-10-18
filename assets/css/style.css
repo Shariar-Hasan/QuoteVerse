@@ -61,7 +61,7 @@ main {
   padding: 20px 10px;
   margin: 30px auto;
   max-width: 1000px;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .quote-text {
@@ -143,10 +143,11 @@ main {
 
 .controller-group button,
 .controller-group select {
-  padding: 15px 20px;
+  padding: 1em 0.5em 1em 0.5em;
+  text-align: center;
   border: none;
   outline: none;
-  width: 50%;
+  width: 100%;
   cursor: pointer;
   background-color: #222f3e;
   color: whitesmoke;
@@ -196,7 +197,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(30deg, #ffffff, #bebebe);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
