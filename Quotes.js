@@ -1043,4 +1043,69 @@ window.quotes = [
     author: "Wayne Gretzky",
     addedBy: "bemoierian"
   },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Inspirational",
+    author: "Nelson Mandela",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Do one thing every day that scares you.",
+    category: "Motivational",
+    author: "Eleanor Roosevelt",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "It does not do to dwell on dreams and forget to live.",
+    category: "Life",
+    author: "J.K. Rowling",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Take care of your body. It's the only place you have to live.",
+    category: "Health",
+    author: "Jim Rohn",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Good judgment comes from experience, and experience comes from bad judgment.",
+    category: "Learning",
+    author: "Barry LePatner",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Be curious, not judgmental.",
+    category: "Life",
+    author: "Walt Whitman",
+    addedBy: "dk172923"
+  },  
+    
+  {
+    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    category: "Education",
+    author: "Benjamin Franklin",
+    addedBy: "dk172923"
+  },
+  
+  {
+    quote: "Get busy living or get busy dying.",
+    category: "Motivational",
+    author: "Stephen King",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Opportunities don't happen. You create them",
+    category: "Motivational",
+    author: "Chris Grosser",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Dreams don't work unless you d",
+    category: "Inspirational",
+    author: "John C.Maxwell",
+    addedBy: "dk172923"
+  },
 ];
