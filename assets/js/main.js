@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ${selectedQuote.addedBy}</a
     >`
     );
+    animateQuoteText();
     addedByTag.classList.remove('animate');
 
     // Trigger reflow to restart the animation
