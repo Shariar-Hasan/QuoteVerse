@@ -1139,12 +1139,6 @@ window.quotes = [
     addedBy: "dk172923"
   },
   {
-    quote: "The greatest science in the world; in heaven and on earth; is love.",
-    category: "Inspirational",
-    author: "Mother Teresa",
-    addedBy: "Aditi22Bansal",
-  },
-  {
     quote: "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
     category: "Inspirational",
     author: "Mother Teresa",
@@ -1173,7 +1167,5 @@ window.quotes = [
     category: "Motivational",
     author: "Swami Vivekananda",
     addedBy: "Aditi22Bansal",
-  },
-  
-  
+  },  
 ];
