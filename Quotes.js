@@ -730,7 +730,7 @@ window.quotes = [
   {
     quote: "Never look back unless you are planning to go that way.",
     category: "Motivation",
-    author: "​Henry David Thoreau",
+    author: "Henry David Thoreau",
     addedBy: "Rekha Giri",
   },
   {
@@ -982,6 +982,36 @@ window.quotes = [
     category: "Programming",
     author: "Felienne Hermans",
     addedBy: "SyedSumaimaly",
+  },
+  {
+     quote: "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others",
+     category: "Inspiration",
+     author: "APJ Abdul Kalam",
+     addedBy: "Astha167"
+  },
+  {
+    quote: "Don’t fear for facing failure in the first attempt, because even the successful Maths starts with ‘Zero’ only.",
+    category: "Inspiration",
+    author: "APJ Abdul Kalam",
+    addedBy: "Astha167"
+  },
+  {
+    quote: "Don't be trapped in someone else’s dream",
+    category: "Motivation",
+    author: "V,Bts",
+    addedBy: "Astha167"
+  },
+  {
+     quote: "Life is a sculpture that you cast as you make mistakes and learn from them.",
+     category: "Motivation",
+     author: "RM, Bts",
+     addedBy: "Astha167"
+  },
+  {
+     quote: "You were born to be real, not perfect.",
+     category: "Inspiration",
+     author: "Min Yoongi, Bts",
+     addedBy: "Astha167"
   },
   {
     quote: "The most important property of a program is whether it accomplishes the intention of its user.",
