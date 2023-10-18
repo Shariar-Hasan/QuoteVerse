@@ -126,6 +126,24 @@ main {
   border-radius: 5px 5px 0 0;
 }
 
+.controller .clip-box.added-by-box.animate {
+  -webkit-animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes text-slide-up{
+  0% {
+    -webkit-transform: translateY(60px) scale(0.8);
+    transform: translateY(60px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
 .controller .clip-box.contribute {
   top: 100%;
   border-radius: 0 0 5px 5px;
@@ -137,6 +155,8 @@ main {
 }
 
 .controller-wrapper {
+  position: relative;
+  z-index: 10;
   text-align: center;
 }
 
@@ -370,5 +390,24 @@ body {
     -webkit-transform: translateY(-35px) scale(1);
     transform: translateY(-35px) scale(1);
     opacity: 1;
+  }
+}
+
+.animate-text{
+  display: inline-block;
+  overflow: hidden;
+  animation: .3s swift-up ease-in-out forwards;	
+}
+
+i{
+  font-style: normal;
+  position: relative;
+  top: 2.7rem;
+  animation: .5s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0;
   }
 }
