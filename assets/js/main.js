@@ -75,20 +75,3 @@ document.addEventListener("DOMContentLoaded", () => {
   generateQuoteBtn.addEventListener("click", setQuote);
   selectedCategoryTag.addEventListener("change", setQuote);
 });
-
-function copyToClipboard() {
-
-  let clipboard_done = new Image(100, 100);
-  clipboard_done.src = "./assets/images/clipboard.png";
-  document["clipboardicon"].src = clipboard_done.src;
-  document["clipboardicon"].title = "copied to clipboard";
-  var text = "textContent" in document.body ? "textContent" : "innerText";
-  document.title = document.getElementById("quoteTextTag")[text];
-  navigator.clipboard.writeText(document.title)
-  setTimeout(() => {
-    clipboard_done.src = "./assets/images/copy.png";
-    document["clipboardicon"].src = clipboard_done.src;
-    document["clipboardicon"].title = "copy to clipboard";
-  }, 2000)
-
-}
