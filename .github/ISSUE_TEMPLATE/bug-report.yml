@@ -1,0 +1,67 @@
+name: 🐞 Bug Report
+description: Create a issue mentioning bug 
+title: "[BUG]: <your-issue-title>"
+labels: ["bug","hacktoberfest","hacktoberfest-accepted"]
+body:
+
+  - type: markdown
+    attributes:
+      value: "## Hello Welcome to QuoteVerse issue section!"
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Kindly explain, what is the issue or what bug do you want to be fixed?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "I want to . . . "
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot of the issue.
+      description: Give a snap example of the bug?
+      placeholder: paste your screenshot here!
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Google Chrome
+        - Brave
+        - Microsoft Edge
+        - Mozilla Firefox
+        - Safari
+        - Opera
+        - Other
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Fill up the boxes carefully.
+      options:
+        - label: i have read the [contribution guideline](https://github.com/Shariar-Hasan/QuoteVerse/blob/main/Contributing.md)
+          required: true
+        - label: i am sure, this issue is not raised before.
+          required: true
+
+  - type: dropdown
+    id: willing
+    attributes:
+      label: Do you want to fix the issue?
+      options:
+        - Yes, I want to fix it
+        
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug! 
+        Please give a ⭐ star to the repository
+        Join us in github https://github.com/Shariar-Hasan

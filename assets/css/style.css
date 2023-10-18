@@ -25,11 +25,11 @@ body {
   padding: 3rem;
 }
 
-.share-buttons{
-    margin-top: 6rem;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+.share-buttons {
+  margin-top: 6rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 main {
@@ -37,6 +37,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 #contributor {
@@ -60,6 +61,7 @@ main {
   padding: 20px 10px;
   margin: 30px auto;
   max-width: 1000px;
+  /* height: 200px; */
 }
 
 .quote-text {
@@ -73,7 +75,7 @@ main {
 
 @media screen and (width <=500px) {
   .quote-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -141,10 +143,11 @@ main {
 
 .controller-group button,
 .controller-group select {
-  padding: 15px 20px;
+  padding: 1em 0.5em 1em 0.5em;
+  text-align: center;
   border: none;
   outline: none;
-  width: 50%;
+  width: 100%;
   cursor: pointer;
   background-color: #222f3e;
   color: whitesmoke;
@@ -194,7 +197,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(30deg, #ffffff, #bebebe);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
@@ -253,17 +256,17 @@ body {
 }
 
 .theme_changer_button div:nth-child(1) label {
-  background-color: rgb(118, 118, 231);
+  background-color: rgb(57, 150, 255);
 }
 
 .theme_changer_button div:nth-child(2) label {
-  background-color: rgb(235, 118, 118);
+  background-color: rgb(154 72 89);
 }
 
 .theme_changer_button div:nth-child(3) label {
-  background-color: rgb(102, 241, 130);
+  background-color: rgb(36, 183, 158);
 }
 
 .theme_changer_button div:last-child label {
-  background-color: rgb(154, 210, 231);
+  background-color: rgb(255, 253, 145);
 }

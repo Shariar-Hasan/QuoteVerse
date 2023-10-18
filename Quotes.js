@@ -730,7 +730,7 @@ window.quotes = [
   {
     quote: "Never look back unless you are planning to go that way.",
     category: "Motivation",
-    author: "​Henry David Thoreau",
+    author: "Henry David Thoreau",
     addedBy: "Rekha Giri",
   },
   {
@@ -1012,5 +1012,130 @@ window.quotes = [
      category: "Inspiration",
      author: "Min Yoongi, Bts",
      addedBy: "Astha167"
-  }
+  },
+  {
+    quote: "The most important property of a program is whether it accomplishes the intention of its user.",
+    category: "Programming",
+    author: "C.A.R. Hoare",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Computers are good at following instructions, but not at reading your mind.",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Show me your code and I will tell you who you are",
+    category: "Programming",
+    author: "Donald",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "cheap, fast, good: pick two",
+    category: "Programming",
+    author: "Donald Knuth",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "computer science is no more about computers than astronomy is about telescopes",
+    category: "Programming",
+    author: "Edsger Dijkstra",
+    addedBy: "shadmehr-salehi"
+  },
+  {
+    quote: "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine",
+    category: "Motivational",
+    author: "Roy T. Bennett",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "Every artist was first an amateur.",
+    category: "Art",
+    author: "Ralph Waldo Emerson",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "Happiness is not something ready made. It comes from your own actions.",
+    category: "Happiness",
+    author: "Dalai Lama XIV",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "The greatest wealth is health.",
+    category: "Health",
+    author: "Virgil",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "You miss 100% of the shots you don't take.",
+    category: "Motivational",
+    author: "Wayne Gretzky",
+    addedBy: "bemoierian"
+  },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Inspirational",
+    author: "Nelson Mandela",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Do one thing every day that scares you.",
+    category: "Motivational",
+    author: "Eleanor Roosevelt",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "It does not do to dwell on dreams and forget to live.",
+    category: "Life",
+    author: "J.K. Rowling",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Take care of your body. It's the only place you have to live.",
+    category: "Health",
+    author: "Jim Rohn",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Good judgment comes from experience, and experience comes from bad judgment.",
+    category: "Learning",
+    author: "Barry LePatner",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Be curious, not judgmental.",
+    category: "Life",
+    author: "Walt Whitman",
+    addedBy: "dk172923"
+  },  
+    
+  {
+    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    category: "Education",
+    author: "Benjamin Franklin",
+    addedBy: "dk172923"
+  },
+  
+  {
+    quote: "Get busy living or get busy dying.",
+    category: "Motivational",
+    author: "Stephen King",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Opportunities don't happen. You create them",
+    category: "Motivational",
+    author: "Chris Grosser",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Dreams don't work unless you d",
+    category: "Inspirational",
+    author: "John C.Maxwell",
+    addedBy: "dk172923"
+  },
 ];
