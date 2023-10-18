@@ -21,11 +21,12 @@
     <div class="container">
       <!-- Quote Section -->
       <section>
-        <div class="quote">
+        <div class="quote" title="Click to copy quote to clipboard">
           <h1 class="quote-text" id="quoteTextTag">
             "The only way to do great work is to love what you do."
           </h1>
           <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
+          <span id="copy_tooltip"></span>
         </div>
       </section>
 
@@ -79,6 +80,9 @@
           <div class="fbshare">
             <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
           </div>
+          <button class="copy-to-clipboard" title="Copy quote to clipboard">
+            <i class="fa-regular fa-copy icon" id="copy-icon"></i>
+          </button>
         </div>
       </section>
     </div>
