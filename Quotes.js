@@ -985,9 +985,9 @@ window.quotes = [
   },
   {
      quote: "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others",
-    category: "Inspiration",
-    author: "APJ Abdul Kalam",
-    addedBy: "Astha167"
+     category: "Inspiration",
+     author: "APJ Abdul Kalam",
+     addedBy: "Astha167"
   },
   {
     quote: "Don’t fear for facing failure in the first attempt, because even the successful Maths starts with ‘Zero’ only.",
@@ -1003,13 +1003,14 @@ window.quotes = [
   },
   {
      quote: "Life is a sculpture that you cast as you make mistakes and learn from them.",
-    category: "Motivation",
-    author: "RM, Bts",
-    addedBy: "Astha167"
+     category: "Motivation",
+     author: "RM, Bts",
+     addedBy: "Astha167"
   },
   {
      quote: "You were born to be real, not perfect.",
-    category: "Inspiration",
-    author: "Min Yoongi, Bts",
-    addedBy: "Astha167"
+     category: "Inspiration",
+     author: "Min Yoongi, Bts",
+     addedBy: "Astha167"
+  }
 ];
