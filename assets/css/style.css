@@ -270,3 +270,22 @@ body {
 .theme_changer_button div:last-child label {
   background-color: rgb(255, 253, 145);
 }
+
+.animate-text{
+  display: inline-block;
+  overflow: hidden;
+  animation: .3s swift-up ease-in-out forwards;	
+}
+
+i{
+  font-style: normal;
+  position: relative;
+  top: 2.7rem;
+  animation: .5s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0;
+  }
+}

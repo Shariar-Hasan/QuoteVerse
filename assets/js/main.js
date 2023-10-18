@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ${selectedQuote.addedBy}</a
     >`
     );
+    animateQuoteText();
     // console.log({
     //   quotes,
     //   selectedCategory,
