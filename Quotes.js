@@ -1138,4 +1138,34 @@ window.quotes = [
     author: "John C.Maxwell",
     addedBy: "dk172923"
   },
+  {
+    quote: "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
+    category: "Inspirational",
+    author: "Mother Teresa",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "In a day, when you don’t come across any problems - you can be sure that you are traveling in a wrong path.",
+    category: "Motivational",
+    author: "Swami Vivekananda",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.",
+    category: "Education",
+    author: "- Martin Luther King, Jr.",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "The educated differ from the uneducated as much as the living differ from the dead.",
+    category: "Education",
+    author: "Aristotle",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "Truth can be stated in a thousand different ways, yet each one can be true.",
+    category: "Motivational",
+    author: "Swami Vivekananda",
+    addedBy: "Aditi22Bansal",
+  },  
 ];
