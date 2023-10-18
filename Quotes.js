@@ -1153,7 +1153,7 @@ window.quotes = [
   {
     quote: "The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.",
     category: "Education",
-    author: "- Martin Luther King, Jr.",
+    author: "Martin Luther King, Jr.",
     addedBy: "Aditi22Bansal",
   },
   {
