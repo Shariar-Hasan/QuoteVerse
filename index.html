@@ -78,7 +78,9 @@
             <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
           </a>
           <div class="fbshare">
-            <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+              <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
+            </a>
           </div>
           <div class="twtshare">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">
@@ -126,12 +128,7 @@
       whatsappBtn.setAttribute('target', '_blank');
     })
 
-    fbbtn.addEventListener("mouseenter", () => {
-      if (!fbcount) {
-        console.log(fbbtn.innerHTML);
-        fbbtn.innerHTML = '<div class="fb-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i></a></div>';
-        console.log("after", fbbtn)
-      }
+    fbbtn.addEventListener("click", () => {
       fbcount++;
     })
 
