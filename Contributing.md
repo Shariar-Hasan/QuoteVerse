@@ -136,10 +136,9 @@ There can be many things you can do.
 
 - In case you have been assigned to an issue before, you must mention the issue in your pull request. If you dont know how to do it, just type # in pull request and you will get an auto suggestion. write this like
   ```
-  feature request of issue #49
-  or
-  fixed bug for issue #12
+  My PR closes issue #12
   ```
+  it is mandatory for feature and bug.
 
 - You must describe your changes a little bit to be understandable to the maintainer.
 
