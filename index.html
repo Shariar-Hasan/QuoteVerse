@@ -108,14 +108,15 @@
       })
     })
     whatsappBtn.addEventListener("click", () => {
-      let quoteBody = document.querySelector(".quote .quote-text").innerHTML;
-      let quoteAuthor = document.querySelector(".quote .quote-author").innerHTML;
-      let postTitle = quoteBody + quoteAuthor + " " + "\nLink:";
+      let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
+      let text = `${quoteBody} ${quoteAuthor} Link: ${postUrl}`;
       console.log(quoteBody, quoteAuthor, postUrl);
       whatsappBtn.setAttribute(
         "href",
-        `https://wa.me/?text=${postTitle} ${postUrl}`
-      );
+        `https://wa.me/?text=${text}`
+      )
+      whatsappBtn.setAttribute('target', '_blank');
     })
     fbbtn.addEventListener("mouseenter", () => {
       if (!fbcount) {
