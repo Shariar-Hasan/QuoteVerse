@@ -80,6 +80,11 @@
           <div class="fbshare">
             <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
           </div>
+          <div class="twtshare">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">
+              <i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i>
+            </a>
+          </div>
           <button class="copy-to-clipboard" title="Copy quote to clipboard">
             <i class="fa-regular fa-copy icon" id="copy-icon"></i>
           </button>
@@ -97,7 +102,9 @@
     const whatsappBtn = document.querySelector(".whatsapp-btn");
     var color_selection = document.querySelectorAll('.select_color')
     let fbbtn = document.querySelector(".fbshare");
+    let twtbtn = document.querySelector(".twtshare");
     let fbcount = 0;
+    let twtcount = 0;
     var color_array = ['rgb(57 150 255 / 90%)', 'rgb(154 72 89/ 70%)', 'rgb(36 183 158 / 90%)', 'rgb(255 255 145 / 70%)'];
     var container = document.querySelector('.container');
     color_selection.forEach(item => {
@@ -118,6 +125,7 @@
       )
       whatsappBtn.setAttribute('target', '_blank');
     })
+
     fbbtn.addEventListener("mouseenter", () => {
       if (!fbcount) {
         console.log(fbbtn.innerHTML);
@@ -125,6 +133,17 @@
         console.log("after", fbbtn)
       }
       fbcount++;
+    })
+
+    twtbtn.addEventListener("mouseenter", () => {
+      let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
+      let postText = quoteBody + "%0A" + quoteAuthor + "%0A" + "I found it here:" + postUrl;
+      postText = postText.replace(/ /g, "%20");
+      if (!twtcount) {
+        twtbtn.innerHTML = `<div class="twt-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" class="twitter-share-button" href=${`https://twitter.com/intent/tweet?text=${postText}`} data-size="large"><i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i></a></div>`;
+      }
+      twtcount++;
     })
   </script>
 
