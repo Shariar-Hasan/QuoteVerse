@@ -1264,5 +1264,35 @@ window.quotes = [
     author: "Roy T. Bennett",
     addedBy: "Molina-Daniel",
   },
+  {
+    quote: "It matters not how long we live, but how.",
+    category: "Living",
+    author: "Marcus Aurelius",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "The supreme quality for leadership is unquestionably integrity.",
+    category: "Leadership",
+    author: "Dwight D. Eisenhower",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "A person who never made a mistake never tried anything new.",
+    category: "Learning",
+    author: "Albert Einstein",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "It is during our darkest moments that we must focus to see the light.",
+    category: "Hope",
+    author: "Aristotle",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Three things will last forever - faith, hope, and love - and the greatest of these is love.",
+    category: "Love",
+    author: "Bible",
+    addedBy: "dk172923"
+  },
   
 ];
