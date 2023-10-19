@@ -1,149 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/styleBelow500.css" />
+    <title>QuoteVerse</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>QuoteVerse</title>
-</head>
+  <body>
+    <main class="w-full h-screen">
+      <div class="container">
+        <!-- Quote Section -->
+        <section>
+          <div class="quote" title="Click to copy quote to clipboard">
+            <h1 class="quote-text" id="quoteTextTag">
+              <!-- Quote will appear here  -->
+            </h1>
+            <h5 class="quote-author" id="quoteAuthorTag">
+              <!-- Quote Author will appear here  -->
+            </h5>
+            <span id="copy_tooltip"></span>
+          </div>
+        </section>
 
-<body>
-  <!-- Include Javascript SDK for FB Share button -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0"
-    nonce="bSahpDYq"></script>
-  <main class="w-full h-screen">
-    <div class="container">
-      <!-- Quote Section -->
-      <section>
-        <div class="quote" title="Click to copy quote to clipboard">
-          <h1 class="quote-text" id="quoteTextTag">
-            "The only way to do great work is to love what you do."
-          </h1>
-          <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
-          <span id="copy_tooltip"></span>
-        </div>
-      </section>
+        <!-- Control Section Section -->
+        <section class="controllerSection">
+          <div class="controller">
+            <!-- Share Button -->
 
-      <!-- Control Section Section -->
-      <section>
-        <div class="controller">
-          <span class="clip-box added-by-box" id="addedByTag"></span><span class="clip-box contribute"><i class="fab"
-              aria-hidden="true"></i>
-            <a href="https://github.com/Shariar-Hasan/QuoteVerse" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github" aria-hidden="true"></i>Contribute to this repository</a></span>
-
-          <div class="controller-wrapper w-full">
-            <div class="controller-group w-full">
-              <button class="btn-generator w-full" id="generateQuoteBtn">
-                Generate Quote <i class="fa-solid fa-rotate"></i>
-              </button>
-              <select name="selectedCategoryTag" id="selectedCategoryTag" class="capitalise w-full"></select>
+            <div class="shareAndcontribute">
+              <div class="shareWith text-right">
+                <span class="hoverToShare"
+                  >Share with <i class="fa fa-share" aria-hidden="true"></i
+                ></span>
+                <div class="share-buttons" id="shareBtns"></div>
+              </div>
+              <div class="added-by-box animate text-left" id="addedByTag"></div>
+            </div>
+            <div class="controller-wrapper w-full">
+              <div class="controller-group w-full">
+                <button class="btn-generator w-full" id="generateQuoteBtn">
+                  Generate <i class="fa-solid fa-rotate"></i>
+                </button>
+                <select
+                  name="selectedCategoryTag"
+                  id="selectedCategoryTag"
+                  class="capitalise w-full"
+                ></select>
+              </div>
+              <div class="w-full text-center">
+                <span class="contribute1" id="contributor">
+                  <a
+                    class="contributor"
+                    href="./Contributors/contributors.html"
+                  >
+                    See all Contributors
+                    <i class="fa fa-arrow-right px-3" aria-hidden="true"></i>
+                  </a>
+                </span>
+                <span class="contribute2">
+                  <a
+                    href="https://github.com/Shariar-Hasan/QuoteVerse"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-github px-3" aria-hidden="true"></i>Click
+                    to contribute</a
+                  ></span
+                >
+              </div>
             </div>
           </div>
-          <span class="clip-box contribute" id="contributor">
-            <a class="contributor" href="./Contributors/contributors.html">
-              <i class="fab fa-github" aria-hidden="true"></i>
-              Contributors
-            </a>
-          </span>
-
-        </div>
-        <div class="theme_changer_button">
+        </section>
+        <div id="theme_changer_button" class="theme_changer_button">
           <div>
-            <input type="radio" name="color" id="blue">
+            <input type="radio" name="color" id="blue" />
             <label for="blue" class="select_color" data-number="1"></label>
           </div>
           <div>
-            <input type="radio" name="color" id="red">
+            <input type="radio" name="color" id="red" />
             <label for="red" class="select_color" data-number="2"></label>
           </div>
           <div>
-            <input type="radio" name="color" id="green">
+            <input type="radio" name="color" id="green" />
             <label for="green" class="select_color" data-number="3"></label>
           </div>
           <div>
-            <input type="radio" name="color" id="yellow">
+            <input type="radio" name="color" id="yellow" />
             <label for="yellow" class="select_color" data-number="4"></label>
           </div>
         </div>
-        <!-- Share Button -->
-        <div class="share-buttons">
-          <a href="#" class="whatsapp-btn">
-            <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
-          </a>
-          <div class="fbshare">
-            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-              <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
-            </a>
-          </div>
-          <div class="twtshare">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">
-              <i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i>
-            </a>
-          </div>
-          <button class="copy-to-clipboard" title="Copy quote to clipboard">
-            <i class="fa-regular fa-copy icon" id="copy-icon"></i>
-          </button>
-        </div>
-      </section>
-    </div>
-  </main>
+      </div>
+    </main>
 
+    <script src="./Quotes.js"></script>
+    <script src="./assets/js/others.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      let postUrl = "https://quote-verse.netlify.app/";
+      const whatsappBtn = document.querySelector(".whatsapp-btn");
+      var color_selection = document.querySelectorAll(".select_color");
+      let fbbtn = document.querySelector(".fbshare");
+      let twtbtn = document.querySelector(".twtshare");
+      let fbcount = 0;
+      let twtcount = 0;
+      var color_array = [
+        "rgb(57 150 255 / 90%)",
+        "rgb(154 72 89/ 70%)",
+        "rgb(36 183 158 / 90%)",
+        "rgb(255 255 145 / 70%)",
+      ];
+      var container = document.querySelector(".container");
+      color_selection.forEach((item) => {
+        item.addEventListener("click", () => {
+          var getItemNumber = item.getAttribute("data-number");
+          // document.body.style.background=color_array[getItemNumber-1];
+          container.style.background = color_array[getItemNumber - 1];
+        });
+      });
+      // whatsappBtn.addEventListener("click", () => {
+      //   let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      //   let quoteAuthor = document.querySelector(
+      //     ".quote .quote-author"
+      //   ).innerText;
+      //   let text = `${quoteBody} ${quoteAuthor} Link: ${postUrl}`;
+      //   console.log(quoteBody, quoteAuthor, postUrl);
+      //   whatsappBtn.setAttribute("href", `https://wa.me/?text=${text}`);
+      //   whatsappBtn.setAttribute("target", "_blank");
+      // });
 
-  <script src="./Quotes.js"></script>
-  <script src="./assets/js/others.js"></script>
-  <script src="./assets/js/main.js"></script>
-  <script>
-    let postUrl = "https://quote-verse.netlify.app/";
-    const whatsappBtn = document.querySelector(".whatsapp-btn");
-    var color_selection = document.querySelectorAll('.select_color')
-    let fbbtn = document.querySelector(".fbshare");
-    let twtbtn = document.querySelector(".twtshare");
-    let fbcount = 0;
-    let twtcount = 0;
-    var color_array = ['rgb(57 150 255 / 90%)', 'rgb(154 72 89/ 70%)', 'rgb(36 183 158 / 90%)', 'rgb(255 255 145 / 70%)'];
-    var container = document.querySelector('.container');
-    color_selection.forEach(item => {
-      item.addEventListener('click', () => {
-        var getItemNumber = item.getAttribute('data-number');
-        // document.body.style.background=color_array[getItemNumber-1];
-        container.style.background = color_array[getItemNumber - 1];
-      })
-    })
-    whatsappBtn.addEventListener("click", () => {
-      let quoteBody = document.querySelector(".quote .quote-text").innerText;
-      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
-      let text = `${quoteBody} ${quoteAuthor} Link: ${postUrl}`;
-      console.log(quoteBody, quoteAuthor, postUrl);
-      whatsappBtn.setAttribute(
-        "href",
-        `https://wa.me/?text=${text}`
-      )
-      whatsappBtn.setAttribute('target', '_blank');
-    })
+      // fbbtn.addEventListener("click", () => {
+      //   fbcount++;
+      // });
 
-    fbbtn.addEventListener("click", () => {
-      fbcount++;
-    })
-
-    twtbtn.addEventListener("mouseenter", () => {
-      let quoteBody = document.querySelector(".quote .quote-text").innerText;
-      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
-      let postText = quoteBody + "%0A" + quoteAuthor + "%0A" + "I found it here:" + postUrl;
-      postText = postText.replace(/ /g, "%20");
-      if (!twtcount) {
-        twtbtn.innerHTML = `<div class="twt-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" class="twitter-share-button" href=${`https://twitter.com/intent/tweet?text=${postText}`} data-size="large"><i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i></a></div>`;
-      }
-      twtcount++;
-    })
-  </script>
-
-</body>
-
+      // twtbtn.addEventListener("mouseenter", () => {
+      //   let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      //   let quoteAuthor = document.querySelector(
+      //     ".quote .quote-author"
+      //   ).innerText;
+      //   let postText =
+      //     quoteBody +
+      //     "%0A" +
+      //     quoteAuthor +
+      //     "%0A" +
+      //     "I found it here:" +
+      //     postUrl;
+      //   postText = postText.replace(/ /g, "%20");
+      //   if (!twtcount) {
+      //     twtbtn.innerHTML = `<div class="twt-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" class="twitter-share-button"  data-size="large"><i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i></a></div>`;
+      //   }
+      //   twtcount++;
+      // });
+    </script>
+  </body>
 </html>

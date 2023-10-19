@@ -1,9 +1,14 @@
+// string match
 const isIncluded = (string = "", pattern = "") => {
   return string.toLowerCase().includes(pattern.toLowerCase());
 };
+
+// for generating random integer
 const randomInteger = (min = 0, max = 1) => {
   return Math.floor(Math.random() * (max - min)) + min;
 };
+
+// animation for the quote text
 const animateQuoteText = () => {
   const quoteEl = document.querySelectorAll('#quoteTextTag');
   quoteEl.forEach(el => {

@@ -5,7 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 a {
   color: none;
   text-decoration: none;
@@ -18,19 +26,31 @@ body {
   color: rgb(41, 41, 41);
   font-family: "Lato", sans-serif;
 }
-
-.container {
-  max-width: 1200px;
+.w-full {
   width: 100%;
-  padding: 3rem;
 }
-
-.share-buttons {
-  margin-top: 6rem;
+.h-screen {
+  height: 100vh;
+}
+.container {
+  background: rgba(237, 237, 237, 1);
+  border-radius: 25px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
+  text-align: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+  border: 25px solid #272727;
+  height: 100vh;
+  padding: 3rem;
   display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container section {
+  width: 100%;
 }
 
 main {
@@ -38,12 +58,6 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
-}
-
-#contributor {
-  margin-top: 2.25rem;
-
 }
 
 .contribute a {
@@ -67,6 +81,11 @@ main {
   /* height: 200px; */
 }
 
+.quote-author {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px auto;
+}
 .quote-text {
   font-family: "Exo 2", sans-serif;
   font-size: 2.4rem;
@@ -76,44 +95,26 @@ main {
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (width <=500px) {
-  .quote-text {
-    font-size: 1.3rem;
-  }
+.controllerSection {
+  margin-top: auto;
+  /* position: fixed; */
+  /* bottom: 0;
+  left: 50%; */
+  /* transform: translateX(-50%); */
 }
-
-.quote-author {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 10px auto;
-}
-
-@media screen and (width <=500px) {
-  .quote-author {
-    font-size: .8rem;
-  }
-}
-
 .controller {
-  /* border: 3px solid #222f3e; */
   border-radius: 8px;
   padding: 30px;
   width: 60%;
-  margin: 70px auto;
+  margin: 10px auto;
   position: relative;
-}
-
-@media screen and (width <=500px) {
-  .controller {
-    width: 100%;
-    padding: 10px;
-  }
 }
 
 .controller .clip-box {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 10;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
@@ -121,17 +122,65 @@ main {
   /* border: 3px solid #222f3e; */
 }
 
-.controller .clip-box.added-by-box {
-  bottom: 100%;
+.controller .added-by-box {
+  width: 50%;
+  padding: 10px 0 10px 5px;
   border-radius: 5px 5px 0 0;
 }
 
 .controller .clip-box.added-by-box.animate {
-  -webkit-animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  -webkit-animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    forwards;
   animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
+.shareWith {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+}
+.share-buttons {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: all 0.35s ease-in-out;
+}
+.shareWith:hover  .share-buttons {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+.added-by-box a {
+  color: #0059ff;
+}
+.share-buttons {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: end;
+  position: absolute;
+  bottom: 100%;
+}
+.text-right {
+  text-align: right;
+}
+.share-buttons div {
+  cursor: pointer;
+}
+.hoverToShare {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 0;
+  margin-right: 10px;
+}
+/* all meadi queries here  */
 
-@keyframes text-slide-up{
+@keyframes text-slide-up {
   0% {
     -webkit-transform: translateY(60px) scale(0.8);
     transform: translateY(60px) scale(0.8);
@@ -143,13 +192,40 @@ main {
     opacity: 1;
   }
 }
-
-.controller .clip-box.contribute {
-  top: 100%;
+/* .contributor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.controller .contribute1 {
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 20px;
   border-radius: 0 0 5px 5px;
-  background-color: #272727;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.515);
+  background-color: #262626;
 }
-
+.controller .contribute2 {
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.515);
+  background-color: #262626;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  margin-left: 5px;
+  text-align: left;
+}
+.px-3 {
+  padding: 0 5px;
+}
 .controller .clip-box .added-by {
   color: rgb(49, 155, 248);
 }
@@ -160,10 +236,6 @@ main {
   text-align: center;
 }
 
-.controller-group button {
-  /* border: 0.5px solid #222f3e; */
-}
-
 .controller-group button,
 .controller-group select {
   padding: 1em 0.5em 1em 0.5em;
@@ -172,40 +244,36 @@ main {
   outline: none;
   width: 100%;
   cursor: pointer;
-  background-color: #222f3e;
+  background-color: inherit;
   color: whitesmoke;
   transition: all 0.15s ease-in-out;
   font-weight: bold;
 }
-
+.controller-group {
+  display: flex;
+  flex-direction: row;
+  background-color: #262626;
+  overflow: hidden;
+  border-radius: 9px;
+}
 .controller-group button:hover,
 .controller-group select:hover {
   background-color: #576574;
 }
 
-@media screen and (width <=500px) {
-
-  .controller-group button,
-  .controller-group select {
-    width: 100%;
-  }
-}
-
 .controller-group button {
-  border-radius: 9px 9px 0 0;
-  border-bottom: 3px solid #222f3e;
+  border-radius: 9px 0 0 9px;
+  border-right: 1px solid rgba(245, 245, 245, 0.462);
 }
 
 .controller-group button:active {
-  transform: scale(0.97);
+  transform: scale(0.991);
+  transform-origin: right;
 }
 
 .controller-group select {
-  border-radius: 0 0 9px 9px;
-}
-
-.controller-group select option {
-  padding: 10px 20px;
+  border-radius: 0 9px 9px 0;
+  border-left: 3px solid #1d2938;
 }
 
 .capitalise {
@@ -226,37 +294,26 @@ body {
   animation: gradient-animation 15s ease infinite;
 }
 
-.container {
-  /* background: linear-gradient(45deg, #ffd700, #ffa500); */
-  /* padding: 2px; */
-  border-radius: 25px;
-  box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
-  max-width: 700px;
-  text-align: center;
-  margin: 0 auto;
-  transition: background-color 0.3s ease;
-  position: relative;
-  border: 25px solid #272727;
-}
-
-.container {
-  background: rgba(237, 237, 237, 1);
-}
-
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .container {
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(50px);
   }
 }
-
-
+.shareAndcontribute {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: end;
+}
 .theme_changer_button {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
   padding: 5px;
+  background-color: #272727;
+  border-radius: 0 9px 9px 0;
 }
 
 .theme_changer_button div input {
@@ -265,14 +322,13 @@ body {
 
 .theme_changer_button div label {
   display: block;
-  margin: 10px;
+  margin: 10px 7px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #c70039;
 }
 
-.theme_changer_button div input:checked~label,
+.theme_changer_button div input:checked ~ label,
 .theme_changer_button div label:hover {
   outline: 3px solid rgba(0, 0, 0, 0.284);
   cursor: pointer;
@@ -296,19 +352,19 @@ body {
 
 /* copy button */
 
-.share-buttons .copy-to-clipboard .icon {
+.share-buttons .icon {
   padding: 8px 9px;
-	background: #222f3e;
-	color: #fff;
-	font-size: 16px;
-	border: none;
-	outline: none;
-	border-radius: 10px;
-	cursor: pointer;
+  background: #1a232d;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
   transition: opacity 0.5s ease-in-out;
 }
 
-.share-buttons .copy-to-clipboard:active .icon{
+.share-buttons .copy-to-clipboard:active .icon {
   background: #576574;
 }
 
@@ -320,11 +376,11 @@ body {
   display: none;
 }
 
-.share-buttons .copy-to-clipboard .check-icon{
+.share-buttons .copy-to-clipboard .check-icon {
   color: #00ff33;
 }
 
-.share-buttons .copy-to-clipboard .cross-icon{
+.share-buttons .copy-to-clipboard .cross-icon {
   color: #c70039;
 }
 
@@ -337,7 +393,7 @@ body {
   display: block;
   font-size: 80%;
   position: absolute;
-  background: #90EE90;
+  background: #90ee90;
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -353,18 +409,19 @@ body {
   animation: slide-up 0.15s cubic-bezier(0.51, 0.92, 0.265, 1.55) both;
 }
 #copy_tooltip.inactive {
-  -webkit-animation: slide-up 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+  -webkit-animation: slide-up 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse
+    both;
   animation: slide-up 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 #copy_tooltip:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 98%;
   left: 50%;
   margin-left: -8px;
   width: 0;
   height: 0;
-  border-top: 8px solid #90EE90;
+  border-top: 8px solid #90ee90;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
 }
@@ -393,17 +450,17 @@ body {
   }
 }
 
-.animate-text{
+.animate-text {
   display: inline-block;
   overflow: hidden;
-  animation: .3s swift-up ease-in-out forwards;	
+  animation: 0.3s swift-up ease-in-out forwards;
 }
 
-i{
+i {
   font-style: normal;
   position: relative;
   top: 2.7rem;
-  animation: .5s swift-up ease-in-out forwards;
+  animation: 0.5s swift-up ease-in-out forwards;
 }
 
 @keyframes swift-up {
