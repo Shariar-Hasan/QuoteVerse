@@ -90,7 +90,7 @@ main {
 
 @media screen and (width <=500px) {
   .quote-author {
-    font-size: 0.5rem;
+    font-size: .8rem;
   }
 }
 
