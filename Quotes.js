@@ -1234,5 +1234,35 @@ window.quotes = [
     author: "Khayri R.R. Woulfe",
     addedBy: "Aaryash-Shakya",
   },
+  {
+    quote: "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+    category: "Life",
+    author: "Ernest Hemingway",
+    addedBy: "Molina-Daniel",
+  },
+  {
+    quote: "Trust yourself. You know more than you think you do.",
+    category: "Motivational",
+    author: "Benjamin Spock",
+    addedBy: "Molina-Daniel",
+  },
+  {
+    quote: "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    category: "Inspirational",
+    author: "Rumi",
+    addedBy: "Molina-Daniel",
+  },
+  {
+    quote: "Happiness is when what you think, what you say, and what you do are in harmony.",
+    category: "Happiness",
+    author: "Mahatma Gandhi",
+    addedBy: "Molina-Daniel",
+  },
+  {
+    quote: "It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.",
+    category: "Motivational",
+    author: "Roy T. Bennett",
+    addedBy: "Molina-Daniel",
+  },
   
 ];
