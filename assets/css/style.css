@@ -30,6 +30,7 @@ body {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -61,7 +62,9 @@ main {
   padding: 20px 10px;
   margin: 30px auto;
   max-width: 1000px;
-  height: 200px;
+  cursor: pointer;
+  position: relative;
+  /* height: 200px; */
 }
 
 .quote-text {
@@ -87,7 +90,7 @@ main {
 
 @media screen and (width <=500px) {
   .quote-author {
-    font-size: 0.5rem;
+    font-size: .8rem;
   }
 }
 
@@ -123,6 +126,24 @@ main {
   border-radius: 5px 5px 0 0;
 }
 
+.controller .clip-box.added-by-box.animate {
+  -webkit-animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: text-slide-up 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes text-slide-up{
+  0% {
+    -webkit-transform: translateY(60px) scale(0.8);
+    transform: translateY(60px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
 .controller .clip-box.contribute {
   top: 100%;
   border-radius: 0 0 5px 5px;
@@ -134,6 +155,8 @@ main {
 }
 
 .controller-wrapper {
+  position: relative;
+  z-index: 10;
   text-align: center;
 }
 
@@ -143,10 +166,11 @@ main {
 
 .controller-group button,
 .controller-group select {
-  padding: 15px 20px;
+  padding: 1em 0.5em 1em 0.5em;
+  text-align: center;
   border: none;
   outline: none;
-  width: 50%;
+  width: 100%;
   cursor: pointer;
   background-color: #222f3e;
   color: whitesmoke;
@@ -196,7 +220,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(30deg, #ffffff, #bebebe);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
@@ -268,4 +292,122 @@ body {
 
 .theme_changer_button div:last-child label {
   background-color: rgb(255, 253, 145);
+}
+
+/* copy button */
+
+.share-buttons .copy-to-clipboard .icon {
+  padding: 8px 9px;
+	background: #222f3e;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.share-buttons .copy-to-clipboard:active .icon{
+  background: #576574;
+}
+
+.share-buttons .copy-to-clipboard .icon.visible {
+  display: inline-block;
+}
+
+.share-buttons .copy-to-clipboard .icon.hidden {
+  display: none;
+}
+
+.share-buttons .copy-to-clipboard .check-icon{
+  color: #00ff33;
+}
+
+.share-buttons .copy-to-clipboard .cross-icon{
+  color: #c70039;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* copy quote tooltip */
+#copy_tooltip {
+  display: block;
+  font-size: 80%;
+  position: absolute;
+  background: #90EE90;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+  opacity: 0;
+  width: 140px;
+}
+#copy_tooltip.active {
+  -webkit-animation: slide-up 0.15s cubic-bezier(0.51, 0.92, 0.265, 1.55) both;
+  animation: slide-up 0.15s cubic-bezier(0.51, 0.92, 0.265, 1.55) both;
+}
+#copy_tooltip.inactive {
+  -webkit-animation: slide-up 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+  animation: slide-up 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+}
+#copy_tooltip:after {
+  content: '';
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #90EE90;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+@-webkit-keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(0) scale(0.8);
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-35px) scale(1);
+    transform: translateY(-35px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(0) scale(0.8);
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-35px) scale(1);
+    transform: translateY(-35px) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-text{
+  display: inline-block;
+  overflow: hidden;
+  animation: .3s swift-up ease-in-out forwards;	
+}
+
+i{
+  font-style: normal;
+  position: relative;
+  top: 2.7rem;
+  animation: .5s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0;
+  }
 }

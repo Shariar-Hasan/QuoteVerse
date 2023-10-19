@@ -17,15 +17,16 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0"
     nonce="bSahpDYq"></script>
-  <main class="w-full">
+  <main class="w-full h-screen">
     <div class="container">
       <!-- Quote Section -->
       <section>
-        <div class="quote">
+        <div class="quote" title="Click to copy quote to clipboard">
           <h1 class="quote-text" id="quoteTextTag">
             "The only way to do great work is to love what you do."
           </h1>
           <h5 class="quote-author" id="quoteAuthorTag">- Steve Jobs</h5>
+          <span id="copy_tooltip"></span>
         </div>
       </section>
 
@@ -73,9 +74,11 @@
         </div>
         <!-- Share Button -->
         <div class="share-buttons">
-          <a href="#" class="whatsapp-btn">
-            <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
-          </a>
+          <div class="washare">
+            <a href="#" class="whatsapp-btn">
+              <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff33;"></i>
+            </a>
+          </div>
           <div class="fbshare">
             <i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff;"></i>
           </div>
@@ -83,6 +86,10 @@
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">
               <i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i>
             </a>
+          </div>
+          <button class="copy-to-clipboard" title="Copy quote to clipboard">
+            <i class="fa-regular fa-copy icon" id="copy-icon"></i>
+          </button>
         </div>
       </section>
     </div>
@@ -110,8 +117,8 @@
       })
     })
     whatsappBtn.addEventListener("click", () => {
-      let quoteBody = document.querySelector(".quote .quote-text").innerHTML;
-      let quoteAuthor = document.querySelector(".quote .quote-author").innerHTML;
+      let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
       let postTitle = quoteBody + quoteAuthor + " " + "\nLink:";
       console.log(quoteBody, quoteAuthor, postUrl);
       whatsappBtn.setAttribute(
@@ -119,6 +126,7 @@
         `https://wa.me/?text=${postTitle} ${postUrl}`
       );
     })
+
     fbbtn.addEventListener("mouseenter", () => {
       if (!fbcount) {
         console.log(fbbtn.innerHTML);
@@ -127,10 +135,12 @@
       }
       fbcount++;
     })
+
     twtbtn.addEventListener("mouseenter", () => {
-      let quoteBody = document.querySelector(".quote .quote-text").innerHTML;
-      let quoteAuthor = document.querySelector(".quote .quote-author").innerHTML;
+      let quoteBody = document.querySelector(".quote .quote-text").innerText;
+      let quoteAuthor = document.querySelector(".quote .quote-author").innerText;
       let postText = quoteBody + "%0A" + quoteAuthor + "%0A" + "I found it here:" + postUrl;
+      console.log("QUOTE BODY:", quoteBody, "\nQUOTE AUTH:", quoteAuthor, "\nPOST:", postText);
       postText = postText.replace(/ /g, "%20");
       if (!twtcount) {
         console.log(twtbtn.innerHTML);

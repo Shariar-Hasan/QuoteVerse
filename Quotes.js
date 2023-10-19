@@ -730,7 +730,7 @@ window.quotes = [
   {
     quote: "Never look back unless you are planning to go that way.",
     category: "Motivation",
-    author: "​Henry David Thoreau",
+    author: "Henry David Thoreau",
     addedBy: "Rekha Giri",
   },
   {
@@ -984,6 +984,36 @@ window.quotes = [
     addedBy: "SyedSumaimaly",
   },
   {
+     quote: "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others",
+     category: "Inspiration",
+     author: "APJ Abdul Kalam",
+     addedBy: "Astha167"
+  },
+  {
+    quote: "Don’t fear for facing failure in the first attempt, because even the successful Maths starts with ‘Zero’ only.",
+    category: "Inspiration",
+    author: "APJ Abdul Kalam",
+    addedBy: "Astha167"
+  },
+  {
+    quote: "Don't be trapped in someone else’s dream",
+    category: "Motivation",
+    author: "V,Bts",
+    addedBy: "Astha167"
+  },
+  {
+     quote: "Life is a sculpture that you cast as you make mistakes and learn from them.",
+     category: "Motivation",
+     author: "RM, Bts",
+     addedBy: "Astha167"
+  },
+  {
+     quote: "You were born to be real, not perfect.",
+     category: "Inspiration",
+     author: "Min Yoongi, Bts",
+     addedBy: "Astha167"
+  },
+  {
     quote: "The most important property of a program is whether it accomplishes the intention of its user.",
     category: "Programming",
     author: "C.A.R. Hoare",
@@ -1043,4 +1073,166 @@ window.quotes = [
     author: "Wayne Gretzky",
     addedBy: "bemoierian"
   },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Inspirational",
+    author: "Nelson Mandela",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Do one thing every day that scares you.",
+    category: "Motivational",
+    author: "Eleanor Roosevelt",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "It does not do to dwell on dreams and forget to live.",
+    category: "Life",
+    author: "J.K. Rowling",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Take care of your body. It's the only place you have to live.",
+    category: "Health",
+    author: "Jim Rohn",
+    addedBy: "dk172923"
+  },
+    
+  {
+    quote: "Good judgment comes from experience, and experience comes from bad judgment.",
+    category: "Learning",
+    author: "Barry LePatner",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Be curious, not judgmental.",
+    category: "Life",
+    author: "Walt Whitman",
+    addedBy: "dk172923"
+  },  
+    
+  {
+    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    category: "Education",
+    author: "Benjamin Franklin",
+    addedBy: "dk172923"
+  },
+  
+  {
+    quote: "Get busy living or get busy dying.",
+    category: "Motivational",
+    author: "Stephen King",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Opportunities don't happen. You create them",
+    category: "Motivational",
+    author: "Chris Grosser",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "Dreams don't work unless you d",
+    category: "Inspirational",
+    author: "John C.Maxwell",
+    addedBy: "dk172923"
+  },
+  {
+    quote: "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
+    category: "Inspirational",
+    author: "Mother Teresa",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "In a day, when you don’t come across any problems - you can be sure that you are traveling in a wrong path.",
+    category: "Motivational",
+    author: "Swami Vivekananda",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.",
+    category: "Education",
+    author: "Martin Luther King, Jr.",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "The educated differ from the uneducated as much as the living differ from the dead.",
+    category: "Education",
+    author: "Aristotle",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "Truth can be stated in a thousand different ways, yet each one can be true.",
+    category: "Motivational",
+    author: "Swami Vivekananda",
+    addedBy: "Aditi22Bansal",
+  },
+  {
+    quote: "Keep your face always toward the sunshine, and shadows will fall behind you",
+    category: "Motivational",
+    author: " Walt Whitman",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "Nothing is impossible. The word itself says 'I'm possible!",
+    category: "Motivational",
+    author: "Audrey Hepburn",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
+    category: "Happiness",
+    author: "Dr. Seuss",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    category: "Inspirational",
+    author: "Winston Churchill",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "You are never too old to set another goal or to dream a new dream.",
+    category: "Inspirational",
+    author: "Malala Yousafzai",
+    addedBy: "Maruf1075",
+  },
+  {
+    quote: "It's hard to beat a person who never gives up.",
+    category: "Motivational",
+    author: "Babe Ruth",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "Impossible is just an opinion.",
+    category: "Motivational",
+    author: "Paulo Coelho",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "The hard days are what make you stronger.",
+    category: "Motivational",
+    author: "Aly Raisman",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "Testing leads to failure, and failure leads to understanding.",
+    category: "Programming",
+    author: "Burt Rutan",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "The only way to learn a new programming language is by writing programs in it.",
+    category: "Programming",
+    author: "Dennis Ritchie",
+    addedBy: "Aaryash-Shakya",
+  },
+  {
+    quote: "If, at first, you do not succeed, call it version 1.0.",
+    category: "Programming",
+    author: "Khayri R.R. Woulfe",
+    addedBy: "Aaryash-Shakya",
+  },
+  
 ];
