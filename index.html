@@ -105,13 +105,8 @@
     <script src="./assets/js/others.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
-      let postUrl = "https://quote-verse.netlify.app/";
       const whatsappBtn = document.querySelector(".whatsapp-btn");
       var color_selection = document.querySelectorAll(".select_color");
-      let fbbtn = document.querySelector(".fbshare");
-      let twtbtn = document.querySelector(".twtshare");
-      let fbcount = 0;
-      let twtcount = 0;
       var color_array = [
         "rgb(57 150 255 / 90%)",
         "rgb(154 72 89/ 70%)",
@@ -124,41 +119,28 @@
           var getItemNumber = item.getAttribute("data-number");
           // document.body.style.background=color_array[getItemNumber-1];
           container.style.background = color_array[getItemNumber - 1];
+
+          //Changing color of link when background blends with link color
+          if (isBackgroundColorInRange()) {
+            document.querySelector(".added-by").style.color = "purple";
+          } else {
+            document.querySelector(".added-by").style.color =
+              "rgb(49, 155, 248)";
+          }
         });
       });
-      // whatsappBtn.addEventListener("click", () => {
-      //   let quoteBody = document.querySelector(".quote .quote-text").innerText;
-      //   let quoteAuthor = document.querySelector(
-      //     ".quote .quote-author"
-      //   ).innerText;
-      //   let text = `${quoteBody} ${quoteAuthor} Link: ${postUrl}`;
-      //   console.log(quoteBody, quoteAuthor, postUrl);
-      //   whatsappBtn.setAttribute("href", `https://wa.me/?text=${text}`);
-      //   whatsappBtn.setAttribute("target", "_blank");
-      // });
 
-      // fbbtn.addEventListener("click", () => {
-      //   fbcount++;
-      // });
 
-      // twtbtn.addEventListener("mouseenter", () => {
-      //   let quoteBody = document.querySelector(".quote .quote-text").innerText;
-      //   let quoteAuthor = document.querySelector(
-      //     ".quote .quote-author"
-      //   ).innerText;
-      //   let postText =
-      //     quoteBody +
-      //     "%0A" +
-      //     quoteAuthor +
-      //     "%0A" +
-      //     "I found it here:" +
-      //     postUrl;
-      //   postText = postText.replace(/ /g, "%20");
-      //   if (!twtcount) {
-      //     twtbtn.innerHTML = `<div class="twt-share-button" data-href="https://quote-verse.netlify.app/" data-layout="" data-size=""><a target="_blank" class="twitter-share-button"  data-size="large"><i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc;"></i></a></div>`;
-      //   }
-      //   twtcount++;
-      // });
+      //Changing color of link with respect to background
+      function isBackgroundColorInRange() {
+        const bgColor = container.style.background;
+        const rgbValues = bgColor.match(/\d+/g);
+        const redComponent = parseInt(rgbValues[0]);
+        const greenComponent = parseInt(rgbValues[1]);
+        const blueComponent = parseInt(rgbValues[2]);
+
+        return 1.5 * blueComponent >= redComponent + greenComponent;
+      }
     </script>
   </body>
 </html>
