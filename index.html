@@ -117,9 +117,7 @@
       color_selection.forEach((item) => {
         item.addEventListener("click", () => {
           var getItemNumber = item.getAttribute("data-number");
-          // document.body.style.background=color_array[getItemNumber-1];
           container.style.background = color_array[getItemNumber - 1];
-
           //Changing color of link when background blends with link color
           if (isBackgroundColorInRange()) {
             document.querySelector(".added-by").style.color = "purple";
