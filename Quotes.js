@@ -1355,4 +1355,34 @@ window.quotes = [
     author: "Bible",
     addedBy: "dk172923",
   },
+{
+    quote: "Any sufficiently advanced technology is indistinguishable from magic.",
+    category: "Technology",
+    author: "Arthur C. Clarke",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Talk is cheap. Show me the code.",
+    category: "Technology",
+    author: "Linus Torvalds",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Every programmer is an author, and every program is a story.",
+    category: "Technology",
+    author: "Drew Houston",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Even if you fall on your face, you're still moving forward.",
+    category: "Motivation",
+    author: "Victor Kiam",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Technology is best when it brings people together.",
+    category: "Technology",
+    author: "Matt Mullenweg",
+    addedBy: "aggarwal-tanushree",
+  },
 ];
