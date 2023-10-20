@@ -23,12 +23,36 @@ window.quotes = [
     author: "Franklin D. Roosevelt",
     addedBy: "Shariar-Hasan",
   },
-  {
-    quote:"The most important thing is to enjoy your work. If you love what you do, you'll be more likely to be successful.",
-    category: "Programming",
-    author: "Dev Ben",
-    addedBy: "DevBen",
-  },
+    {
+      "quote": "Life is what happens when you're busy making other plans.",
+      "category": "Life",
+      "author": "John Lennon",
+      "addedBy": "git-create-devben"
+    },
+    {
+      "quote": "The best and most beautiful things in the world cannot be seen or even touched.",
+      "category": "Inspirational",
+      "author": "Helen Keller",
+      "addedBy": "git-create-devben"
+    },
+    {
+      "quote": "Code is poetry.",
+      "category": "Programming",
+      "author": "David Heinemeier Hansson",
+      "addedBy": "git-create-devben"
+    },    
+    {
+      "quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "category": "Inspirational",
+      "author": "Eleanor Roosevelt",
+      "addedBy": "git-create-devben"
+    },
+    {
+      "quote": "The only way to predict the future is to create it.",
+      "category": "Programming",
+      "author": "Peter Drucker",
+      "addedBy": "git-create-devben"
+    },  
   {
     quote:
       "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
