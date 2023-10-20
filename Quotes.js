@@ -24,6 +24,12 @@ window.quotes = [
     addedBy: "Shariar-Hasan",
   },
   {
+    quote:"The most important thing is to enjoy your work. If you love what you do, you'll be more likely to be successful.",
+    category: "Programming",
+    author: "Dev Ben",
+    addedBy: "DevBen",
+  },
+  {
     quote:
       "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
     category: "Inspirational",
@@ -912,13 +918,15 @@ window.quotes = [
     addedBy: "Rekha Giri",
   },
   {
-    quote: "The only thing standing between you and outrageous success is continuous progress.",
+    quote:
+      "The only thing standing between you and outrageous success is continuous progress.",
     category: "Motivation",
     author: "Dan Waldschmidt",
     addedBy: "Rekha Giri",
   },
   {
-    quote: "If you really look closely, most overnight successes took a long time.",
+    quote:
+      "If you really look closely, most overnight successes took a long time.",
     category: "Motivation",
     author: "Steve Jobs",
     addedBy: "Rekha Giri",
@@ -927,7 +935,7 @@ window.quotes = [
     quote: "A day without laughter is a day wasted.",
     category: "Life",
     author: "Nicolas Chamfort",
-    addedBy: "Rekha Giri"
+    addedBy: "Rekha Giri",
   },
   {
     quote: "You talk when you cease to be at peace with your thoughts.",
@@ -954,7 +962,8 @@ window.quotes = [
     addedBy: "Rekha Giri",
   },
   {
-    quote: "Programming is the art of algorithm design and the craft of debugging errant code.",
+    quote:
+      "Programming is the art of algorithm design and the craft of debugging errant code.",
     category: "Programming",
     author: "Ellen Ullman",
     addedBy: "SyedSumaimaly",
@@ -984,192 +993,209 @@ window.quotes = [
     addedBy: "SyedSumaimaly",
   },
   {
-     quote: "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others",
-     category: "Inspiration",
-     author: "APJ Abdul Kalam",
-     addedBy: "Astha167"
-  },
-  {
-    quote: "Don’t fear for facing failure in the first attempt, because even the successful Maths starts with ‘Zero’ only.",
+    quote:
+      "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others",
     category: "Inspiration",
     author: "APJ Abdul Kalam",
-    addedBy: "Astha167"
+    addedBy: "Astha167",
+  },
+  {
+    quote:
+      "Don’t fear for facing failure in the first attempt, because even the successful Maths starts with ‘Zero’ only.",
+    category: "Inspiration",
+    author: "APJ Abdul Kalam",
+    addedBy: "Astha167",
   },
   {
     quote: "Don't be trapped in someone else’s dream",
     category: "Motivation",
     author: "V,Bts",
-    addedBy: "Astha167"
+    addedBy: "Astha167",
   },
   {
-     quote: "Life is a sculpture that you cast as you make mistakes and learn from them.",
-     category: "Motivation",
-     author: "RM, Bts",
-     addedBy: "Astha167"
+    quote:
+      "Life is a sculpture that you cast as you make mistakes and learn from them.",
+    category: "Motivation",
+    author: "RM, Bts",
+    addedBy: "Astha167",
   },
   {
-     quote: "You were born to be real, not perfect.",
-     category: "Inspiration",
-     author: "Min Yoongi, Bts",
-     addedBy: "Astha167"
+    quote: "You were born to be real, not perfect.",
+    category: "Inspiration",
+    author: "Min Yoongi, Bts",
+    addedBy: "Astha167",
   },
   {
-    quote: "The most important property of a program is whether it accomplishes the intention of its user.",
+    quote:
+      "The most important property of a program is whether it accomplishes the intention of its user.",
     category: "Programming",
     author: "C.A.R. Hoare",
-    addedBy: "shadmehr-salehi"
+    addedBy: "shadmehr-salehi",
   },
   {
-    quote: "Computers are good at following instructions, but not at reading your mind.",
+    quote:
+      "Computers are good at following instructions, but not at reading your mind.",
     category: "Programming",
     author: "Donald Knuth",
-    addedBy: "shadmehr-salehi"
+    addedBy: "shadmehr-salehi",
   },
   {
     quote: "Show me your code and I will tell you who you are",
     category: "Programming",
     author: "Donald",
-    addedBy: "shadmehr-salehi"
+    addedBy: "shadmehr-salehi",
   },
   {
     quote: "cheap, fast, good: pick two",
     category: "Programming",
     author: "Donald Knuth",
-    addedBy: "shadmehr-salehi"
+    addedBy: "shadmehr-salehi",
   },
   {
-    quote: "computer science is no more about computers than astronomy is about telescopes",
+    quote:
+      "computer science is no more about computers than astronomy is about telescopes",
     category: "Programming",
     author: "Edsger Dijkstra",
-    addedBy: "shadmehr-salehi"
+    addedBy: "shadmehr-salehi",
   },
   {
-    quote: "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine",
+    quote:
+      "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine",
     category: "Motivational",
     author: "Roy T. Bennett",
-    addedBy: "bemoierian"
+    addedBy: "bemoierian",
   },
   {
     quote: "Every artist was first an amateur.",
     category: "Art",
     author: "Ralph Waldo Emerson",
-    addedBy: "bemoierian"
+    addedBy: "bemoierian",
   },
   {
-    quote: "Happiness is not something ready made. It comes from your own actions.",
+    quote:
+      "Happiness is not something ready made. It comes from your own actions.",
     category: "Happiness",
     author: "Dalai Lama XIV",
-    addedBy: "bemoierian"
+    addedBy: "bemoierian",
   },
   {
     quote: "The greatest wealth is health.",
     category: "Health",
     author: "Virgil",
-    addedBy: "bemoierian"
+    addedBy: "bemoierian",
   },
   {
     quote: "You miss 100% of the shots you don't take.",
     category: "Motivational",
     author: "Wayne Gretzky",
-    addedBy: "bemoierian"
+    addedBy: "bemoierian",
   },
   {
-    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    quote:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     category: "Inspirational",
     author: "Nelson Mandela",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
-    
+
   {
     quote: "Do one thing every day that scares you.",
     category: "Motivational",
     author: "Eleanor Roosevelt",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
-    
+
   {
     quote: "It does not do to dwell on dreams and forget to live.",
     category: "Life",
     author: "J.K. Rowling",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "Take care of your body. It's the only place you have to live.",
     category: "Health",
     author: "Jim Rohn",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
-    
+
   {
-    quote: "Good judgment comes from experience, and experience comes from bad judgment.",
+    quote:
+      "Good judgment comes from experience, and experience comes from bad judgment.",
     category: "Learning",
     author: "Barry LePatner",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "Be curious, not judgmental.",
     category: "Life",
     author: "Walt Whitman",
-    addedBy: "dk172923"
-  },  
-    
+    addedBy: "dk172923",
+  },
+
   {
-    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    quote:
+      "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
     category: "Education",
     author: "Benjamin Franklin",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
-  
+
   {
     quote: "Get busy living or get busy dying.",
     category: "Motivational",
     author: "Stephen King",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "Opportunities don't happen. You create them",
     category: "Motivational",
     author: "Chris Grosser",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "Dreams don't work unless you d",
     category: "Inspirational",
     author: "John C.Maxwell",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
-    quote: "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
+    quote:
+      "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
     category: "Inspirational",
     author: "Mother Teresa",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote: "In a day, when you don’t come across any problems - you can be sure that you are traveling in a wrong path.",
+    quote:
+      "In a day, when you don’t come across any problems - you can be sure that you are traveling in a wrong path.",
     category: "Motivational",
     author: "Swami Vivekananda",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote: "The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.",
+    quote:
+      "The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.",
     category: "Education",
     author: "Martin Luther King, Jr.",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote: "The educated differ from the uneducated as much as the living differ from the dead.",
+    quote:
+      "The educated differ from the uneducated as much as the living differ from the dead.",
     category: "Education",
     author: "Aristotle",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote: "Truth can be stated in a thousand different ways, yet each one can be true.",
+    quote:
+      "Truth can be stated in a thousand different ways, yet each one can be true.",
     category: "Motivational",
     author: "Swami Vivekananda",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote: "Keep your face always toward the sunshine, and shadows will fall behind you",
+    quote:
+      "Keep your face always toward the sunshine, and shadows will fall behind you",
     category: "Motivational",
     author: " Walt Whitman",
     addedBy: "Maruf1075",
@@ -1181,13 +1207,15 @@ window.quotes = [
     addedBy: "Maruf1075",
   },
   {
-    quote: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
+    quote:
+      "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
     category: "Happiness",
     author: "Dr. Seuss",
     addedBy: "Maruf1075",
   },
   {
-    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    quote:
+      "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     category: "Inspirational",
     author: "Winston Churchill",
     addedBy: "Maruf1075",
@@ -1223,7 +1251,8 @@ window.quotes = [
     addedBy: "Aaryash-Shakya",
   },
   {
-    quote: "The only way to learn a new programming language is by writing programs in it.",
+    quote:
+      "The only way to learn a new programming language is by writing programs in it.",
     category: "Programming",
     author: "Dennis Ritchie",
     addedBy: "Aaryash-Shakya",
@@ -1235,7 +1264,8 @@ window.quotes = [
     addedBy: "Aaryash-Shakya",
   },
   {
-    quote: "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+    quote:
+      "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
     category: "Life",
     author: "Ernest Hemingway",
     addedBy: "Molina-Daniel",
@@ -1247,19 +1277,22 @@ window.quotes = [
     addedBy: "Molina-Daniel",
   },
   {
-    quote: "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    quote:
+      "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
     category: "Inspirational",
     author: "Rumi",
     addedBy: "Molina-Daniel",
   },
   {
-    quote: "Happiness is when what you think, what you say, and what you do are in harmony.",
+    quote:
+      "Happiness is when what you think, what you say, and what you do are in harmony.",
     category: "Happiness",
     author: "Mahatma Gandhi",
     addedBy: "Molina-Daniel",
   },
   {
-    quote: "It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.",
+    quote:
+      "It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.",
     category: "Motivational",
     author: "Roy T. Bennett",
     addedBy: "Molina-Daniel",
@@ -1268,31 +1301,32 @@ window.quotes = [
     quote: "It matters not how long we live, but how.",
     category: "Living",
     author: "Marcus Aurelius",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "The supreme quality for leadership is unquestionably integrity.",
     category: "Leadership",
     author: "Dwight D. Eisenhower",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
     quote: "A person who never made a mistake never tried anything new.",
     category: "Learning",
     author: "Albert Einstein",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
-    quote: "It is during our darkest moments that we must focus to see the light.",
+    quote:
+      "It is during our darkest moments that we must focus to see the light.",
     category: "Hope",
     author: "Aristotle",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
   {
-    quote: "Three things will last forever - faith, hope, and love - and the greatest of these is love.",
+    quote:
+      "Three things will last forever - faith, hope, and love - and the greatest of these is love.",
     category: "Love",
     author: "Bible",
-    addedBy: "dk172923"
+    addedBy: "dk172923",
   },
-  
 ];
