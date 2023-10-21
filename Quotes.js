@@ -1447,4 +1447,46 @@ window.quotes = [
     author: "Eleanor Roosevelt",
     addedBy: "ahsan-abc",
   },
+  {
+    quote: "The tongue is like a lion, if you let it loose, it will wound someone.",
+    category: "Life",
+    author: "Ali ibn Abi Talib",
+    addedBy: "aie007"
+  },
+  {
+    quote: "Don't worry about making people happy. You can't.",
+    category: "Life",
+    author: "Nouman Ali Khan",
+    addedBy: "aie007"
+  },
+  {
+    quote: "For indeed, with hardship comes ease.",
+    category: "Life",
+    author: "Quran",
+    addedBy: "aie007"
+  },
+  {
+    quote: "Forgiving someone isn't just about doing good to another. It's also about healing a scar in your own heart.",
+    category: "Life",
+    author: "Nouman Ali Khan",
+    addedBy: "aie007"
+  },
+  {
+    quote: "Every act of kindness is charity.",
+    category: "Inspirational",
+    author: "Muhammad",
+    addedBy: "aie007"
+  },
+  {
+    quote: "Richness is not having many belongings, but richness is the contentment of the soul.",
+    category: "Life",
+    author: "Muhammad",
+    addedBy: "aie007"
+  },
+  {
+    quote: "My heart is too valuable to allow hatred and jealousy to rent a spot.",
+    category: "Life",
+    author: "Mufti Ismail Menk",
+    addedBy: "aie007"
+  },
 ];
