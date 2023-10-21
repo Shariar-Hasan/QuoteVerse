@@ -72,3 +72,46 @@ nav a svg{
 nav h2{
     font-weight: bold;
 }
+.contributors-container{
+    height: calc(100vh - 119px);
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-content: flex-start;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.contributor-card{
+    text-align: center;
+    padding: 1rem;
+    background-color: #D9D9D9;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 8px #b0b0b0;
+}
+.contributor-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.contributor-card h4{
+    width: 130px;
+}
+.contributor-card h4 span{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.contributor-card h4 svg,.contributor-card h4 span{
+    display: inline-block;
+    vertical-align: middle;
+}
+main + hidden{
+    display: none;
+}
