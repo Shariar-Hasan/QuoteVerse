@@ -24,6 +24,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // adding random as first element
     categories.unshift("random");
 
+    // sort categories alphabetically
+    categories.sort();
+
+    // move "random" to the beginning
+    const randomIndex = categories.indexOf("random");
+    if (randomIndex !== -1) {
+       categories.splice(randomIndex, 1);
+       categories.unshift("random");
+    }
+    
     //setting options
     categories.forEach((category) => {
       const option = new Option(
