@@ -1356,34 +1356,33 @@ window.quotes = [
     addedBy: "dk172923",
   },
   {
-   quote: "You cannot disobey the truth of life",
-   category: "Motivation",
-   author: "Jisoo, Blackpink",
-   addedBy: "aursh24"
+    quote: "You cannot disobey the truth of life",
+    category: "Motivation",
+    author: "Jisoo, Blackpink",
+    addedBy: "aursh24"
   },
   {
-   quote: "There is nothing scary about naturally talented people, hardworking people are the ones to be afraid of",
-   category: "Motivation",
-   author: "Lisa, Blackpink",
-   addedBy: "aursh24"
+    quote: "There is nothing scary about naturally talented people, hardworking people are the ones to be afraid of",
+    category: "Motivation",
+    author: "Lisa, Blackpink",
+    addedBy: "aursh24"
   },
   {
-   quote: "Make sure that you do something that you will be happy with when you go back and look at yourself",
-   category: "Motivation",
-   author: "Jennie, Blackpink",
-   addedBy: "aursh24"
+    quote: "Make sure that you do something that you will be happy with when you go back and look at yourself",
+    category: "Motivation",
+    author: "Jennie, Blackpink",
+    addedBy: "aursh24"
   },
   {
-   quote: "Never give up on your dreams, no matter how painful and difficult your journey is",
-   category: "Motivation",
-   author: "Lisa, Blackpink",
-   addedBy: "aursh24"
+    quote: "Never give up on your dreams, no matter how painful and difficult your journey is",
+    category: "Motivation",
+    author: "Lisa, Blackpink",
+    addedBy: "aursh24"
   },
   {
-   quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
-   category: "Inspiration",
-   author: " Atal Bihari Vajpayee",
-   addedBy: "aursh24"
-  },
-];
+    quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
+    category: "Inspiration",
+    author: " Atal Bihari Vajpayee",
+    addedBy: "aursh24"
+  }
 ];
