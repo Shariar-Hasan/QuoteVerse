@@ -149,7 +149,7 @@ main {
   transform: translateY(-20%);
   transition: all 0.35s ease-in-out;
 }
-.shareWith:hover  .share-buttons {
+.shareWith:hover .share-buttons {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
@@ -210,6 +210,7 @@ main {
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
   background-color: #262626;
 }
+
 .controller .contribute2 {
   width: 50%;
   text-align: center;
@@ -219,10 +220,16 @@ main {
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
   background-color: #262626;
 }
+
+.contribute1:hover,
+.contribute2:hover {
+  background-color: #576574;
+}
+
 .text-center {
   text-align: center;
 }
-.text-left{
+.text-left {
   margin-left: 5px;
   text-align: left;
 }
