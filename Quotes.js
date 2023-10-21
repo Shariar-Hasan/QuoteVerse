@@ -1,5 +1,29 @@
 window.quotes = [
   {
+    quote: "No one can make you feel inferior without your consent.",
+    category: "Life",
+    author: "Eleanor Roosevelt",
+    addedBy: "cryptic-pr03",
+  },
+  {
+    quote: "Some things break our hearts but fix our vision.",
+    category: "Life",
+    author: "Billie Eidson Music",
+    addedBy: "cryptic-pr03",
+  },
+  {
+    quote: "You must be stronger than your emotions or else you'll lose yourself.",
+    category: "Life",
+    author: "Mike Tyson",
+    addedBy: "cryptic-pr03",
+  },
+  {
+    quote: "It's not what happens to you, but how you react to it that matters",
+    category: "Life",
+    author: "Epictetus",
+    addedBy: "cryptic-pr03",
+  },
+  {
     quote: "The only way to do great work is to love what you do.",
     category: "Motivational",
     author: "Steve Jobs",
