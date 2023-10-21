@@ -1,4 +1,43 @@
 window.quotes = [
+
+  {
+    quote: "Education is not the filling of a pail, but the lighting of a fire.",
+    category: "Educational",
+    author: "W.B. Yeats",
+    addedBy: "Kratin Aggarwal",
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    category: "Educational",
+    author: "Peter Drucker",
+    addedBy: "Kratin Aggarwal",
+  },
+  
+  {
+    quote: "Education is not preparation for life; education is life itself.",
+    category: "Educational",
+    author: "John Dewey",
+    addedBy: "Kratin Aggarwal",
+  },
+
+  {
+    quote: "It is what we think we know already that often prevents us from learning",
+    category: "Educational",
+    author: "Claude Bernard",
+    addedBy: "Kratin Aggarwal",
+  },
+
+
+  {
+    quote: "The beautiful thing about learning is that no one can take it away from you",
+    category: "Educational",
+    author: "B.B. King",
+    addedBy: "Kratin Aggarwal",
+  },
+
+
+
+
   {
     quote: "The only way to do great work is to love what you do.",
     category: "Motivational",
