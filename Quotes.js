@@ -1384,5 +1384,67 @@ window.quotes = [
     category: "Inspiration",
     author: " Atal Bihari Vajpayee",
     addedBy: "aursh24"
-  }
+  },
+{
+    quote: "Any sufficiently advanced technology is indistinguishable from magic.",
+    category: "Technology",
+    author: "Arthur C. Clarke",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Talk is cheap. Show me the code.",
+    category: "Technology",
+    author: "Linus Torvalds",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Every programmer is an author, and every program is a story.",
+    category: "Technology",
+    author: "Drew Houston",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Even if you fall on your face, you're still moving forward.",
+    category: "Motivation",
+    author: "Victor Kiam",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "Technology is best when it brings people together.",
+    category: "Technology",
+    author: "Matt Mullenweg",
+    addedBy: "aggarwal-tanushree",
+  },
+  {
+    quote: "The only way to predict the future is to create it.",
+    category: "Motivational",
+    author: "Peter Drucker",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote: "Be the change you wish to see in the world.",
+    category: "Philosophical",
+    author: "Mahatma Gandhi",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote: "Don't judge a book by its cover.",
+    category: "Life",
+    author: "George Eliot",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote:
+      "The world is a book, and those who do not travel read only one page.",
+    category: "Inspirational",
+    author: "Saint Augustine",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote:
+      "The future belongs to those who believe in the beauty of their dreams.",
+    category: "Inspirational",
+    author: "Eleanor Roosevelt",
+    addedBy: "ahsan-abc",
+  },
 ];
