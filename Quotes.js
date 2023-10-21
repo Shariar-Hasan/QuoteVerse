@@ -1355,4 +1355,36 @@ window.quotes = [
     author: "Bible",
     addedBy: "dk172923",
   },
+  {
+    quote: "The only way to predict the future is to create it.",
+    category: "Motivational",
+    author: "Peter Drucker",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote: "Be the change you wish to see in the world.",
+    category: "Philosophical",
+    author: "Mahatma Gandhi",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote: "Don't judge a book by its cover.",
+    category: "Life",
+    author: "George Eliot",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote:
+      "The world is a book, and those who do not travel read only one page.",
+    category: "Inspirational",
+    author: "Saint Augustine",
+    addedBy: "ahsan-abc",
+  },
+  {
+    quote:
+      "The future belongs to those who believe in the beauty of their dreams.",
+    category: "Inspirational",
+    author: "Eleanor Roosevelt",
+    addedBy: "ahsan-abc",
+  },
 ];
