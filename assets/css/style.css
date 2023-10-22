@@ -148,6 +148,11 @@ main {
   opacity: 0;
   transform: translateY(-20%);
   transition: all 0.35s ease-in-out;
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.515);
+  background-color: #262626;
+  padding: 10px;
 }
 .shareWith:hover .share-buttons {
   visibility: visible;
