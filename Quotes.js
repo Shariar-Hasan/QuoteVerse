@@ -1659,5 +1659,24 @@ window.quotes = [
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
-  }
+  },
+  {
+    quote:"Success is not an accident, success is actually a choice.",
+    category: "Motivation",
+    autoher: "Stephen Curry",
+    addedBy: "WilsonZ-CS"
+  },
+  {
+    quote:"Sucess is a lousy teacher. It seduces smart people into thinking they can't lost.",
+    category: "Life",
+    author: "Bill Gates",
+    addedBy: "WilsonZ-CS"
+  },
+  {
+    quote:"Until you're the best at something, you've always got to work at everything.",
+    category: "Life",
+    autoher: "Luka Doncic",
+    addedBy: "WilsonZ-CS"
+  },
+   
 ];
