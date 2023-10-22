@@ -12,6 +12,41 @@ window.quotes = [
     author: "Peter Drucker",
     addedBy: "Kratin Aggarwal",
   },
+
+  {
+    quote: "The key to success is to keep growing in all areas of life",
+    category: "Gym",
+    author: "Brian Tracy",
+    addedBy: "yasarlabib",
+  },
+
+  {
+    quote: "The road to success is always under construction",
+    category: "Life",
+    author: "Lily Tomlin",
+    addedBy: "yasarlabib",
+  },
+
+  {
+    quote: "It's not about perfect It's about effort And when you bring that effort every single day, that's where transformation happens That's how change occurs",
+    category: "Life",
+    author: "Jen Widerstrom",
+    addedBy: "yasarlabib",
+  },
+
+  {
+    quote: "You are never too old to set another goal or to dream a new dream",
+    category: "Life",
+    author: "C.S. Lewis",
+    addedBy: "yasarlabib",
+  },
+
+  {
+    quote: "Successful people do what unsuccessful people are not willing to do Don't wish it were easier, wish you were better",
+    category: "Life",
+    author: "Jim Rohn",
+    addedBy: "yasarlabib",
+  },
   
   {
     quote: "Education is not preparation for life; education is life itself.",
