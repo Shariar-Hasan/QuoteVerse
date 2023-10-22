@@ -14,8 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
         img.src = contributor.avatar_url;
         img.alt = contributor.login;
 
-        contributor_card.querySelector('h4 span').textContent =
-          contributor.login;
+        contributor_card.querySelector('.contributor-username').textContent = contributor.login;
+		if (contributor.contributions == 1)
+			contributor_card.querySelector(".contributor-commits").textContent = contributor.contributions + " commit";
+		else
+			contributor_card.querySelector(".contributor-commits").textContent = contributor.contributions + " commits";
+
         contributorsContainer.appendChild(contributor_card);
       });
     });
