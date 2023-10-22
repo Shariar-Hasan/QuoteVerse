@@ -1659,5 +1659,47 @@ window.quotes = [
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
-  }
+  },
+  {
+    quote:"Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    category: "Learning",
+    author: "Mahatma Gandhi",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+    category: "Learning",
+    author: "Abigail Adams",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
+    category: "Learning",
+    author: "Brian Herbert",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"In learning you will teach, and in teaching you will learn",
+    category: "Learning",
+    author: "Phil Collins",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"Learning never exhausts the mind",
+    category: "Learning",
+    author: "Leonardo da Vinci",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"An investment in knowledge pays the best interest.",
+    category: "Learning",
+    author: "Benjamin Franklin",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote:"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    category: "Learning",
+    author: "Stephen Hawking",
+    addedBy: "Gorakshnath Bhongal"
+  },
 ];
