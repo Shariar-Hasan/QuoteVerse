@@ -1659,5 +1659,32 @@ window.quotes = [
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
+  },
+  {
+    quote: "To equate knowledge with stopping copying is a big mistake.",
+    category: "Technology",
+    author: "Richard Stallman",
+    addedBy: "amaan-p"
+  },{
+    quote: "Software is like sex: it's better when it's free.",
+    category: "Open Source",
+    author: "Linus Torvalds",
+    addedBy: "amaan-p"
+  },
+  {
+    quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+    category: "Innovation",
+    author: "Steve Jobs",
+  addedBy: "amaan-p"
+  },
+  {
+    quote: "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
+    category: "Success",
+    author: "Bill Gates",
+    addedBy: "amaan-p"
   }
+  
+  
+  
+  
 ];
