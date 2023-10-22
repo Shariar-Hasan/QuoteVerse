@@ -1552,4 +1552,112 @@ window.quotes = [
     author: "Mufti Ismail Menk",
     addedBy: "aie007"
   },
+  {
+    quote: "The best of people are those that bring most benefit to the rest of mankind.",
+    category: "Life",
+    author: "Muhammad",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote: "The only way to do great work is to love what you do.",
+    category: "Motivation",
+    author: "Steve Jobs",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"Life is what happens when you're busy making other plans.",
+    category: "Life",
+    author: "John Lennon",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    category: "Motivation",
+    author: "Winston S. Churchill",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    category: "Life",
+    author: "Martin Luther King Jr.",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Motivation",
+    author: "Nelson Mandela",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The way to get started is to quit talking and begin doing.",
+    category: "Motivation",
+    author: "Walt Disney",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"If life were predictable it would cease to be life, and be without flavor.",
+    category: "Life",
+    author: "Eleanor Roosevelt",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The only limit to our realization of tomorrow will be our doubts of today.",
+    category: "Motivation",
+    author: "Franklin D. Roosevelt",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    category: "Life",
+    author: "Ralph Waldo Emerson",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The two most important days in your life are the day you are born and the day you find out why.",
+    category: "Life",
+    author: "Mark Twain",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"Don't count the days; make the days count.",
+    category: "Motivation",
+    author: "Muhammad Ali",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The only thing we have to fear is fear itself.",
+    category: "Motivation",
+    author: "Franklin D. Roosevelt",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"In the midst of chaos, there is also opportunity.",
+    category: "Motivation",
+    author: "Sun Tzu",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The only time to look back is to see how far you've come.",
+    category: "Motivation",
+    author: "Unknown",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The best revenge is massive success.",
+    category: "Motivation",
+    author: "Frank Sinatra",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"Be yourself; everyone else is already taken.",
+    category: "Life",
+    author: "Oscar Wilde",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote:"The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    category: "Motivation",
+    author: "Mark Zuckerberg",
+    addedBy: "Vishnudas2003"
+  }
 ];
