@@ -1661,26 +1661,31 @@ window.quotes = [
     addedBy: "Vishnudas2003"
   },
   {
-    quote: "To equate knowledge with stopping copying is a big mistake.",
+    quote: "Technology is not just a tool.it can give learners a voice that they may not have had before",
     category: "Technology",
     author: "Richard Stallman",
     addedBy: "amaan-p"
   },{
-    quote: "Software is like sex: it's better when it's free.",
-    category: "Open Source",
-    author: "Linus Torvalds",
+    quote: "Technology is best when it brings people together.",
+    category: "Technology",
+    author: "Matt Mullenweg",
     addedBy: "amaan-p"
   },
   {
-    quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
-    category: "Innovation",
-    author: "Steve Jobs",
+    quote: "Technology is a useful servent but a dangerous master",
+    category: "Technology",
+    author: "Karl Marx",
   addedBy: "amaan-p"
   },
   {
-    quote: "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
-    category: "Success",
-    author: "Bill Gates",
+    quote: "Technology alone is not enough",
+    category: "Technology",
+    author: "Steve Jobs",
+    addedBy: "amaan-p"
+  },{
+    quote: "The most important thing about technology is how it changes people ",
+    category: "Technology",
+    author: "Jaron Lanier",
     addedBy: "amaan-p"
   }
   
