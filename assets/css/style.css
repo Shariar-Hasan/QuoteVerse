@@ -149,9 +149,9 @@ main {
   transform: translateY(-20%);
   transition: all 0.35s ease-in-out;
   border-radius: 20px;
-  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
   backdrop-filter: blur(14px);
-  background-color: rgba(255, 255, 255, 0.2);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.515);
+  background-color: #262626;
   padding: 10px;
 }
 .shareWith:hover .share-buttons {
