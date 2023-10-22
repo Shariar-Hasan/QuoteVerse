@@ -1659,5 +1659,35 @@ window.quotes = [
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
-  }
+  },
+  {
+    quote: "If you want to be Strong Learn to live Alone",
+    category: "Life",
+    author: "Rowan Atkinson",
+    addedBy: "pratap360"
+  },
+  {
+    quote: "People rarely succeed unless they have fun in what they are doing.",
+    category: "Motivation",
+    author: "Dale Carnegie",
+    addedBy: "pratap360"
+  },
+  {
+    quote: "It is harder to read code than to write it",
+    category: "programming",
+    author: "Joel Spolsky",
+    addedBy: "pratap360"
+  },
+  {
+    quote: "To See What Is Right And Not Do It Is A Lack Of Courage",
+    category: "Motivation",
+    author: "Confucius",
+    addedBy: "pratap360"
+  },
+  {
+    quote: "Reading Is To The Mind, As Exercise Is To The Body.",
+    category: "Learning",
+    author: "Brian Tracy",
+    addedBy: "pratap360"
+  } 
 ];
