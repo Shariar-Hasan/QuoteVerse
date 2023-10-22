@@ -1447,4 +1447,11 @@ window.quotes = [
     author: "Eleanor Roosevelt",
     addedBy: "ahsan-abc",
   },
+  {
+    quote:
+      "To be an artist is to believe in life.",
+    category: "Motivationa",
+    author: "Henry Moore",
+    addedBy: "ArpanMondalGITHUB",
+  },
 ];
