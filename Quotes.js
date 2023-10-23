@@ -38,6 +38,36 @@ window.quotes = [
     addedBy: "abhi7745"
   },
   {
+    quote: "You have to dream before your dreams can come true.",
+    category: "Motivation",
+    author: "APJ Abdul Kalam",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "In a gentle way, you can shake the world.",
+    category: "Motivation",
+    author: "Mahatma Gandhi",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    category: "Motivation",
+    author: "Albert Schweitzer",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "The future depends on what you do today.",
+    category: "Motivation",
+    author: "Mahatma Gandhi",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "In the middle of every difficulty lies opportunity.",
+    category: "Motivation",
+    author: "Albert Einstein",
+    addedBy: "abhayVershwal"
+  },
+  {
     quote: "Love is all, it gives all, and it takes all.",
     category: "Love",
     author: "Soren Kirkegaard",
@@ -1548,7 +1578,7 @@ window.quotes = [
   {
     quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
     category: "Inspiration",
-    author: " Atal Bihari Vajpayee",
+    author: "APJ Abdul Kalam",
     addedBy: "aursh24"
   },
 {
