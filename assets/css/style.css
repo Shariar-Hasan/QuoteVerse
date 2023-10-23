@@ -350,14 +350,18 @@ body {
 }
 
 .theme_changer_button div:nth-child(1) label {
-  background-color: rgb(57, 150, 255);
+  background-color: rgba(237, 237, 237, 1);
 }
 
 .theme_changer_button div:nth-child(2) label {
-  background-color: rgb(154 72 89);
+  background-color: rgb(57, 150, 255);
 }
 
 .theme_changer_button div:nth-child(3) label {
+  background-color: rgb(154 72 89);
+}
+
+.theme_changer_button div:nth-child(4) label {
   background-color: rgb(36, 183, 158);
 }
 
