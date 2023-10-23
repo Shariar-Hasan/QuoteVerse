@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Twitter",
-      icon: `<i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc" ></i>`,
+      icon: `<i class="fa-brands fa-x-twitter fa-2xl" style="color: #5f99fc" ></i>`,
       clickhandler: handleTwitterClick,
     },
     {
