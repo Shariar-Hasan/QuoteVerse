@@ -30,14 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // move "random" to the beginning
     const randomIndex = categories.indexOf("random");
     if (randomIndex !== -1) {
-       categories.splice(randomIndex, 1);
-       categories.unshift("random");
+      categories.splice(randomIndex, 1);
+      categories.unshift("random");
     }
-    
+
     //setting options
     categories.forEach((category) => {
       const option = new Option(
-        category ,
+        category,
         category,
         isIncluded(category, "random")
       );
@@ -213,18 +213,18 @@ document.addEventListener("DOMContentLoaded", () => {
   let sharingOptions = [
     {
       title: "Whatsapp",
-      icon: `<i class="fa-brands fa-square-whatsapp fa-2xl"
+      icon: `<i class="fa-brands fa-whatsapp fa-xl"
             style="color: #00ff33"></i>`,
       clickhandler: handleWhatsAppClick,
     },
     {
       title: "Facebook",
-      icon: `<i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff"></i>`,
+      icon: `<i class="fa-brands fa-facebook fa-xl" style="color: #0084ff"></i>`,
       clickhandler: handleFacebookClick,
     },
     {
       title: "Twitter",
-      icon: `<i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc" ></i>`,
+      icon: `<i class="fa-brands fa-twitter fa-xl" style="color: #5f99fc" ></i>`,
       clickhandler: handleTwitterClick,
     },
     {

@@ -153,6 +153,14 @@ main {
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
   background-color: #262626;
   padding: 10px;
+
+  margin-top: 6rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
 }
 .shareWith:hover .share-buttons {
   visibility: visible;
@@ -161,17 +169,6 @@ main {
 }
 .added-by-box a {
   color: #0059ff;
-}
-.share-buttons {
-  margin-top: 6rem;
-  margin-bottom: 0.5rem;
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 0.6rem;
-  justify-content: center;
-  align-items: end;
-  position: absolute;
-  bottom: 100%;
 }
 .text-right {
   text-align: right;
@@ -376,12 +373,19 @@ body {
   outline: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: opacity 0.5s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .share-buttons .icon:hover {
-  font-size: 20px;
-  transition: opacity 0.5s ease-in-out;
+  transform: translateY(-3px);
+}
+
+.share-buttons .fa-brands {
+  transition: all 200ms ease-in-out;
+}
+
+.share-buttons .fa-brands:hover {
+  transform: translateY(-3px);
 }
 
 .share-buttons .copy-to-clipboard:active .icon {
