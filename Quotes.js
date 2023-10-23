@@ -38,6 +38,12 @@ window.quotes = [
     addedBy: "abhi7745"
   },
   {
+    quote: "Dream, dream, dream. Dreams transform into thoughts, and thoughts result in action.",
+    category: "Motivation",
+    author: "APJ Abdul Kalam",
+    addedBy: "abhayVershwal"
+  },
+  {
     quote: "Love is all, it gives all, and it takes all.",
     category: "Love",
     author: "Soren Kirkegaard",
