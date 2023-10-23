@@ -213,31 +213,31 @@ document.addEventListener("DOMContentLoaded", () => {
   let sharingOptions = [
     {
       title: "Whatsapp",
-      icon: `<i class="fa-brands fa-square-whatsapp fa-2xl"
+      icon: `<i class="fa-brands fa-whatsapp fa-xl"
             style="color: #00ff33"></i>`,
       clickhandler: handleWhatsAppClick,
     },
     {
       title: "Facebook",
-      icon: `<i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff"></i>`,
+      icon: `<i class="fa-brands fa-facebook fa-xl" style="color: #0084ff"></i>`,
       clickhandler: handleFacebookClick,
     },
     {
       title: "Twitter",
-      icon: `<i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc" ></i>`,
+      icon: `<i class="fa-brands fa-twitter fa-xl" style="color: #5f99fc" ></i>`,
       clickhandler: handleTwitterClick,
     },
     {
-      title: "Twitter",
-      icon: `<i class="fa-regular fa-copy icon " id="copy-icon"></i>`,
+      title: "Copy",
+      icon: `<i class="fa-regular fa-copy icon" id="copy-icon"></i>`,
       clickhandler: () =>
         copyHandler((validation) => {
           const copyIcon = document.getElementById("copy-icon");
           replaceIconClass(
             copyIcon,
             validation
-              ? "fa-solid fa-check check-icon"
-              : "fa-solid fa-xmark cross-icon"
+              ? "fa-solid fa-check check-icon fa-xl"
+              : "fa-solid fa-xmark cross-icon fa-xl"
           );
           // Reset to copy icon after 0.5s
           setTimeout(() => {
