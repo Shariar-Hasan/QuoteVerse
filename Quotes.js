@@ -2005,4 +2005,34 @@ window.quotes = [
     author: "Georges Braque",
     addedBy: "kaur-rajdeep",
   },
+  {
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": "Life",
+    "author": "Charles R. Swindoll",
+    "addedBy": "Shivam36998"
+  },
+  {
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "category": "Life",
+    "author": "Confucius",
+    "addedBy": "Shivam36998"
+  },
+  {
+    "quote": "Life is a journey that must be traveled no matter how bad the roads and accommodations.",
+    "category": "Life",
+    "author": "Oliver Goldsmith",
+    "addedBy": "Shivam36998"
+  },
+  {
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "category": "Life",
+    "author": "Helen Keller",
+    "addedBy": "Shivam36998"
+  },
+  {
+    "quote": "Life is a one-time offer; use it well.",
+    "category": "Life",
+    "author": "Suzie Kassem",
+    "addedBy": "Shivam36998"
+  }
 ];
