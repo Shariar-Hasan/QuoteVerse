@@ -133,20 +133,24 @@
         </section>
         <div id="theme_changer_button" class="theme_changer_button">
           <div>
+            <input type="radio" name="color" id="white" />
+            <label for="white" class="select_color" data-number="1"></label>
+          </div>
+          <div>
             <input type="radio" name="color" id="blue" />
-            <label for="blue" class="select_color" data-number="1"></label>
+            <label for="blue" class="select_color" data-number="2"></label>
           </div>
           <div>
             <input type="radio" name="color" id="red" />
-            <label for="red" class="select_color" data-number="2"></label>
+            <label for="red" class="select_color" data-number="3"></label>
           </div>
           <div>
             <input type="radio" name="color" id="green" />
-            <label for="green" class="select_color" data-number="3"></label>
+            <label for="green" class="select_color" data-number="4"></label>
           </div>
           <div>
             <input type="radio" name="color" id="yellow" />
-            <label for="yellow" class="select_color" data-number="4"></label>
+            <label for="yellow" class="select_color" data-number="5"></label>
           </div>
         </div>
       </div>
@@ -159,6 +163,7 @@
       const whatsappBtn = document.querySelector(".whatsapp-btn");
       var color_selection = document.querySelectorAll(".select_color");
       var color_array = [
+        "rgba(237, 237, 237, 1)",
         "rgb(57 150 255 / 90%)",
         "rgb(154 72 89/ 70%)",
         "rgb(36 183 158 / 90%)",
