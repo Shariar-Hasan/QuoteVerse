@@ -1,6 +1,37 @@
 window.quotes = [
 
   {
+    quote: "Education is the key that unlocks the golden door to freedom.",
+    category: "Educational",
+    author: "George Washington Carver",
+    addedBy: "himanshirana2403",
+  },
+
+  {
+    quote: "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.",
+    category: "Educational",
+    author: "Maimonides",
+    addedBy: "himanshirana2403",
+  },
+  {
+    quote: "Education purpose is to replace an empty mind with an open one.",
+    category: "Educational",
+    author: "Malcolm Forbes",
+    addedBy: "himanshirana2403",
+  },
+  {
+    quote: "Education is what remains after one has forgotten what one has learned in school.",
+    category: "Educational",
+    author: "Albert Einstein",
+    addedBy: "himanshirana2403",
+  },
+  {
+    quote: "The aim of education is the knowledge, not of facts, but of values.",
+    category: "Educational",
+    author: "William S. Burroughs",
+    addedBy: "himanshirana2403",
+  },
+  {
     quote: "Dream is not that you see in the sleep; dreams is that does not allow you to sleep.",
     category: "Motivation",
     author: "APJ Abdul Kalam",
