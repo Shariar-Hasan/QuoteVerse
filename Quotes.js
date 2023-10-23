@@ -2035,4 +2035,10 @@ window.quotes = [
     author: "Eleanor Roosevelt",
     addedBy: "debsouryadatta"
   },
+  {
+    quote: "At rest, however, in the middle of everything is the sun.",
+    category: "Science",
+    author: "Nicolaus Copernicus",
+    addedBy: "zomsik"
+  },
 ];
