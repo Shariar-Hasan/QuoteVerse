@@ -1,6 +1,43 @@
 window.quotes = [
 
   {
+    quote: "Dream is not that you see in the sleep; dreams is that does not allow you to sleep.",
+    category: "Motivation",
+    author: "APJ Abdul Kalam",
+    addedBy: "abhi7745"
+  },
+  {
+    quote: "Love is all, it gives all, and it takes all.",
+    category: "Love",
+    author: "Soren Kirkegaard",
+    addedBy: "abhi7745"
+  },
+  {
+    quote: "Don't forget to love yourself.",
+    category: "Love",
+    author: "Soren Kirkegaard",
+    addedBy: "abhi7745"
+  },
+  {
+    quote: "The purpose of our lives is to be happy.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "abhi7745"
+  },
+  {
+    quote: "Happiness is not something ready made. It comes from your own actions.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "abhi7745"
+  },
+  {
+    quote: "My best friend is the one who brings out the best in me.",
+    category: "Friendship",
+    author: "Henry Ford",
+    addedBy: "abhi7745"
+  },
+
+  {
     quote: "Education is not the filling of a pail, but the lighting of a fire.",
     category: "Educational",
     author: "W.B. Yeats",
