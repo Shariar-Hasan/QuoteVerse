@@ -1842,8 +1842,61 @@ window.quotes = [
     addedBy: "Vishnudas2003",
   },
   {
-    quote:
-      "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    quote: "Go the extra mile. It's never crowded.",
+    category: "Life",
+    author: "Dr. Wayne Dyer",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    category: "Life",
+    author: "Winston Churchill",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "It is better to fail in originality than to succeed in imitation.",
+    category: "Life",
+    author: "Herman Melville",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    category: "Life",
+    author: "Steve Jobs",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "If you can dream it, you can do it.",
+    category: "Life",
+    author: "Walt Disney",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+    category: "Life",
+    author: "Ralph Waldo Emerson",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Life",
+    author: "Nelson Mandela",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The only way to limit the future is to do nothing in the present.",
+    category: "Life",
+    author: "Charles F. Kettering",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The difference between ordinary and extraordinary is that little extra.",
+    category: "Life",
+    author: "Jimmy Johnson",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote:"The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
