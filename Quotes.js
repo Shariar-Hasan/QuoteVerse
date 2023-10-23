@@ -38,12 +38,6 @@ window.quotes = [
     addedBy: "abhi7745"
   },
   {
-    quote: "Dream, dream, dream. Dreams transform into thoughts, and thoughts result in action.",
-    category: "Motivation",
-    author: "APJ Abdul Kalam",
-    addedBy: "abhayVershwal"
-  },
-  {
     quote: "You have to dream before your dreams can come true.",
     category: "Motivation",
     author: "APJ Abdul Kalam",
@@ -1584,7 +1578,7 @@ window.quotes = [
   {
     quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
     category: "Inspiration",
-    author: " Atal Bihari Vajpayee",
+    author: "APJ Abdul Kalam",
     addedBy: "aursh24"
   },
 {
