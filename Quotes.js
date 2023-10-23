@@ -1896,49 +1896,49 @@ window.quotes = [
     addedBy: "Kapileswar-Moharana"
   },
   {
-    quote:"The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     category: "Learning",
     author: "Mahatma Gandhi",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+    quote: "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
     category: "Learning",
     author: "Abigail Adams",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
+    quote: "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
     category: "Learning",
     author: "Brian Herbert",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"In learning you will teach, and in teaching you will learn",
+    quote: "In learning you will teach, and in teaching you will learn",
     category: "Learning",
     author: "Phil Collins",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"Learning never exhausts the mind",
+    quote: "Learning never exhausts the mind",
     category: "Learning",
     author: "Leonardo da Vinci",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"An investment in knowledge pays the best interest.",
+    quote: "An investment in knowledge pays the best interest.",
     category: "Learning",
     author: "Benjamin Franklin",
     addedBy: "Gorakshnath Bhongal"
   },
   {
-    quote:"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    quote: "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
     category: "Learning",
     author: "Stephen Hawking",
     addedBy: "Gorakshnath Bhongal"
@@ -2004,5 +2004,35 @@ window.quotes = [
     category: "Art",
     author: "Georges Braque",
     addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    category: "Political",
+    author: "Edmund Burke",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The world is a book and those who do not travel read only one page.",
+    category: "Travel",
+    author: "Saint Augustine",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The only true wisdom is in knowing you know nothing.",
+    category: "Philosophy",
+    author: "Socrates	Philosophy",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "	James M. Barrie",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The future belongs to those who believe in the beauty of their dreams.",
+    category: "Hope",
+    author: "Eleanor Roosevelt",
+    addedBy: "debsouryadatta"
   },
 ];
