@@ -115,6 +115,24 @@ window.quotes = [
     addedBy: "abhi7745",
   },
   {
+    quote: "Love is composed of a single soul inhabiting two bodies.",
+    category: "Love",
+    author: "Aristotle",
+    addedBy: "Himangshi",
+  },
+  {
+    quote: "Love is not just looking at each other; it's looking in the same direction.",
+    category: "Love",
+    author: "Antoine de Saint-Exupéry",
+    addedBy: "Himangshi",
+  },
+  {
+    quote: "Life without love is like a tree without blossoms or fruit.",
+    category: "Love",
+    author: "Khalil Gibran",
+    addedBy: "Himangshi",
+  },
+  {
     quote: "The purpose of our lives is to be happy.",
     category: "Happiness",
     author: "Dalai Lama",
