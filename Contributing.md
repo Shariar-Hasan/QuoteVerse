@@ -87,7 +87,7 @@ There can be many things you can do.
       quote: "your-quote-text",
       category: "quote-category",
       author: "author-of-the-quote",
-      addedBy: "your-guthub-username"
+      addedBy: "your-github-username"
    }
    ```
 - No need to add quote in JSON format.
