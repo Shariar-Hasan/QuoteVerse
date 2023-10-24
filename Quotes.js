@@ -1842,6 +1842,52 @@ window.quotes = [
     addedBy: "Vishnudas2003",
   },
   {
+    quote:
+      "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    category: "Motivation",
+    author: "Mark Zuckerberg",
+    addedBy: "Vishnudas2003",
+  },
+  {
+    quote:
+      "The way I see it, if you want the rainbow, you gotta put up with the rain!",
+    category: "Motivation",
+    author: "Dolly Parton",
+    addedBy: "MurtazaShikari",
+  },
+  {
+    quote:
+      "Happiness is making the most of what you have, and riches is making the most of what you've got.",
+    category: "Motivation",
+    author: "Rosamunde Pilcher",
+    addedBy: "MurtazaShikari",
+  },
+  {
+    quote: "We don't make mistakes, just happy little accidents.",
+    category: "Motivation",
+    author: "Bob Ross",
+    addedBy: "MurtazaShikari",
+  },
+  {
+    quote:
+      "Misery might love company, but so does joy. And joy throws much better parties.",
+    category: "Life",
+    author: "Billy Ivey",
+    addedBy: "MurtazaShikari",
+  },
+  {
+    quote: "Happiness held is the seed, happiness shared is the flower.",
+    category: "Life",
+    author: "John Harrigan",
+    addedBy: "MurtazaShikari",
+  },
+  {
+    quote: "A night can never defeat the Sunrise.",
+    category: "Motivation",
+    author: "Sumit Sharma",
+    addedBy: "MurtazaShikari",
+  },
+  {
     quote: "Go the extra mile. It's never crowded.",
     category: "Life",
     author: "Dr. Wayne Dyer",
