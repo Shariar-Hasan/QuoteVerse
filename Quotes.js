@@ -1948,6 +1948,34 @@ window.quotes = [
     addedBy: "Vishnudas2003"
   },
   {
+    quote: "Technology is not just a tool.it can give learners a voice that they may not have had before",
+    category: "Technology",
+    author: "Richard Stallman",
+    addedBy: "amaan-p"
+  },{
+    quote: "Technology is best when it brings people together.",
+    category: "Technology",
+    author: "Matt Mullenweg",
+    addedBy: "amaan-p"
+  },
+  {
+    quote: "Technology is a useful servent but a dangerous master",
+    category: "Technology",
+    author: "Karl Marx",
+  addedBy: "amaan-p"
+  },
+  {
+    quote: "Technology alone is not enough",
+    category: "Technology",
+    author: "Steve Jobs",
+    addedBy: "amaan-p"
+  },{
+    quote: "The most important thing about technology is how it changes people ",
+    category: "Technology",
+    author: "Jaron Lanier",
+    addedBy: "amaan-p"
+  },
+  {
     quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     category: "Learning",
     author: "Mahatma Gandhi",
