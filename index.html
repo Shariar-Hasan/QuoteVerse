@@ -169,7 +169,6 @@
     <script src="./assets/js/others.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
-      const whatsappBtn = document.querySelector(".whatsapp-btn");
       var color_selection = document.querySelectorAll(".select_color");
       var color_array = [
         "rgba(237, 237, 237, 1)",
@@ -178,31 +177,7 @@
         "rgb(36 183 158 / 90%)",
         "rgb(255 255 145 / 70%)",
       ];
-      var container = document.querySelector(".container");
-      color_selection.forEach((item) => {
-        item.addEventListener("click", () => {
-          var getItemNumber = item.getAttribute("data-number");
-          container.style.background = color_array[getItemNumber - 1];
-          //Changing color of link when background blends with link color
-          if (isBackgroundColorInRange()) {
-            document.querySelector(".added-by").style.color = "purple";
-          } else {
-            document.querySelector(".added-by").style.color =
-              "rgb(49, 155, 248)";
-          }
-        });
-      });
 
-      //Changing color of link with respect to background
-      function isBackgroundColorInRange() {
-        const bgColor = container.style.background;
-        const rgbValues = bgColor.match(/\d+/g);
-        const redComponent = parseInt(rgbValues[0]);
-        const greenComponent = parseInt(rgbValues[1]);
-        const blueComponent = parseInt(rgbValues[2]);
-
-        return 1.5 * blueComponent >= redComponent + greenComponent;
-      }
     </script>
   </body>
 </html>

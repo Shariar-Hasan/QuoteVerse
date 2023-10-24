@@ -8,12 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const quoteAuthorTag = document.getElementById("quoteAuthorTag");
   const shareBtns = document.getElementById("shareBtns");
   const copyToClipboardButton = document.querySelector(".copy-to-clipboard");
+  const container = document.querySelector(".container");
+  const quoteSection = document.querySelector(".quote");
+  const color_selection = document.querySelectorAll(".select_color");
 
   // overall global variable to use in all function
+
+  var color_array = [
+    "rgba(237, 237, 237, 1)",
+    "rgb(57 150 255 / 90%)",
+    "rgb(154 72 89/ 70%)",
+    "rgb(36 183 158 / 90%)",
+    "rgb(255 255 145 / 70%)",
+  ];
   let selectedQuoteText = "";
   let selectedQuoteAuthor = "";
   let selectedQuoteAddedBy = "";
+  let selectedCategory = "";
   let webAddress = "https://quote-verse.netlify.app/";
+  let themeColor = color_array[0];
 
   // setting categories options
   const setCategories = () => {
@@ -21,25 +34,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //   getting all the categories
     const categories = [...new Set(quotes.map((quote) => quote.category))];
-    // adding random as first element
-    categories.unshift("random");
+
 
     // sort categories alphabetically
     categories.sort();
-
-    // move "random" to the beginning
-    const randomIndex = categories.indexOf("random");
-    if (randomIndex !== -1) {
-      categories.splice(randomIndex, 1);
-      categories.unshift("random");
-    }
+    categories.unshift("Random");
 
     //setting options
     categories.forEach((category) => {
       const option = new Option(
         category,
         category,
-        isIncluded(category, "random")
+        isIncluded(category, "Random")
       );
       selectedCategoryTag.appendChild(option);
     });
@@ -52,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // set up the selected quote
   const setQuote = () => {
-    const selectedCategory = selectedCategoryTag.value;
+    selectedCategory = selectedCategoryTag.value;
 
     // categorically selected quotes
     const quotes = window.quotes
@@ -60,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .filter(
         (quote) =>
           isIncluded(quote.category, selectedCategory) ||
-          isIncluded(selectedCategory, "random")
+          isIncluded(selectedCategory, "Random")
       );
 
     // make a random selection from quotes\
@@ -92,49 +98,49 @@ document.addEventListener("DOMContentLoaded", () => {
     setCanvas();
   };
 
-// function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
-const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
-    let words = text.split(' ');
-    let line = '';
-    let testLine = ''; 
+  // function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
+  const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
+    let words = text.split(" ");
+    let line = "";
+    let testLine = "";
     let lineArray = [];
 
-    for(var n = 0; n < words.length; n++) {
-        testLine += `${words[n]} `;
-        let metrics = ctx.measureText(testLine);
-        let testWidth = metrics.width;
-    
-        if (testWidth > maxWidth && n > 0) {
-            lineArray.push([line, x, y]);
-            y += lineHeight;
-            line = `${words[n]} `;
-            testLine = `${words[n]} `;
-        }
-        else {
-            line += `${words[n]} `;
-        }
-  
-        if(n === words.length - 1) {
-            lineArray.push([line, x, y]);
-        }
+    for (var n = 0; n < words.length; n++) {
+      testLine += `${words[n]} `;
+      let metrics = ctx.measureText(testLine);
+      let testWidth = metrics.width;
+
+      if (testWidth > maxWidth && n > 0) {
+        lineArray.push([line, x, y]);
+        y += lineHeight;
+        line = `${words[n]} `;
+        testLine = `${words[n]} `;
+      } else {
+        line += `${words[n]} `;
+      }
+
+      if (n === words.length - 1) {
+        lineArray.push([line, x, y]);
+      }
     }
-  
+
     return lineArray;
-}
+  };
 
   // draw the quote as an image on the canvas
   const setCanvas = () => {
     var canvas = document.getElementById("quoteCanvas");
-    canvas.height = 540;
-    canvas.width = 540;
+    canvas.height = window.innerHeight - 50 || 540;
+    canvas.width = window.innerWidth - 50 || 540;
+
     var x = canvas.width / 2;
     var y = canvas.height / 2;
     var ctx = canvas.getContext("2d");
 
     // add background color
     const grd = ctx.createLinearGradient(0, 0, 500, 0);
-    grd.addColorStop(0, "#e9fcc7");
-    grd.addColorStop(1, "#d1fc83");
+    grd.addColorStop(0, themeColor);
+    grd.addColorStop(1, themeColor);
     // Fill background with gradient
     ctx.fillStyle = grd;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -143,16 +149,23 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
     ctx.textAlign = "center";
     ctx.font = "35pt garamond";
     ctx.fillStyle = "black";
-    let wrappedText = wrapText(ctx, '\"' + selectedQuoteText + '\"', x, 60, x*2 - 40, 40);
+    let wrappedText = wrapText(
+      ctx,
+      '"' + selectedQuoteText + '"',
+      x,
+      60,
+      x * 2 - 40,
+      40
+    );
     var len = wrappedText.length;
     var centeringY = y - (len * 40) / 2;
-    wrappedText.forEach(function(item) {
-        ctx.fillText(item[0], item[1], centeringY);
-        centeringY += 50; 
-    })
-    ctx.font = "25pt calibri";
-    ctx.fillText(selectedQuoteAuthor, wrappedText[len-1][1], centeringY);
-  }
+    wrappedText.forEach(function (item) {
+      ctx.fillText(item[0], item[1], centeringY);
+      centeringY += 50;
+    });
+    ctx.font = "15pt calibri";
+    ctx.fillText(selectedQuoteAuthor, wrappedText[len - 1][1], centeringY);
+  };
 
   // button click handling section
   const handleTwitterClick = () => {
@@ -184,9 +197,13 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
     );
   };
   const handleDownloadClick = () => {
-    var link = document.createElement('a');
-    link.download = 'quote-verse.png';
-    link.href = document.getElementById('quoteCanvas').toDataURL();
+    var link = document.createElement("a");
+    link.download =
+      selectedCategory +
+      " Quote by " +
+      selectedQuoteAuthor +
+      "-(quote-verse.netlify.app).png";
+    link.href = document.getElementById("quoteCanvas").toDataURL();
     link.click();
   };
   const copyHandler = (func) => {
@@ -230,24 +247,6 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
     }, 250); // You can adjust the duration of the fade (in milliseconds) here
   }
 
-  // // Async function to copy text to clipboard
-  // function copyToClipboard(text) {
-  //   // Check if the Clipboard API is supported
-  //   if (navigator.clipboard && window.isSecureContext) {
-  //     navigator.clipboard.writeText(text);
-  //     return true;
-  //   } else {
-  //     // Fallback for browsers that do not support Clipboard API
-  //     var textArea = document.createElement("textarea");
-  //     document.body.appendChild(textArea);
-  //     textArea.value = text;
-  //     textArea.select();
-  //     var successful = document.execCommand("copy");
-  //     document.body.removeChild(textArea);
-  //     return successful;
-  //   }
-  // }
-
   // Function to display copy message tooltip
   function copyMessageTooltip(copyButtonMessage) {
     const tooltipVisibleTime = 2000; // How long to leave tooltip visible
@@ -272,7 +271,6 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
   }
 
   // Event listener for quote section click to copy
-  const quoteSection = document.querySelector(".quote");
   quoteSection.addEventListener("click", async function () {
     // Get quote body and author text
     const text = `${selectedQuoteText} - ${selectedQuoteAuthor}`;
@@ -321,7 +319,7 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
         }),
     },
   ];
-  // self calling function 
+  // self calling function
   (function setShareButtons() {
     shareBtns.innerHTML = "";
     sharingOptions.forEach((option) => {
@@ -331,4 +329,14 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
       shareBtns.appendChild(div);
     });
   })();
+
+  // theme changer section
+  color_selection.forEach((item) => {
+    item.addEventListener("click", () => {
+      var getItemNumber = item.getAttribute("data-number");
+      themeColor = color_array[getItemNumber - 1];
+      container.style.background = themeColor;
+      setCanvas();
+    });
+  });
 });

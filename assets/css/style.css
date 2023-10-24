@@ -170,7 +170,11 @@ main {
   transform: translateY(0);
 }
 .added-by-box a {
-  color: #0059ff;
+  color: #2e2f2f;
+  font-weight: 700;
+}
+.added-by-box a:hover {
+  color: #0067dd;
 }
 .share-buttons {
   margin-top: 6rem;
