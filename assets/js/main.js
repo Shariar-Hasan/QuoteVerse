@@ -284,28 +284,27 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
   let sharingOptions = [
     {
       title: "Whatsapp",
-      icon: `<i class="fa-brands fa-whatsapp fa-xl"
-            style="color: #00ff33"></i>`,
+      icon: `<i class="fa-brands fa-whatsapp fa-xl" style="color: #00ff33" title="Share to Whatsapp"></i>`,
       clickhandler: handleWhatsAppClick,
     },
     {
       title: "Facebook",
-      icon: `<i class="fa-brands fa-facebook fa-xl" style="color: #0084ff"></i>`,
+      icon: `<i class="fa-brands fa-facebook fa-xl" style="color: #0084ff" title="Share to Facebook"></i>`,
       clickhandler: handleFacebookClick,
     },
     {
       title: "Twitter",
-      icon: `<i class="fa-brands fa-x-twitter fa-xl" style="color: #5f99fc" ></i>`,
+      icon: `<i class="fa-brands fa-x-twitter fa-xl" style="color: #5f99fc"  title="Share to Twitter"></i>`,
       clickhandler: handleTwitterClick,
     },
     {
       title: "Download",
-      icon: `<i class="fas fa-thin fa-download fa-lg" id="download-icon" style="color: #ffffff"></i>`,
+      icon: `<i class="fas fa-thin fa-download fa-lg" id="download-icon" style="color: #ffffff" title="Download this Quote"></i>`,
       clickhandler: handleDownloadClick,
     },
     {
       title: "Copy",
-      icon: `<i class="fa-regular fa-copy icon" id="copy-icon"></i>`,
+      icon: `<i class="fa-regular fa-copy icon" id="copy-icon"  title="Copy this Quote"></i>`,
       clickhandler: () =>
         copyHandler((validation) => {
           const copyIcon = document.getElementById("copy-icon");
@@ -322,6 +321,7 @@ const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
         }),
     },
   ];
+  // self calling function 
   (function setShareButtons() {
     shareBtns.innerHTML = "";
     sharingOptions.forEach((option) => {
