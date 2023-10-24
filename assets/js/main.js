@@ -87,7 +87,72 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // animation section
     animateQuoteText();
+
+    // set canvas to generate image to download
+    setCanvas();
   };
+
+// function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
+const wrapText = function(ctx, text, x, y, maxWidth, lineHeight) {
+    let words = text.split(' ');
+    let line = '';
+    let testLine = ''; 
+    let lineArray = [];
+
+    for(var n = 0; n < words.length; n++) {
+        testLine += `${words[n]} `;
+        let metrics = ctx.measureText(testLine);
+        let testWidth = metrics.width;
+    
+        if (testWidth > maxWidth && n > 0) {
+            lineArray.push([line, x, y]);
+            y += lineHeight;
+            line = `${words[n]} `;
+            testLine = `${words[n]} `;
+        }
+        else {
+            line += `${words[n]} `;
+        }
+  
+        if(n === words.length - 1) {
+            lineArray.push([line, x, y]);
+        }
+    }
+  
+    return lineArray;
+}
+
+  // draw the quote as an image on the canvas
+  const setCanvas = () => {
+    var canvas = document.getElementById("quoteCanvas");
+    canvas.height = 540;
+    canvas.width = 540;
+    var x = canvas.width / 2;
+    var y = canvas.height / 2;
+    var ctx = canvas.getContext("2d");
+
+    // add background color
+    const grd = ctx.createLinearGradient(0, 0, 500, 0);
+    grd.addColorStop(0, "#e9fcc7");
+    grd.addColorStop(1, "#d1fc83");
+    // Fill background with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // add wrapped text to canvas
+    ctx.textAlign = "center";
+    ctx.font = "35pt garamond";
+    ctx.fillStyle = "black";
+    let wrappedText = wrapText(ctx, '\"' + selectedQuoteText + '\"', x, 60, x*2 - 40, 40);
+    var len = wrappedText.length;
+    var centeringY = y - (len * 40) / 2;
+    wrappedText.forEach(function(item) {
+        ctx.fillText(item[0], item[1], centeringY);
+        centeringY += 50; 
+    })
+    ctx.font = "25pt calibri";
+    ctx.fillText(selectedQuoteAuthor, wrappedText[len-1][1], centeringY);
+  }
 
   // button click handling section
   const handleTwitterClick = () => {
@@ -117,6 +182,12 @@ document.addEventListener("DOMContentLoaded", () => {
       `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F`,
       "_blank"
     );
+  };
+  const handleDownloadClick = () => {
+    var link = document.createElement('a');
+    link.download = 'quote-verse.png';
+    link.href = document.getElementById('quoteCanvas').toDataURL();
+    link.click();
   };
   const copyHandler = (func) => {
     // Get quote and author as text
@@ -226,6 +297,11 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Twitter",
       icon: `<i class="fa-brands fa-x-twitter fa-xl" style="color: #5f99fc" ></i>`,
       clickhandler: handleTwitterClick,
+    },
+    {
+      title: "Download",
+      icon: `<i class="fas fa-thin fa-download fa-lg" id="download-icon" style="color: #ffffff"></i>`,
+      clickhandler: handleDownloadClick,
     },
     {
       title: "Copy",
