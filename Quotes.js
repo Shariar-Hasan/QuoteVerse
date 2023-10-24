@@ -133,6 +133,18 @@ window.quotes = [
     addedBy: "Himangshi",
   },
   {
+    quote: "In the garden of life, family is the most beautiful flower of all.",
+    category: "Love",
+    author: "Michael J. Sullivan",
+    addedBy: "Himangshi",
+  },
+  {
+    quote: "Family is not an important thing. It's everything.",
+    category: "Love",
+    author: "Michael J. Fox",
+    addedBy: "Himangshi",
+  },
+  {
     quote: "The purpose of our lives is to be happy.",
     category: "Happiness",
     author: "Dalai Lama",
