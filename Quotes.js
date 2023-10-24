@@ -72,34 +72,35 @@ window.quotes = [
     addedBy: "abhayVershwal",
   },
   {
-    quote: "If you still look good at the end of your workout, you didn't train hard enough.",
+    quote:
+      "If you still look good at the end of your workout, you didn't train hard enough.",
     category: "Gym",
     author: "Joe Weider",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Train insane or remain the same.",
     category: "Gym",
     author: "Jillian Michaels",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "No pain, no gain.",
     category: "Gym",
     author: "Jane Fonda",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Suffer the pain of discipline or suffer the pain of regret.",
     category: "Gym",
     author: "Jim Rohn",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "The body achieves what the mind believes.",
     category: "Gym",
     author: "Arnold Schwarzenegger",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Love is all, it gives all, and it takes all.",
@@ -1891,131 +1892,145 @@ window.quotes = [
     quote: "Go the extra mile. It's never crowded.",
     category: "Life",
     author: "Dr. Wayne Dyer",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    quote:
+      "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     category: "Life",
     author: "Winston Churchill",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
     quote: "It is better to fail in originality than to succeed in imitation.",
     category: "Life",
     author: "Herman Melville",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    quote:
+      "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
     category: "Life",
     author: "Steve Jobs",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
     quote: "If you can dream it, you can do it.",
     category: "Life",
     author: "Walt Disney",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+    quote:
+      "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
     category: "Life",
     author: "Ralph Waldo Emerson",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    quote:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     category: "Life",
     author: "Nelson Mandela",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
     quote: "The only way to limit the future is to do nothing in the present.",
     category: "Life",
     author: "Charles F. Kettering",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "The difference between ordinary and extraordinary is that little extra.",
+    quote:
+      "The difference between ordinary and extraordinary is that little extra.",
     category: "Life",
     author: "Jimmy Johnson",
-    addedBy: "Kapileswar-Moharana"
+    addedBy: "Kapileswar-Moharana",
   },
   {
-    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    quote:
+      "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
     category: "Motivation",
     author: "Mark Zuckerberg",
-    addedBy: "Vishnudas2003"
+    addedBy: "Vishnudas2003",
   },
   {
-    quote: "Technology is not just a tool.it can give learners a voice that they may not have had before",
+    quote:
+      "Technology is not just a tool.it can give learners a voice that they may not have had before",
     category: "Technology",
     author: "Richard Stallman",
-    addedBy: "amaan-p"
-  },{
+    addedBy: "amaan-p",
+  },
+  {
     quote: "Technology is best when it brings people together.",
     category: "Technology",
     author: "Matt Mullenweg",
-    addedBy: "amaan-p"
+    addedBy: "amaan-p",
   },
   {
     quote: "Technology is a useful servent but a dangerous master",
     category: "Technology",
     author: "Karl Marx",
-  addedBy: "amaan-p"
+    addedBy: "amaan-p",
   },
   {
     quote: "Technology alone is not enough",
     category: "Technology",
     author: "Steve Jobs",
-    addedBy: "amaan-p"
-  },{
-    quote: "The most important thing about technology is how it changes people ",
+    addedBy: "amaan-p",
+  },
+  {
+    quote:
+      "The most important thing about technology is how it changes people ",
     category: "Technology",
     author: "Jaron Lanier",
-    addedBy: "amaan-p"
+    addedBy: "amaan-p",
   },
   {
-    quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    quote:
+      "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     category: "Learning",
     author: "Mahatma Gandhi",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
-    quote: "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+    quote:
+      "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
     category: "Learning",
     author: "Abigail Adams",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
-    quote: "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
+    quote:
+      "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
     category: "Learning",
     author: "Brian Herbert",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
     quote: "In learning you will teach, and in teaching you will learn",
     category: "Learning",
     author: "Phil Collins",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
     quote: "Learning never exhausts the mind",
     category: "Learning",
     author: "Leonardo da Vinci",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
     quote: "An investment in knowledge pays the best interest.",
     category: "Learning",
     author: "Benjamin Franklin",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
-    quote: "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    quote:
+      "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
     category: "Learning",
     author: "Stephen Hawking",
-    addedBy: "Gorakshnath Bhongal"
+    addedBy: "Gorakshnath Bhongal",
   },
   {
     quote: "Art is chaos taking shape.",
@@ -2074,141 +2089,185 @@ window.quotes = [
     addedBy: "kaur-rajdeep",
   },
   {
-    quote: "In art there is only one thing that counts; the thing you can't explain.",
+    quote:
+      "In art there is only one thing that counts; the thing you can't explain.",
     category: "Art",
     author: "Georges Braque",
     addedBy: "kaur-rajdeep",
   },
   {
-    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    quote:
+      "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
     category: "Political",
     author: "Edmund Burke",
-    addedBy: "debsouryadatta"
+    addedBy: "debsouryadatta",
   },
   {
-    quote: "The world is a book and those who do not travel read only one page.",
+    quote:
+      "The world is a book and those who do not travel read only one page.",
     category: "Travel",
     author: "Saint Augustine",
-    addedBy: "debsouryadatta"
+    addedBy: "debsouryadatta",
   },
   {
     quote: "The only true wisdom is in knowing you know nothing.",
     category: "Philosophy",
     author: "Socrates	Philosophy",
-    addedBy: "debsouryadatta"
+    addedBy: "debsouryadatta",
   },
   {
-    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    quote:
+      "The secret of happiness is not in doing what one likes, but in liking what one does.",
     category: "Happiness",
     author: "	James M. Barrie",
-    addedBy: "debsouryadatta"
+    addedBy: "debsouryadatta",
   },
   {
-    quote: "The future belongs to those who believe in the beauty of their dreams.",
+    quote:
+      "The future belongs to those who believe in the beauty of their dreams.",
     category: "Hope",
     author: "Eleanor Roosevelt",
-    addedBy: "debsouryadatta"
+    addedBy: "debsouryadatta",
   },
   {
-    quote: "Demand a lot from yourself and expect little from others. This will save you a lot of trouble.",
+    quote:
+      "Demand a lot from yourself and expect little from others. This will save you a lot of trouble.",
     category: "Motivation",
     author: "Confucius",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
     quote: "Life is a mystery to be experienced, not a problem to be solved.",
     category: "Philosophy",
     author: "Mahatma Gandhi",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
-    quote: "We spend half our lives waiting for those we love and the other half leaving those we love.",
+    quote:
+      "We spend half our lives waiting for those we love and the other half leaving those we love.",
     category: "Love",
     author: "Victor Hugo",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
     quote: "Work keeps three great evils away from us: boredom, vice and need.",
     category: "Motivation",
     author: "Voltaire",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
-    quote: "To criticize people you have to know them, and to know them you have to love them.",
+    quote:
+      "To criticize people you have to know them, and to know them you have to love them.",
     category: "Love",
     author: "Coluche",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
     quote: "The feeling of not being loved is the greatest poverty.",
     category: "Love",
     author: "Mother Teresa",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
-    quote: "We must have no regrets for the past, no remorse for the present, and unshakeable confidence for the future.",
+    quote:
+      "We must have no regrets for the past, no remorse for the present, and unshakeable confidence for the future.",
     category: "Inspiration",
     author: "Jean Jaurès",
-    addedBy: "Irjean"
+    addedBy: "Irjean",
   },
   {
-    quote: "I don't love studying. I hate studying. I like learning. Learning is beautiful.",
+    quote:
+      "I don't love studying. I hate studying. I like learning. Learning is beautiful.",
     category: "Learning",
     author: "Natalie Portman",
-    addedBy: "sohamhaldar"
+    addedBy: "sohamhaldar",
   },
   {
     quote: "The mind is not a vessel to be filled, but a fire to be kindled.",
     category: "Learning",
     author: "Plutarch",
-    addedBy: "sohamhaldar"
+    addedBy: "sohamhaldar",
   },
   {
     quote: "Education is the kindling of a flame, not the filling of a vessel.",
     category: "Education",
     author: "Socrates",
-    addedBy: "sohamhaldar"
+    addedBy: "sohamhaldar",
   },
   {
-    quote: "Education is not the filling of a pail, but the lighting of a fire.",
+    quote:
+      "Education is not the filling of a pail, but the lighting of a fire.",
     category: "Education",
     author: "William Butler Yeats",
-    addedBy: "sohamhaldar"
+    addedBy: "sohamhaldar",
   },
   {
-    quote: "Learning is not attained by chance; it must be sought for with ardor and attended to with diligence.",
+    quote:
+      "Learning is not attained by chance; it must be sought for with ardor and attended to with diligence.",
     category: "Learning",
     author: "Abigail Adams",
-    addedBy: "sohamhaldar"
+    addedBy: "sohamhaldar",
   },
   {
     quote: "If you want to be Strong Learn to live Alone",
     category: "Life",
     author: "Rowan Atkinson",
-    addedBy: "pratap360"
+    addedBy: "pratap360",
   },
   {
     quote: "People rarely succeed unless they have fun in what they are doing.",
     category: "Motivation",
     author: "Dale Carnegie",
-    addedBy: "pratap360"
+    addedBy: "pratap360",
   },
   {
     quote: "It is harder to read code than to write it",
     category: "programming",
     author: "Joel Spolsky",
-    addedBy: "pratap360"
+    addedBy: "pratap360",
   },
   {
     quote: "To See What Is Right And Not Do It Is A Lack Of Courage",
     category: "Motivation",
     author: "Confucius",
-    addedBy: "pratap360"
+    addedBy: "pratap360",
   },
   {
     quote: "Reading Is To The Mind, As Exercise Is To The Body.",
     category: "Learning",
     author: "Brian Tracy",
-    addedBy: "pratap360"
-  } 
+    addedBy: "pratap360",
+  },
+  {
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    category: "Inspiration",
+    author: "Winston Churchill",
+    addedBy: "amanbind898",
+  },
+  {
+    quote: "The way to get started is to quit talking and begin doing.",
+    category: "Motivation",
+    author: "Walt Disney",
+    addedBy: "amanbind898",
+  },
+  {
+    quote: "Life is what happens when you're busy making other plans.",
+    category: "Life",
+    author: "John Lennon",
+    addedBy: "amanbind898",
+  },
+  {
+    quote:
+      "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    category: "Friendship",
+    author: "Martin Luther King Jr.",
+    addedBy: "amanbind898",
+  },
+  {
+    quote: "The best way to predict the future is to invent it.",
+    category: "Innovation",
+    author: "Alan Kay",
+    addedBy: "amanbind898",
+  },
 ];
