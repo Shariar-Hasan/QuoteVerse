@@ -1,5 +1,53 @@
 window.quotes = [
   {
+    quote: "To teach is to learn twice.",
+    category: "Educational",
+    author: "Joseph Joubert",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "The true purpose of education is to make minds, not careers.",
+    category: "Educational",
+    author: "William Deresiewicz",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "Teaching is the greatest act of optimism.",
+    category: "Educational",
+    author: "Colleen Wilcox",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "The art of teaching is the art of assisting discovery.",
+    category: "Educational",
+    author: "Mark Van Doren",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "Education is a journey, not a destination.",
+    category: "Educational",
+    author: "Joe Greene",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "Teach with all your heart, learn from every student.",
+    category: "Educational",
+    author: "Danielle Chua",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "In learning, you will teach, and in teaching, you will learn.",
+    category: "Educational",
+    author: "Phil Collins",
+    addedBy: "Hardik2972",
+  },
+  {
+    quote: "Learning is a treasure that will follow its owner everywhere.",
+    category: "Educational",
+    author: "Chinese Proverb",
+    addedBy: "Hardik2972",
+  },
+  {
     quote: "Education is the key that unlocks the golden door to freedom.",
     category: "Educational",
     author: "George Washington Carver",
