@@ -2151,4 +2151,34 @@ window.quotes = [
     author: "Jean Jaurès",
     addedBy: "Irjean"
   },
+  {
+    quote: "I don't love studying. I hate studying. I like learning. Learning is beautiful.",
+    category: "Learning",
+    author: "Natalie Portman",
+    addedBy: "sohamhaldar"
+  },
+  {
+    quote: "The mind is not a vessel to be filled, but a fire to be kindled.",
+    category: "Learning",
+    author: "Plutarch",
+    addedBy: "sohamhaldar"
+  },
+  {
+    quote: "Education is the kindling of a flame, not the filling of a vessel.",
+    category: "Education",
+    author: "Socrates",
+    addedBy: "sohamhaldar"
+  },
+  {
+    quote: "Education is not the filling of a pail, but the lighting of a fire.",
+    category: "Education",
+    author: "William Butler Yeats",
+    addedBy: "sohamhaldar"
+  },
+  {
+    quote: "Learning is not attained by chance; it must be sought for with ardor and attended to with diligence.",
+    category: "Learning",
+    author: "Abigail Adams",
+    addedBy: "sohamhaldar"
+  },
 ];
