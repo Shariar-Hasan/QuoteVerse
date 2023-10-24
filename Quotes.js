@@ -2035,4 +2035,46 @@ window.quotes = [
     author: "Eleanor Roosevelt",
     addedBy: "debsouryadatta"
   },
+  {
+    quote: "Demand a lot from yourself and expect little from others. This will save you a lot of trouble.",
+    category: "Motivation",
+    author: "Confucius",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "Life is a mystery to be experienced, not a problem to be solved.",
+    category: "Philosophy",
+    author: "Mahatma Gandhi",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "We spend half our lives waiting for those we love and the other half leaving those we love.",
+    category: "Love",
+    author: "Victor Hugo",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "Work keeps three great evils away from us: boredom, vice and need.",
+    category: "Motivation",
+    author: "Voltaire",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "To criticize people you have to know them, and to know them you have to love them.",
+    category: "Love",
+    author: "Coluche",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "The feeling of not being loved is the greatest poverty.",
+    category: "Love",
+    author: "Mother Teresa",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "We must have no regrets for the past, no remorse for the present, and unshakeable confidence for the future.",
+    category: "Inspiration",
+    author: "Jean Jaurès",
+    addedBy: "Irjean"
+  },
 ];
