@@ -72,6 +72,36 @@ window.quotes = [
     addedBy: "abhayVershwal",
   },
   {
+    quote: "If you still look good at the end of your workout, you didn't train hard enough.",
+    category: "Gym",
+    author: "Joe Weider",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "Train insane or remain the same.",
+    category: "Gym",
+    author: "Jillian Michaels",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "No pain, no gain.",
+    category: "Gym",
+    author: "Jane Fonda",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "Suffer the pain of discipline or suffer the pain of regret.",
+    category: "Gym",
+    author: "Jim Rohn",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "The body achieves what the mind believes.",
+    category: "Gym",
+    author: "Arnold Schwarzenegger",
+    addedBy: "abhayVershwal"
+  },
+  {
     quote: "Love is all, it gives all, and it takes all.",
     category: "Love",
     author: "Soren Kirkegaard",
@@ -1856,5 +1886,241 @@ window.quotes = [
     category: "Motivation",
     author: "Sumit Sharma",
     addedBy: "MurtazaShikari",
+  },
+  {
+    quote: "Go the extra mile. It's never crowded.",
+    category: "Life",
+    author: "Dr. Wayne Dyer",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    category: "Life",
+    author: "Winston Churchill",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "It is better to fail in originality than to succeed in imitation.",
+    category: "Life",
+    author: "Herman Melville",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    category: "Life",
+    author: "Steve Jobs",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "If you can dream it, you can do it.",
+    category: "Life",
+    author: "Walt Disney",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+    category: "Life",
+    author: "Ralph Waldo Emerson",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    category: "Life",
+    author: "Nelson Mandela",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The only way to limit the future is to do nothing in the present.",
+    category: "Life",
+    author: "Charles F. Kettering",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The difference between ordinary and extraordinary is that little extra.",
+    category: "Life",
+    author: "Jimmy Johnson",
+    addedBy: "Kapileswar-Moharana"
+  },
+  {
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    category: "Motivation",
+    author: "Mark Zuckerberg",
+    addedBy: "Vishnudas2003"
+  },
+  {
+    quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    category: "Learning",
+    author: "Mahatma Gandhi",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+    category: "Learning",
+    author: "Abigail Adams",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice",
+    category: "Learning",
+    author: "Brian Herbert",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "In learning you will teach, and in teaching you will learn",
+    category: "Learning",
+    author: "Phil Collins",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "Learning never exhausts the mind",
+    category: "Learning",
+    author: "Leonardo da Vinci",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "An investment in knowledge pays the best interest.",
+    category: "Learning",
+    author: "Benjamin Franklin",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    category: "Learning",
+    author: "Stephen Hawking",
+    addedBy: "Gorakshnath Bhongal"
+  },
+  {
+    quote: "Art is chaos taking shape.",
+    category: "Art",
+    author: "Pablo Picasso",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "Art is form of love. Art is the ultimate gift. Art heals Life",
+    category: "Art",
+    author: "Robert Genn",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "Creativity is Contagious. Pass it on.",
+    category: "Art",
+    author: "Albert Einstein",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "The Earth without art is just Eh.",
+    category: "Art",
+    author: "Demetri Martin",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote:
+      "Art enables us to find ourselves and lose ourselves at the same time",
+    category: "Art",
+    author: "Thomas Merton",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "When it comes to art, it's important not to hide madness",
+    category: "Art",
+    author: "Atticus",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote:
+      "Art and Love are the same thing: It's the process if seeing yourself in things that are not you",
+    category: "Art",
+    author: "Chuck Klosterman",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "When I look at Art I see life",
+    category: "Art",
+    author: "Sharon Cory",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "Artist give people something they didn't know they were missing.",
+    category: "Art",
+    author: "Daniel Pink",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "In art there is only one thing that counts; the thing you can't explain.",
+    category: "Art",
+    author: "Georges Braque",
+    addedBy: "kaur-rajdeep",
+  },
+  {
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    category: "Political",
+    author: "Edmund Burke",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The world is a book and those who do not travel read only one page.",
+    category: "Travel",
+    author: "Saint Augustine",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The only true wisdom is in knowing you know nothing.",
+    category: "Philosophy",
+    author: "Socrates	Philosophy",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "	James M. Barrie",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "The future belongs to those who believe in the beauty of their dreams.",
+    category: "Hope",
+    author: "Eleanor Roosevelt",
+    addedBy: "debsouryadatta"
+  },
+  {
+    quote: "Demand a lot from yourself and expect little from others. This will save you a lot of trouble.",
+    category: "Motivation",
+    author: "Confucius",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "Life is a mystery to be experienced, not a problem to be solved.",
+    category: "Philosophy",
+    author: "Mahatma Gandhi",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "We spend half our lives waiting for those we love and the other half leaving those we love.",
+    category: "Love",
+    author: "Victor Hugo",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "Work keeps three great evils away from us: boredom, vice and need.",
+    category: "Motivation",
+    author: "Voltaire",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "To criticize people you have to know them, and to know them you have to love them.",
+    category: "Love",
+    author: "Coluche",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "The feeling of not being loved is the greatest poverty.",
+    category: "Love",
+    author: "Mother Teresa",
+    addedBy: "Irjean"
+  },
+  {
+    quote: "We must have no regrets for the past, no remorse for the present, and unshakeable confidence for the future.",
+    category: "Inspiration",
+    author: "Jean Jaurès",
+    addedBy: "Irjean"
   },
 ];
