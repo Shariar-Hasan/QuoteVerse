@@ -2348,4 +2348,10 @@ window.quotes = [
     author: "Alan Kay",
     addedBy: "amanbind898",
   },
+  {
+    quote: "At rest, however, in the middle of everything is the sun.",
+    category: "Science",
+    author: "Nicolaus Copernicus",
+    addedBy: "zomsik"
+  },
 ];
