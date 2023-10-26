@@ -2354,4 +2354,46 @@ window.quotes = [
     author: "Nicolaus Copernicus",
     addedBy: "zomsik"
   },
+  {
+    quote: "The only thing we have to fear is fear itself.",
+    category: "Motivational",
+    author: "Franklin D. Roosevelt",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "Life is either a daring adventure or nothing at all.",
+    category: "Historical",
+    author: " Helen Keller",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "Life is really simple, but we insist on making it complicated.",
+    category: "philosophical",
+    author: "Confucius",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "Our lives begin to end the day we become silent about things that matter.",
+    category: "Historical",
+    author: "Martin Luther King Jr",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "Do not wait for leaders; do it alone, person to person.",
+    category: "Motivational",
+    author: "Mother Teresa",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "It's not what happens to you, but how you react to it that matters.",
+    category: "Motivational",
+    author: "Epictetus",
+    addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "The greatest wealth is to live content with little.",
+    category: "Motivational",
+    author: "Mother Plato",
+    addedBy: "Hartz.Frequency"
+  },
 ];
