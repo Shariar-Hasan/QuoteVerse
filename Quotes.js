@@ -44,6 +44,48 @@ window.quotes = [
     addedBy: "abhayVershwal"
   },
   {
+    quote:"You can't cross the sea merely by standing and staring at the water.",
+    category: "Life",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"Keep your face always toward the sunshine, and shadows will fall behind you.",
+    category: "Life",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"Defeat and failure are sometimes necessary steps of victory.",
+    category: "Motivational",
+    author: "Lala Lajpat Rai",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"Don't limit your challenges. Challenge your limits.",
+    category: "Motivational",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"Love is an endless mystery because there is no reasonable cause that could explain it.",
+    category: "Love",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"You can't cross the sea merely by standing and staring at the water.",
+    category: "Life",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
+    quote:"You can't cross the sea merely by standing and staring at the water.",
+    category: "Life",
+    author: "Rabindranath Tagore",
+    addedBy: "abhayvershwal"
+  },
+  {
     quote: "In a gentle way, you can shake the world.",
     category: "Motivation",
     author: "Mahatma Gandhi",
@@ -65,6 +107,36 @@ window.quotes = [
     quote: "In the middle of every difficulty lies opportunity.",
     category: "Motivation",
     author: "Albert Einstein",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "If you still look good at the end of your workout, you didn't train hard enough.",
+    category: "Gym",
+    author: "Joe Weider",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "Train insane or remain the same.",
+    category: "Gym",
+    author: "Jillian Michaels",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "No pain, no gain.",
+    category: "Gym",
+    author: "Jane Fonda",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "Suffer the pain of discipline or suffer the pain of regret.",
+    category: "Gym",
+    author: "Jim Rohn",
+    addedBy: "abhayVershwal"
+  },
+  {
+    quote: "The body achieves what the mind believes.",
+    category: "Gym",
+    author: "Arnold Schwarzenegger",
     addedBy: "abhayVershwal"
   },
   {
