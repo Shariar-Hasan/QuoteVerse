@@ -1372,8 +1372,7 @@ window.quotes = [
     addedBy: "Rekha Giri",
   },
   {
-    quote:
-      "Programming is the art of algorithm design and the craft of debugging errant code.",
+    quote: "Programming is the art of algorithm design and the craft of debugging errant code.",
     category: "Programming",
     author: "Ellen Ullman",
     addedBy: "SyedSumaimaly",
@@ -2467,5 +2466,35 @@ window.quotes = [
     category: "Motivational",
     author: "Mother Plato",
     addedBy: "Hartz.Frequency"
+  },
+  {
+    quote: "The purpose of our lives is to be happy.",
+    category: "Life",
+    author: "Dalai Lama",
+    addedBy: "SyedSumaimaly",
+  },
+  {
+    quote: "Not how long, but how well you have lived is the main thing.",
+    category: "Life",
+    author: "Seneca",
+    addedBy: "SyedSumaimaly",
+  },
+  {
+    quote: "In order to write about life first you must live it.",
+    category: "Life",
+    author: "Ernest Hemingway",
+    addedBy: "SyedSumaimaly",
+  },
+  {
+    quote: "The unexamined life is not worth living.",
+    category: "Life",
+    author: "Socrates",
+    addedBy: "SyedSumaimaly",
+  },
+  {
+    quote: "Don’t settle for what life gives you; make life better and build something.",
+    category: "Life",
+    author: "Ashton Kutcher",
+    addedBy: "SyedSumaimaly",
   },
 ];
