@@ -1,5 +1,42 @@
 window.quotes = [
   {
+    quote: "Not all of us can do great things.But we can do small things with great love",
+    category: "Inspiration",
+    author: "Mother Teresa",
+    addedBy: "AasthaKhandelwal"
+  },
+  {
+    quote: "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine",
+    category: "Science",
+    author: "Nikola Tesla",
+    addedBy: "AasthaKhandelwal"
+  },
+  {
+    quote: "A leader is one who knows the way, goes the way and shows the way.",
+    category: "Motivation",
+    author: "John C.Maxwell",
+    addedBy: "AasthaKhandelwal"
+  },
+  {
+    quote: "There are three essentials to leadership: humility, clarity and courage",
+    category: "Motivation",
+    author: "Chan Master Fuchan Yuan",
+    addedBy: "AasthaKhandelwal"
+  },
+  {
+    quote: "Do not follow where the path may lead. Go instead where there is no path and leave a trail",
+    category: "Motivation",
+    author: "Ralph Waldo Emerson",
+    addedBy: "AasthaKhandelwal"
+  },
+  {
+    quote: "Great leaders are not defined by the absence of weakness, but rather by the presence of clear strengths.",
+    category: "Motivation",
+    author: "John Peter Zenger",
+    addedBy: "AasthaKhandelwal"
+  },
+
+  {
     quote: "To teach is to learn twice.",
     category: "Educational",
     author: "Joseph Joubert",
@@ -2216,4 +2253,6 @@ window.quotes = [
     author: "Solomon Ibn Gabriol",
     addedBy: "AyusGup"
   },
+  
+
 ];
