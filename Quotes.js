@@ -95,43 +95,43 @@ window.quotes = [
     addedBy: "abhayVershwal",
   },
   {
-    quote:"You can't cross the sea merely by standing and staring at the water.",
+    quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"Keep your face always toward the sunshine, and shadows will fall behind you.",
+    quote: "Keep your face always toward the sunshine, and shadows will fall behind you.",
     category: "Life",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"Defeat and failure are sometimes necessary steps of victory.",
+    quote: "Defeat and failure are sometimes necessary steps of victory.",
     category: "Motivational",
     author: "Lala Lajpat Rai",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"Don't limit your challenges. Challenge your limits.",
+    quote: "Don't limit your challenges. Challenge your limits.",
     category: "Motivational",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"Love is an endless mystery because there is no reasonable cause that could explain it.",
+    quote: "Love is an endless mystery because there is no reasonable cause that could explain it.",
     category: "Love",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"You can't cross the sea merely by standing and staring at the water.",
+    quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
   },
   {
-    quote:"You can't cross the sea merely by standing and staring at the water.",
+    quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
     addedBy: "abhayvershwal"
@@ -2049,5 +2049,83 @@ window.quotes = [
     category: "Life",
     author: "Ashton Kutcher",
     addedBy: "SyedSumaimaly",
+  },
+  {
+    quote: "Existence precedes essence.",
+    category: "Philosophy",
+    author: "Jean-Paul Sartre",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Philosophy",
+    author: "William Saroyan",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "Whereof one cannot speak, thereof one must be silent.",
+    category: "Philosophy",
+    author: "Ludwig Wittgenstein",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "Man is condemned to be free.",
+    category: "Philosophy",
+    author: "Jean-Paul Sartre",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "He who is not a good servant will not be a good master.",
+    category: "Philosophy",
+    author: "Plato",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "The only thing I know is that I know nothing.",
+    category: "Philosophy",
+    author: "Socrates",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "You are what you do, not what you say you'll do.",
+    category: "Philosophy",
+    author: "Carl Jung",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "I think, therefore I am.",
+    category: "Philosophy",
+    author: "René Descartes",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "In everything, there is a share of everything.",
+    category: "Philosophy",
+    author: "Anaxagoras",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "To be is to be perceived.",
+    category: "Philosophy",
+    author: "George Berkeley",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "Freedom is the will to be responsible to ourselves.",
+    category: "Philosophy",
+    author: " Friedrich Nietzsche",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "The limits of my language mean the limits of my world.",
+    category: "Philosophy",
+    author: " Ludwig Wittgenstein",
+    addedBy: "Gorakshnath Bhongal",
+  },
+  {
+    quote: "The mind is furnished with ideas by experience alone.",
+    category: "Philosophy",
+    author: " John Locke",
+    addedBy: "Gorakshnath Bhongal",
   },
 ];
