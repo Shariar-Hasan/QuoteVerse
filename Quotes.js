@@ -359,6 +359,36 @@ window.quotes = [
   },
 
   {
+    quote: "We do not remember days, we remember moments.",
+    category: "Life",
+    author: "Cesare Pavese",
+    addedBy: "Yasar Labib",
+  },
+  {
+    quote: "A dead end is just a good place to turn around.",
+    category: "Life",
+    author: "Naomi Judd",
+    addedBy: "Yasar Labib",
+  },
+  {
+    quote: "The way I see it, if you want the rainbow, you gotta put up with the rain!",
+    category: "Life",
+    author: "Dolly Parton",
+    addedBy: "Yasar Labib",
+  },
+  {
+    quote: "Success is falling nine times and getting up ten.",
+    category: "Life",
+    author: "Jon Bon Jovi",
+    addedBy: "Yasar Labib",
+  },
+  {
+    quote: "Failure is the condiment that gives success its flavor.",
+    category: "Life",
+    author: "Truman Capote",
+    addedBy: "Yasar Labib",
+  },
+  {
     quote: "No one can make you feel inferior without your consent.",
     category: "Life",
     author: "Eleanor Roosevelt",
