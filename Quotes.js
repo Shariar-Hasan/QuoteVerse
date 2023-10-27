@@ -2128,4 +2128,35 @@ window.quotes = [
     author: " John Locke",
     addedBy: "Gorakshnath Bhongal",
   },
+  {
+    quote: "The secret of getting ahead is getting started",
+    category: "Motivational",
+    author: " Mark Twain",
+    addedBy: "AyusGup"
+  },
+  {
+    quote: "The only way to achieve the impossible is to believe it is possible.",
+    category: "Motivational",
+    author: "Charles Kingsleigh, Alice ",
+    addedBy: "AyusGup"
+  },
+  {
+    quote: "Success is walking from failure to failure with no loss of enthusiasm.",
+    category: "Motivational",
+    author: "Winston Churchill",
+    addedBy: "AyusGup"
+  },
+  {
+    quote: "I am not what happened to me, I am what I choose to become.",
+    category: "Philosophy",
+    author: "Carl Jung",
+    addedBy: "AyusGup"
+  },
+  {
+    quote: "The first step to wisdom is silence. The second is listening.",
+    category: "Philosophy",
+    author: "Solomon Ibn Gabriol",
+    addedBy: "AyusGup"
+  },
+ 
 ];
