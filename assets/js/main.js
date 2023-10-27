@@ -8,12 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const quoteAuthorTag = document.getElementById("quoteAuthorTag");
   const shareBtns = document.getElementById("shareBtns");
   const copyToClipboardButton = document.querySelector(".copy-to-clipboard");
+  const container = document.querySelector(".container");
+  const quoteSection = document.querySelector(".quote");
+  const color_selection = document.querySelectorAll(".select_color");
 
   // overall global variable to use in all function
+
+  var color_array = [
+    "rgba(237, 237, 237, 1)",
+    "rgb(57 150 255 / 90%)",
+    "rgb(154 72 89/ 70%)",
+    "rgb(36 183 158 / 90%)",
+    "rgb(255 255 145 / 70%)",
+  ];
   let selectedQuoteText = "";
   let selectedQuoteAuthor = "";
   let selectedQuoteAddedBy = "";
+  let selectedCategory = "";
   let webAddress = "https://quote-verse.netlify.app/";
+  let themeColor = color_array[0];
 
   // setting categories options
   const setCategories = () => {
@@ -21,25 +34,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //   getting all the categories
     const categories = [...new Set(quotes.map((quote) => quote.category))];
-    // adding random as first element
-    categories.unshift("random");
+
 
     // sort categories alphabetically
     categories.sort();
+    categories.unshift("Random");
 
-    // move "random" to the beginning
-    const randomIndex = categories.indexOf("random");
-    if (randomIndex !== -1) {
-       categories.splice(randomIndex, 1);
-       categories.unshift("random");
-    }
-    
     //setting options
     categories.forEach((category) => {
       const option = new Option(
-        category ,
         category,
-        isIncluded(category, "random")
+        category,
+        isIncluded(category, "Random")
       );
       selectedCategoryTag.appendChild(option);
     });
@@ -52,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // set up the selected quote
   const setQuote = () => {
-    const selectedCategory = selectedCategoryTag.value;
+    selectedCategory = selectedCategoryTag.value;
 
     // categorically selected quotes
     const quotes = window.quotes
@@ -60,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .filter(
         (quote) =>
           isIncluded(quote.category, selectedCategory) ||
-          isIncluded(selectedCategory, "random")
+          isIncluded(selectedCategory, "Random")
       );
 
     // make a random selection from quotes\
@@ -87,6 +93,78 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // animation section
     animateQuoteText();
+
+    // set canvas to generate image to download
+    setCanvas();
+  };
+
+  // function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
+  const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
+    let words = text.split(" ");
+    let line = "";
+    let testLine = "";
+    let lineArray = [];
+
+    for (var n = 0; n < words.length; n++) {
+      testLine += `${words[n]} `;
+      let metrics = ctx.measureText(testLine);
+      let testWidth = metrics.width;
+
+      if (testWidth > maxWidth && n > 0) {
+        lineArray.push([line, x, y]);
+        y += lineHeight;
+        line = `${words[n]} `;
+        testLine = `${words[n]} `;
+      } else {
+        line += `${words[n]} `;
+      }
+
+      if (n === words.length - 1) {
+        lineArray.push([line, x, y]);
+      }
+    }
+
+    return lineArray;
+  };
+
+  // draw the quote as an image on the canvas
+  const setCanvas = () => {
+    var canvas = document.getElementById("quoteCanvas");
+    canvas.height = window.innerHeight - 50 || 540;
+    canvas.width = window.innerWidth - 50 || 540;
+
+    var x = canvas.width / 2;
+    var y = canvas.height / 2;
+    var ctx = canvas.getContext("2d");
+
+    // add background color
+    const grd = ctx.createLinearGradient(0, 0, 500, 0);
+    grd.addColorStop(0, themeColor);
+    grd.addColorStop(1, themeColor);
+    // Fill background with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // add wrapped text to canvas
+    ctx.textAlign = "center";
+    ctx.font = "35pt garamond";
+    ctx.fillStyle = "black";
+    let wrappedText = wrapText(
+      ctx,
+      '"' + selectedQuoteText + '"',
+      x,
+      60,
+      x * 2 - 40,
+      40
+    );
+    var len = wrappedText.length;
+    var centeringY = y - (len * 40) / 2;
+    wrappedText.forEach(function (item) {
+      ctx.fillText(item[0], item[1], centeringY);
+      centeringY += 50;
+    });
+    ctx.font = "15pt calibri";
+    ctx.fillText(selectedQuoteAuthor, wrappedText[len - 1][1], centeringY);
   };
 
   // button click handling section
@@ -117,6 +195,16 @@ document.addEventListener("DOMContentLoaded", () => {
       `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fquote-verse.netlify.app%2F`,
       "_blank"
     );
+  };
+  const handleDownloadClick = () => {
+    var link = document.createElement("a");
+    link.download =
+      selectedCategory +
+      " Quote by " +
+      selectedQuoteAuthor +
+      "-(quote-verse.netlify.app).png";
+    link.href = document.getElementById("quoteCanvas").toDataURL();
+    link.click();
   };
   const copyHandler = (func) => {
     // Get quote and author as text
@@ -159,24 +247,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 250); // You can adjust the duration of the fade (in milliseconds) here
   }
 
-  // // Async function to copy text to clipboard
-  // function copyToClipboard(text) {
-  //   // Check if the Clipboard API is supported
-  //   if (navigator.clipboard && window.isSecureContext) {
-  //     navigator.clipboard.writeText(text);
-  //     return true;
-  //   } else {
-  //     // Fallback for browsers that do not support Clipboard API
-  //     var textArea = document.createElement("textarea");
-  //     document.body.appendChild(textArea);
-  //     textArea.value = text;
-  //     textArea.select();
-  //     var successful = document.execCommand("copy");
-  //     document.body.removeChild(textArea);
-  //     return successful;
-  //   }
-  // }
-
   // Function to display copy message tooltip
   function copyMessageTooltip(copyButtonMessage) {
     const tooltipVisibleTime = 2000; // How long to leave tooltip visible
@@ -201,7 +271,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Event listener for quote section click to copy
-  const quoteSection = document.querySelector(".quote");
   quoteSection.addEventListener("click", async function () {
     // Get quote body and author text
     const text = `${selectedQuoteText} - ${selectedQuoteAuthor}`;
@@ -213,31 +282,35 @@ document.addEventListener("DOMContentLoaded", () => {
   let sharingOptions = [
     {
       title: "Whatsapp",
-      icon: `<i class="fa-brands fa-square-whatsapp fa-2xl"
-            style="color: #00ff33"></i>`,
+      icon: `<i class="fa-brands fa-whatsapp fa-xl" style="color: #00ff33" title="Share to Whatsapp"></i>`,
       clickhandler: handleWhatsAppClick,
     },
     {
       title: "Facebook",
-      icon: `<i class="fa-brands fa-facebook fa-2xl" style="color: #0084ff"></i>`,
+      icon: `<i class="fa-brands fa-facebook fa-xl" style="color: #0084ff" title="Share to Facebook"></i>`,
       clickhandler: handleFacebookClick,
     },
     {
       title: "Twitter",
-      icon: `<i class="fa-brands fa-twitter fa-2xl" style="color: #5f99fc" ></i>`,
+      icon: `<i class="fa-brands fa-x-twitter fa-xl" style="color: #5f99fc"  title="Share to Twitter"></i>`,
       clickhandler: handleTwitterClick,
     },
     {
-      title: "Twitter",
-      icon: `<i class="fa-regular fa-copy icon " id="copy-icon"></i>`,
+      title: "Download",
+      icon: `<i class="fas fa-thin fa-download fa-lg" id="download-icon" style="color: #ffffff" title="Download this Quote"></i>`,
+      clickhandler: handleDownloadClick,
+    },
+    {
+      title: "Copy",
+      icon: `<i class="fa-regular fa-copy icon" id="copy-icon"  title="Copy this Quote"></i>`,
       clickhandler: () =>
         copyHandler((validation) => {
           const copyIcon = document.getElementById("copy-icon");
           replaceIconClass(
             copyIcon,
             validation
-              ? "fa-solid fa-check check-icon"
-              : "fa-solid fa-xmark cross-icon"
+              ? "fa-solid fa-check check-icon fa-xl"
+              : "fa-solid fa-xmark cross-icon fa-xl"
           );
           // Reset to copy icon after 0.5s
           setTimeout(() => {
@@ -246,6 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }),
     },
   ];
+  // self calling function
   (function setShareButtons() {
     shareBtns.innerHTML = "";
     sharingOptions.forEach((option) => {
@@ -255,4 +329,14 @@ document.addEventListener("DOMContentLoaded", () => {
       shareBtns.appendChild(div);
     });
   })();
+
+  // theme changer section
+  color_selection.forEach((item) => {
+    item.addEventListener("click", () => {
+      var getItemNumber = item.getAttribute("data-number");
+      themeColor = color_array[getItemNumber - 1];
+      container.style.background = themeColor;
+      setCanvas();
+    });
+  });
 });
