@@ -42,6 +42,11 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 - **Contributor Information:** Each quote includes the name of the contributor who added the it.
 - **Open for Contributions:** This project is open for contributions. Feel free to add new quotes and categories to enrich the collection.
 - **Cool UI:** This project has a eye catching UI, with some interactive component. If you have better idea, you are open to contribute on UI features. See [How to Contibute](#🧩how-to-contribute) to this repository.
+- **Own Cdn:** This Project Provides Cdn for all the Quotes added.
+  ```
+  <script src="https://cdn.jsdelivr.net/gh/Shariar-Hasan/QuoteVerse/Quotes.js"></script>
+  ```
+  use this to get you apps global quotes.
 
 ### `Star` the repository, if you found it helpful/wonderfull.
 
