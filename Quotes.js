@@ -1965,7 +1965,8 @@ window.quotes = [
     "author": "Suzie Kassem",
     "addedBy": "Shivam36998"
   },{
-      "The world is a book and those who do not travel read only one page.",
+    quote:  
+    "The world is a book and those who do not travel read only one page.",
     category: "Travel",
     author: "Saint Augustine",
     addedBy: "debsouryadatta",
@@ -2253,6 +2254,39 @@ window.quotes = [
     author: "Solomon Ibn Gabriol",
     addedBy: "AyusGup"
   },
-  
+  {
+    "quote": "If you're not embarrassed by the first version of your product, you've launched too late.",
+    "category": "Motivational",
+    "author": "Reid Hoffman",
+    "addedBy": "debsouryadatta"
+    },
+    
+    {
+    "quote": "Failure is simply the opportunity to begin again, this time more intelligently.",
+    "category": "Motivational",
+    "author": "Henry Ford",
+    "addedBy": "debsouryadatta"
+    },
+    
+    {
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "category": "Motivational",
+    "author": "John D. Rockefeller",
+    "addedBy": "debsouryadatta"
+    },
+    
+    {
+    "quote": "The only person you are destined to become is the person you decide to be.",
+    "category": "Motivational",
+    "author": "Ralph Waldo Emerson",
+    "addedBy": "debsouryadatta"
+    },
+    
+    {
+    "quote": "The world is full of magic, but only for those who look for it.",
+    "category": "Motivational",
+    "author": "Albert Einstein",
+    "addedBy": "debsouryadatta"
+    },
 
 ];
