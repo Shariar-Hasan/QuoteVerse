@@ -2289,4 +2289,74 @@ window.quotes = [
     "addedBy": "debsouryadatta"
     },
 
+    {
+      quote: "The universe is transformation, life is opinion.",
+      category: "Philosophy",
+      author: "Marcus Aurelius",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "Better to trip with the feet than with the tongue.",
+      category: "Philosophy",
+      author: "Zeno",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "It's not things that upset us but our judgments about things.",
+      category: "Philosophy",
+      author: "Epictetus",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "A man who has committed a mistake and doesn't correct it is committing another mistake.",
+      category: "Philosophy",
+      author: "Confucius",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "A little fragrance always clings to the hand that gives the roses.",
+      category: "Living",
+      author: "Chinese Proverb",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "Be not afraid of going slowly, be afraid only of standing still.",
+      category: "Living",
+      author: "Chinese Proverb",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "You never know who's swimming naked until the tide goes out.",
+      category: "Entrepreneurship",
+      author: "Warren Buffett",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "Be greedy when others are fearful, and fearful when others are greedy.",
+      category: "Entrepreneurship",
+      author: "Warren Buffett",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "The measure of intelligence is the ability to change.",
+      category: "Learning",
+      author: "Albert Einstein",
+      addedBy: "therahulchaurasia",
+    },
+
+    {
+      quote: "Often, in the real world, it's not the smart that get ahead but the bold.",
+      category: "Life",
+      author: "Robert Kiyosaki",
+      addedBy: "therahulchaurasia",
+    },
+
 ];
