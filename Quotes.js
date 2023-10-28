@@ -2288,6 +2288,96 @@ window.quotes = [
     "author": "Albert Einstein",
     "addedBy": "debsouryadatta"
     },
+    {
+      quote: "The Earth does not belong to us: we belong to the Earth.",
+      category: "Environment",
+      author: "Marlee Matlin",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "We won't have a society if we destroy the environment.",
+      category: "Environment",
+      author: "Margaret Mead",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "Nature always wears the colors of the spirit.",
+      category: "Environment",
+      author: "Ralph Waldo Emerson",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another.",
+      category: "Environment",
+      author: "Mahatma Gandhi",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "In every walk with nature, one receives far more than he seeks.",
+      category: "Environment",
+      author: "John Muir",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "The Earth is what we all have in common.",
+      category: "Environment",
+      author: "Wendell Berry",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "We won't have a society if we destroy the environment.",
+      category: "Environment",
+      author: "Margaret Mead",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
+      category: "Environment",
+      author: "Lady Bird Johnson",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
+      category: "Environment",
+      author: "John Muir",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "The greatest threat to our planet is the belief that someone else will save it.",
+      category: "Environment",
+      author: "Robert Swan",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "It is our collective and individual responsibility to preserve and tend to the world in which we all live.",
+      category: "Environment",
+      author: "Dalai Lama",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "Nature is painting for us, day after day, pictures of infinite beauty.",
+      category: "Environment",
+      author: "John Ruskin",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "What we are doing to the world, we are doing to ourselves.",
+      category: "Environment",
+      author: "Vandana Shiva",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
+      category: "Environment",
+      author: "Lady Bird Johnson",
+      addedBy: "Pree46"
+    },
+    {
+      quote: "The Earth does not belong to us: we belong to the Earth.",
+      category: "Environment",
+      author: "Marlee Matlin",
+      addedBy: "Pree46"
+    }
 
     {
       quote: "The universe is transformation, life is opinion.",
