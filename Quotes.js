@@ -3,37 +3,40 @@ window.quotes = [
     quote: "Not all of us can do great things.But we can do small things with great love",
     category: "Inspiration",
     author: "Mother Teresa",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
   {
-    quote: "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine",
+    quote:
+      "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine",
     category: "Science",
     author: "Nikola Tesla",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
   {
     quote: "A leader is one who knows the way, goes the way and shows the way.",
     category: "Motivation",
     author: "John C.Maxwell",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
   {
     quote: "There are three essentials to leadership: humility, clarity and courage",
     category: "Motivation",
     author: "Chan Master Fuchan Yuan",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
   {
-    quote: "Do not follow where the path may lead. Go instead where there is no path and leave a trail",
+    quote:
+      "Do not follow where the path may lead. Go instead where there is no path and leave a trail",
     category: "Motivation",
     author: "Ralph Waldo Emerson",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
   {
-    quote: "Great leaders are not defined by the absence of weakness, but rather by the presence of clear strengths.",
+    quote:
+      "Great leaders are not defined by the absence of weakness, but rather by the presence of clear strengths.",
     category: "Motivation",
     author: "John Peter Zenger",
-    addedBy: "AasthaKhandelwal"
+    addedBy: "AasthaKhandelwal",
   },
 
   {
@@ -105,22 +108,19 @@ window.quotes = [
     addedBy: "himanshirana2403",
   },
   {
-    quote:
-      "Education is what remains after one has forgotten what one has learned in school.",
+    quote: "Education is what remains after one has forgotten what one has learned in school.",
     category: "Educational",
     author: "Albert Einstein",
     addedBy: "himanshirana2403",
   },
   {
-    quote:
-      "The aim of education is the knowledge, not of facts, but of values.",
+    quote: "The aim of education is the knowledge, not of facts, but of values.",
     category: "Educational",
     author: "William S. Burroughs",
     addedBy: "himanshirana2403",
   },
   {
-    quote:
-      "Dream is not that you see in the sleep; dreams is that does not allow you to sleep.",
+    quote: "Dream is not that you see in the sleep; dreams is that does not allow you to sleep.",
     category: "Motivation",
     author: "APJ Abdul Kalam",
     addedBy: "abhi7745",
@@ -135,43 +135,43 @@ window.quotes = [
     quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "Keep your face always toward the sunshine, and shadows will fall behind you.",
     category: "Life",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "Defeat and failure are sometimes necessary steps of victory.",
     category: "Motivational",
     author: "Lala Lajpat Rai",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "Don't limit your challenges. Challenge your limits.",
     category: "Motivational",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "Love is an endless mystery because there is no reasonable cause that could explain it.",
     category: "Love",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "You can't cross the sea merely by standing and staring at the water.",
     category: "Life",
     author: "Rabindranath Tagore",
-    addedBy: "abhayvershwal"
+    addedBy: "abhayvershwal",
   },
   {
     quote: "In a gentle way, you can shake the world.",
@@ -199,8 +199,7 @@ window.quotes = [
     addedBy: "abhayVershwal",
   },
   {
-    quote:
-      "If you still look good at the end of your workout, you didn't train hard enough.",
+    quote: "If you still look good at the end of your workout, you didn't train hard enough.",
     category: "Gym",
     author: "Joe Weider",
     addedBy: "abhayVershwal",
@@ -233,31 +232,31 @@ window.quotes = [
     quote: "If you still look good at the end of your workout, you didn't train hard enough.",
     category: "Gym",
     author: "Joe Weider",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Train insane or remain the same.",
     category: "Gym",
     author: "Jillian Michaels",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "No pain, no gain.",
     category: "Gym",
     author: "Jane Fonda",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Suffer the pain of discipline or suffer the pain of regret.",
     category: "Gym",
     author: "Jim Rohn",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "The body achieves what the mind believes.",
     category: "Gym",
     author: "Arnold Schwarzenegger",
-    addedBy: "abhayVershwal"
+    addedBy: "abhayVershwal",
   },
   {
     quote: "Love is all, it gives all, and it takes all.",
@@ -308,8 +307,7 @@ window.quotes = [
     addedBy: "abhi7745",
   },
   {
-    quote:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quote: "Happiness is not something ready made. It comes from your own actions.",
     category: "Happiness",
     author: "Dalai Lama",
     addedBy: "abhi7745",
@@ -322,8 +320,7 @@ window.quotes = [
   },
 
   {
-    quote:
-      "Education is not the filling of a pail, but the lighting of a fire.",
+    quote: "Education is not the filling of a pail, but the lighting of a fire.",
     category: "Educational",
     author: "W.B. Yeats",
     addedBy: "Kratin Aggarwal",
@@ -380,16 +377,14 @@ window.quotes = [
   },
 
   {
-    quote:
-      "It is what we think we know already that often prevents us from learning",
+    quote: "It is what we think we know already that often prevents us from learning",
     category: "Educational",
     author: "Claude Bernard",
     addedBy: "Kratin Aggarwal",
   },
 
   {
-    quote:
-      "The beautiful thing about learning is that no one can take it away from you",
+    quote: "The beautiful thing about learning is that no one can take it away from you",
     category: "Educational",
     author: "B.B. King",
     addedBy: "Kratin Aggarwal",
@@ -438,8 +433,7 @@ window.quotes = [
     addedBy: "cryptic-pr03",
   },
   {
-    quote:
-      "You must be stronger than your emotions or else you'll lose yourself.",
+    quote: "You must be stronger than your emotions or else you'll lose yourself.",
     category: "Life",
     author: "Mike Tyson",
     addedBy: "cryptic-pr03",
@@ -481,8 +475,7 @@ window.quotes = [
     addedBy: "git-create-devben",
   },
   {
-    quote:
-      "The best and most beautiful things in the world cannot be seen or even touched.",
+    quote: "The best and most beautiful things in the world cannot be seen or even touched.",
     category: "Inspirational",
     author: "Helen Keller",
     addedBy: "git-create-devben",
@@ -494,8 +487,7 @@ window.quotes = [
     addedBy: "git-create-devben",
   },
   {
-    quote:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quote: "The future belongs to those who believe in the beauty of their dreams.",
     category: "Inspirational",
     author: "Eleanor Roosevelt",
     addedBy: "git-create-devben",
@@ -514,8 +506,7 @@ window.quotes = [
     addedBy: "Shariar-Hasan",
   },
   {
-    quote:
-      "Success is not final, failure is not fatal It is the courage to continue that counts.",
+    quote: "Success is not final, failure is not fatal It is the courage to continue that counts.",
     category: "Motivation",
     author: "Winston Churchill",
     addedBy: "Shariar-Hasan",
@@ -546,8 +537,7 @@ window.quotes = [
     addedBy: "Shariar-Hasan",
   },
   {
-    quote:
-      "Description begins in the writer's imagination but should finish in the reader's.",
+    quote: "Description begins in the writer's imagination but should finish in the reader's.",
     category: "Motivation",
     author: "Stephen King",
     addedBy: "Skb08",
@@ -565,8 +555,7 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote:
-      "Education is the most powerful weapon which you can use to change the world.",
+    quote: "Education is the most powerful weapon which you can use to change the world.",
     category: "Inspirational",
     author: "Nelson Mandela",
     addedBy: "Shariar-Hasan",
@@ -578,8 +567,7 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote:
-      "You're braver than you believe, stronger than you seem, and smarter than you think.",
+    quote: "You're braver than you believe, stronger than you seem, and smarter than you think.",
     category: "Inspirational",
     author: "A.A. Milne",
     addedBy: "Skb08",
@@ -628,22 +616,19 @@ window.quotes = [
     addedBy: "Skb08",
   },
   {
-    quote:
-      "I would rather walk with a friend in the dark than walk alone in the light.",
+    quote: "I would rather walk with a friend in the dark than walk alone in the light.",
     category: "Friendship",
     author: "Helen Keller",
     addedBy: "Skb08",
   },
   {
-    quote:
-      "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     category: "Inspirational",
     author: "Winston Churchill",
     addedBy: "iqbalcodes6602",
   },
   {
-    quote:
-      "The only limit to our realization of tomorrow will be our doubts of today.",
+    quote: "The only limit to our realization of tomorrow will be our doubts of today.",
     category: "Inspirational",
     author: "Franklin D. Roosevelt",
     addedBy: "Thanush19",
@@ -668,8 +653,7 @@ window.quotes = [
     addedBy: "Thanush19",
   },
   {
-    quote:
-      "In the end, it's not the years in your life that count. It's the life in your years.",
+    quote: "In the end, it's not the years in your life that count. It's the life in your years.",
     category: "Life",
     author: "Abraham Lincoln",
     addedBy: "Thanush19",
@@ -693,22 +677,19 @@ window.quotes = [
     addedBy: "izabela-marcinkowska",
   },
   {
-    quote:
-      "It's not that I'm so smart, it's just that I stay with problems longer.",
+    quote: "It's not that I'm so smart, it's just that I stay with problems longer.",
     category: "Persistence",
     author: "Albert Einstein",
     addedBy: "izabela-marcinkowska",
   },
   {
-    quote:
-      "Perseverance is not a long race; it is many short races one after the other.",
+    quote: "Perseverance is not a long race; it is many short races one after the other.",
     category: "Persistence",
     author: "Walter Elliot",
     addedBy: "izabela-marcinkowska",
   },
   {
-    quote:
-      "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    quote: "Success is stumbling from failure to failure with no loss of enthusiasm.",
     category: "Persistence",
     author: "Winston S. Churchill",
     addedBy: "izabela-marcinkowska",
@@ -801,8 +782,7 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote:
-      "Perhaps you are overvaluing what you don't have and undervaluing what you do",
+    quote: "Perhaps you are overvaluing what you don't have and undervaluing what you do",
     category: "Life",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
@@ -814,15 +794,13 @@ window.quotes = [
     addedBy: "rohits-web03",
   },
   {
-    quote:
-      "Always be ready to adjust, recalibrate, and stay after it to become better, somehow.",
+    quote: "Always be ready to adjust, recalibrate, and stay after it to become better, somehow.",
     category: "Life",
     author: "David Goggins",
     addedBy: "rohits-web03",
   },
   {
-    quote:
-      "If you fulfill your obligations everyday you don't need to worry about the future",
+    quote: "If you fulfill your obligations everyday you don't need to worry about the future",
     category: "Inspiration",
     author: "Jordan B. Peterson",
     addedBy: "rohits-web03",
@@ -927,8 +905,7 @@ window.quotes = [
     addedBy: "Oblivious19",
   },
   {
-    quote:
-      "To live is the rarest thing in the world. Most people exist, that is all",
+    quote: "To live is the rarest thing in the world. Most people exist, that is all",
     category: "Life",
     author: "Oscar Wilde",
     addedBy: "Oblivious19",
@@ -976,8 +953,7 @@ window.quotes = [
   },
 
   {
-    quote:
-      "The desire to reach for the stars is ambitious. The desire to reach hearts is wise.",
+    quote: "The desire to reach for the stars is ambitious. The desire to reach hearts is wise.",
     category: "Inspiration",
     author: "Maya Angelou",
     addedBy: "Oblivious19",
@@ -1052,8 +1028,7 @@ window.quotes = [
     addedBy: "Shayy841",
   },
   {
-    quote:
-      "If you're offered a seat on a rocket ship, don't ask what seat! Just get on.",
+    quote: "If you're offered a seat on a rocket ship, don't ask what seat! Just get on.",
     category: "Motivation",
     author: "Sheryl Sandberg",
     addedBy: "Shayy841",
@@ -1065,8 +1040,7 @@ window.quotes = [
     addedBy: "Shayy841",
   },
   {
-    quote:
-      "An idea that is not dangerous is unworthy of being called an idea at all.",
+    quote: "An idea that is not dangerous is unworthy of being called an idea at all.",
     category: "Life",
     author: "Oscar Wilde",
     addedBy: "Shayy841",
@@ -1078,8 +1052,7 @@ window.quotes = [
     addedBy: "Jenster5",
   },
   {
-    quote:
-      "Perseverance is not a long race; it is many short races one after another.",
+    quote: "Perseverance is not a long race; it is many short races one after another.",
     category: "Persistence",
     author: "Walter Elliot",
     addedBy: "HarjjotSinghh",
@@ -1112,8 +1085,7 @@ window.quotes = [
     addedBy: "dheerajydv19",
   },
   {
-    quote:
-      "Learn as if you will live forever, live like you will die tomorrow.",
+    quote: "Learn as if you will live forever, live like you will die tomorrow.",
     category: "Motivation",
     author: "Mahatma Gandhi",
     addedBy: "dheerajydv19",
@@ -1144,15 +1116,13 @@ window.quotes = [
     addedBy: "Rekha Giri",
   },
   {
-    quote:
-      "The only thing standing between you and outrageous success is continuous progress.",
+    quote: "The only thing standing between you and outrageous success is continuous progress.",
     category: "Motivation",
     author: "Dan Waldschmidt",
     addedBy: "Rekha Giri",
   },
   {
-    quote:
-      "If you really look closely, most overnight successes took a long time.",
+    quote: "If you really look closely, most overnight successes took a long time.",
     category: "Motivation",
     author: "Steve Jobs",
     addedBy: "Rekha Giri",
@@ -1238,8 +1208,7 @@ window.quotes = [
     addedBy: "Astha167",
   },
   {
-    quote:
-      "Life is a sculpture that you cast as you make mistakes and learn from them.",
+    quote: "Life is a sculpture that you cast as you make mistakes and learn from them.",
     category: "Motivation",
     author: "RM, Bts",
     addedBy: "Astha167",
@@ -1258,8 +1227,7 @@ window.quotes = [
     addedBy: "shadmehr-salehi",
   },
   {
-    quote:
-      "Computers are good at following instructions, but not at reading your mind.",
+    quote: "Computers are good at following instructions, but not at reading your mind.",
     category: "Programming",
     author: "Donald Knuth",
     addedBy: "shadmehr-salehi",
@@ -1277,8 +1245,7 @@ window.quotes = [
     addedBy: "shadmehr-salehi",
   },
   {
-    quote:
-      "computer science is no more about computers than astronomy is about telescopes",
+    quote: "computer science is no more about computers than astronomy is about telescopes",
     category: "Programming",
     author: "Edsger Dijkstra",
     addedBy: "shadmehr-salehi",
@@ -1337,8 +1304,7 @@ window.quotes = [
   },
 
   {
-    quote:
-      "Good judgment comes from experience, and experience comes from bad judgment.",
+    quote: "Good judgment comes from experience, and experience comes from bad judgment.",
     category: "Learning",
     author: "Barry LePatner",
     addedBy: "dk172923",
@@ -1351,8 +1317,7 @@ window.quotes = [
   },
 
   {
-    quote:
-      "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
     category: "Education",
     author: "Benjamin Franklin",
     addedBy: "dk172923",
@@ -1392,22 +1357,19 @@ window.quotes = [
     addedBy: "Aditi22Bansal",
   },
   {
-    quote:
-      "The educated differ from the uneducated as much as the living differ from the dead.",
+    quote: "The educated differ from the uneducated as much as the living differ from the dead.",
     category: "Education",
     author: "Aristotle",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote:
-      "Truth can be stated in a thousand different ways, yet each one can be true.",
+    quote: "Truth can be stated in a thousand different ways, yet each one can be true.",
     category: "Motivational",
     author: "Swami Vivekananda",
     addedBy: "Aditi22Bansal",
   },
   {
-    quote:
-      "Keep your face always toward the sunshine, and shadows will fall behind you",
+    quote: "Keep your face always toward the sunshine, and shadows will fall behind you",
     category: "Motivational",
     author: " Walt Whitman",
     addedBy: "Maruf1075",
@@ -1450,8 +1412,7 @@ window.quotes = [
     addedBy: "Aaryash-Shakya",
   },
   {
-    quote:
-      "The only way to learn a new programming language is by writing programs in it.",
+    quote: "The only way to learn a new programming language is by writing programs in it.",
     category: "Programming",
     author: "Dennis Ritchie",
     addedBy: "Aaryash-Shakya",
@@ -1483,8 +1444,7 @@ window.quotes = [
     addedBy: "Molina-Daniel",
   },
   {
-    quote:
-      "Happiness is when what you think, what you say, and what you do are in harmony.",
+    quote: "Happiness is when what you think, what you say, and what you do are in harmony.",
     category: "Happiness",
     author: "Mahatma Gandhi",
     addedBy: "Molina-Daniel",
@@ -1515,8 +1475,7 @@ window.quotes = [
     addedBy: "dk172923",
   },
   {
-    quote:
-      "It is during our darkest moments that we must focus to see the light.",
+    quote: "It is during our darkest moments that we must focus to see the light.",
     category: "Hope",
     author: "Aristotle",
     addedBy: "dk172923",
@@ -1549,22 +1508,19 @@ window.quotes = [
     addedBy: "aursh24",
   },
   {
-    quote:
-      "Never give up on your dreams, no matter how painful and difficult your journey is",
+    quote: "Never give up on your dreams, no matter how painful and difficult your journey is",
     category: "Motivation",
     author: "Lisa, Blackpink",
     addedBy: "aursh24",
   },
   {
-    quote:
-      "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
+    quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action",
     category: "Inspiration",
     author: "APJ Abdul Kalam",
     addedBy: "aursh24",
   },
   {
-    quote:
-      "Any sufficiently advanced technology is indistinguishable from magic.",
+    quote: "Any sufficiently advanced technology is indistinguishable from magic.",
     category: "Technology",
     author: "Arthur C. Clarke",
     addedBy: "aggarwal-tanushree",
@@ -1600,15 +1556,13 @@ window.quotes = [
     addedBy: "ahsan-abc",
   },
   {
-    quote:
-      "The world is a book, and those who do not travel read only one page.",
+    quote: "The world is a book, and those who do not travel read only one page.",
     category: "Inspirational",
     author: "Saint Augustine",
     addedBy: "ahsan-abc",
   },
   {
-    quote:
-      "The tongue is like a lion, if you let it loose, it will wound someone.",
+    quote: "The tongue is like a lion, if you let it loose, it will wound someone.",
     category: "Life",
     author: "Ali ibn Abi Talib",
     addedBy: "aie007",
@@ -1639,22 +1593,19 @@ window.quotes = [
     addedBy: "aie007",
   },
   {
-    quote:
-      "Richness is not having many belongings, but richness is the contentment of the soul.",
+    quote: "Richness is not having many belongings, but richness is the contentment of the soul.",
     category: "Life",
     author: "Muhammad",
     addedBy: "aie007",
   },
   {
-    quote:
-      "My heart is too valuable to allow hatred and jealousy to rent a spot.",
+    quote: "My heart is too valuable to allow hatred and jealousy to rent a spot.",
     category: "Life",
     author: "Mufti Ismail Menk",
     addedBy: "aie007",
   },
   {
-    quote:
-      "The best of people are those that bring most benefit to the rest of mankind.",
+    quote: "The best of people are those that bring most benefit to the rest of mankind.",
     category: "Life",
     author: "Muhammad",
     addedBy: "Vishnudas2003",
@@ -1666,8 +1617,7 @@ window.quotes = [
     addedBy: "Vishnudas2003",
   },
   {
-    quote:
-      "If life were predictable it would cease to be life, and be without flavor.",
+    quote: "If life were predictable it would cease to be life, and be without flavor.",
     category: "Life",
     author: "Eleanor Roosevelt",
     addedBy: "Vishnudas2003",
@@ -1724,8 +1674,7 @@ window.quotes = [
     addedBy: "Vishnudas2003",
   },
   {
-    quote:
-      "The way I see it, if you want the rainbow, you gotta put up with the rain!",
+    quote: "The way I see it, if you want the rainbow, you gotta put up with the rain!",
     category: "Motivation",
     author: "Dolly Parton",
     addedBy: "MurtazaShikari",
@@ -1744,8 +1693,7 @@ window.quotes = [
     addedBy: "MurtazaShikari",
   },
   {
-    quote:
-      "Misery might love company, but so does joy. And joy throws much better parties.",
+    quote: "Misery might love company, but so does joy. And joy throws much better parties.",
     category: "Life",
     author: "Billy Ivey",
     addedBy: "MurtazaShikari",
@@ -1794,8 +1742,7 @@ window.quotes = [
     addedBy: "Kapileswar-Moharana",
   },
   {
-    quote:
-      "The difference between ordinary and extraordinary is that little extra.",
+    quote: "The difference between ordinary and extraordinary is that little extra.",
     category: "Life",
     author: "Jimmy Johnson",
     addedBy: "Kapileswar-Moharana",
@@ -1820,15 +1767,13 @@ window.quotes = [
     addedBy: "amaan-p",
   },
   {
-    quote:
-      "The most important thing about technology is how it changes people ",
+    quote: "The most important thing about technology is how it changes people ",
     category: "Technology",
     author: "Jaron Lanier",
     addedBy: "amaan-p",
   },
   {
-    quote:
-      "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     category: "Learning",
     author: "Mahatma Gandhi",
     addedBy: "Gorakshnath Bhongal",
@@ -1866,8 +1811,7 @@ window.quotes = [
     addedBy: "Gorakshnath Bhongal",
   },
   {
-    quote:
-      "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    quote: "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
     category: "Learning",
     author: "Stephen Hawking",
     addedBy: "Gorakshnath Bhongal",
@@ -1897,8 +1841,7 @@ window.quotes = [
     addedBy: "kaur-rajdeep",
   },
   {
-    quote:
-      "Art enables us to find ourselves and lose ourselves at the same time",
+    quote: "Art enables us to find ourselves and lose ourselves at the same time",
     category: "Art",
     author: "Thomas Merton",
     addedBy: "kaur-rajdeep",
@@ -1929,51 +1872,50 @@ window.quotes = [
     addedBy: "kaur-rajdeep",
   },
   {
-    quote:
-      "In art there is only one thing that counts; the thing you can't explain.",
+    quote: "In art there is only one thing that counts; the thing you can't explain.",
     category: "Art",
     author: "Georges Braque",
     addedBy: "kaur-rajdeep",
   },
   {
-    "quote": "Life is 10% what happens to us and 90% how we react to it.",
-    "category": "Life",
-    "author": "Charles R. Swindoll",
-    "addedBy": "Shivam36998"
+    quote: "Life is 10% what happens to us and 90% how we react to it.",
+    category: "Life",
+    author: "Charles R. Swindoll",
+    addedBy: "Shivam36998",
   },
   {
-    "quote": "Life is really simple, but we insist on making it complicated.",
-    "category": "Life",
-    "author": "Confucius",
-    "addedBy": "Shivam36998"
+    quote: "Life is really simple, but we insist on making it complicated.",
+    category: "Life",
+    author: "Confucius",
+    addedBy: "Shivam36998",
   },
   {
-    "quote": "Life is a journey that must be traveled no matter how bad the roads and accommodations.",
-    "category": "Life",
-    "author": "Oliver Goldsmith",
-    "addedBy": "Shivam36998"
+    quote:
+      "Life is a journey that must be traveled no matter how bad the roads and accommodations.",
+    category: "Life",
+    author: "Oliver Goldsmith",
+    addedBy: "Shivam36998",
   },
   {
-    "quote": "Life is either a daring adventure or nothing at all.",
-    "category": "Life",
-    "author": "Helen Keller",
-    "addedBy": "Shivam36998"
+    quote: "Life is either a daring adventure or nothing at all.",
+    category: "Life",
+    author: "Helen Keller",
+    addedBy: "Shivam36998",
   },
   {
-    "quote": "Life is a one-time offer; use it well.",
-    "category": "Life",
-    "author": "Suzie Kassem",
-    "addedBy": "Shivam36998"
-  },{
-    quote:  
-    "The world is a book and those who do not travel read only one page.",
+    quote: "Life is a one-time offer; use it well.",
+    category: "Life",
+    author: "Suzie Kassem",
+    addedBy: "Shivam36998",
+  },
+  {
+    quote: "The world is a book and those who do not travel read only one page.",
     category: "Travel",
     author: "Saint Augustine",
     addedBy: "debsouryadatta",
   },
   {
-    quote:
-      "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
     category: "Happiness",
     author: "	James M. Barrie",
     addedBy: "debsouryadatta",
@@ -2005,8 +1947,7 @@ window.quotes = [
     addedBy: "Irjean",
   },
   {
-    quote:
-      "To criticize people you have to know them, and to know them you have to love them.",
+    quote: "To criticize people you have to know them, and to know them you have to love them.",
     category: "Love",
     author: "Coluche",
     addedBy: "Irjean",
@@ -2025,8 +1966,7 @@ window.quotes = [
     addedBy: "Irjean",
   },
   {
-    quote:
-      "I don't love studying. I hate studying. I like learning. Learning is beautiful.",
+    quote: "I don't love studying. I hate studying. I like learning. Learning is beautiful.",
     category: "Learning",
     author: "Natalie Portman",
     addedBy: "sohamhaldar",
@@ -2084,37 +2024,37 @@ window.quotes = [
     quote: "At rest, however, in the middle of everything is the sun.",
     category: "Science",
     author: "Nicolaus Copernicus",
-    addedBy: "zomsik"
+    addedBy: "zomsik",
   },
   {
     quote: "Life is either a daring adventure or nothing at all.",
     category: "Historical",
     author: " Helen Keller",
-    addedBy: "Hartz.Frequency"
+    addedBy: "Hartz.Frequency",
   },
   {
     quote: "Life is really simple, but we insist on making it complicated.",
     category: "philosophical",
     author: "Confucius",
-    addedBy: "Hartz.Frequency"
+    addedBy: "Hartz.Frequency",
   },
   {
     quote: "Our lives begin to end the day we become silent about things that matter.",
     category: "Historical",
     author: "Martin Luther King Jr",
-    addedBy: "Hartz.Frequency"
+    addedBy: "Hartz.Frequency",
   },
   {
     quote: "Do not wait for leaders; do it alone, person to person.",
     category: "Motivational",
     author: "Mother Teresa",
-    addedBy: "Hartz.Frequency"
+    addedBy: "Hartz.Frequency",
   },
   {
     quote: "The greatest wealth is to live content with little.",
     category: "Motivational",
     author: "Mother Plato",
-    addedBy: "Hartz.Frequency"
+    addedBy: "Hartz.Frequency",
   },
   {
     quote: "The purpose of our lives is to be happy.",
@@ -2153,7 +2093,8 @@ window.quotes = [
     addedBy: "Gorakshnath Bhongal",
   },
   {
-    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    quote:
+      "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
     category: "Philosophy",
     author: "William Saroyan",
     addedBy: "Gorakshnath Bhongal",
@@ -2228,225 +2169,231 @@ window.quotes = [
     quote: "The secret of getting ahead is getting started",
     category: "Motivational",
     author: " Mark Twain",
-    addedBy: "AyusGup"
+    addedBy: "AyusGup",
   },
   {
     quote: "The only way to achieve the impossible is to believe it is possible.",
     category: "Motivational",
     author: "Charles Kingsleigh, Alice ",
-    addedBy: "AyusGup"
+    addedBy: "AyusGup",
   },
   {
     quote: "Success is walking from failure to failure with no loss of enthusiasm.",
     category: "Motivational",
     author: "Winston Churchill",
-    addedBy: "AyusGup"
+    addedBy: "AyusGup",
   },
   {
     quote: "I am not what happened to me, I am what I choose to become.",
     category: "Philosophy",
     author: "Carl Jung",
-    addedBy: "AyusGup"
+    addedBy: "AyusGup",
   },
   {
     quote: "The first step to wisdom is silence. The second is listening.",
     category: "Philosophy",
     author: "Solomon Ibn Gabriol",
-    addedBy: "AyusGup"
+    addedBy: "AyusGup",
   },
   {
-    "quote": "If you're not embarrassed by the first version of your product, you've launched too late.",
-    "category": "Motivational",
-    "author": "Reid Hoffman",
-    "addedBy": "debsouryadatta"
-    },
-    
-    {
-    "quote": "Failure is simply the opportunity to begin again, this time more intelligently.",
-    "category": "Motivational",
-    "author": "Henry Ford",
-    "addedBy": "debsouryadatta"
-    },
-    
-    {
-    "quote": "Don't be afraid to give up the good to go for the great.",
-    "category": "Motivational",
-    "author": "John D. Rockefeller",
-    "addedBy": "debsouryadatta"
-    },
-    
-    {
-    "quote": "The only person you are destined to become is the person you decide to be.",
-    "category": "Motivational",
-    "author": "Ralph Waldo Emerson",
-    "addedBy": "debsouryadatta"
-    },
-    
-    {
-    "quote": "The world is full of magic, but only for those who look for it.",
-    "category": "Motivational",
-    "author": "Albert Einstein",
-    "addedBy": "debsouryadatta"
-    },
-    {
-      quote: "The Earth does not belong to us: we belong to the Earth.",
-      category: "Environment",
-      author: "Marlee Matlin",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "We won't have a society if we destroy the environment.",
-      category: "Environment",
-      author: "Margaret Mead",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "Nature always wears the colors of the spirit.",
-      category: "Environment",
-      author: "Ralph Waldo Emerson",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another.",
-      category: "Environment",
-      author: "Mahatma Gandhi",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "In every walk with nature, one receives far more than he seeks.",
-      category: "Environment",
-      author: "John Muir",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "The Earth is what we all have in common.",
-      category: "Environment",
-      author: "Wendell Berry",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "We won't have a society if we destroy the environment.",
-      category: "Environment",
-      author: "Margaret Mead",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
-      category: "Environment",
-      author: "Lady Bird Johnson",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
-      category: "Environment",
-      author: "John Muir",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "The greatest threat to our planet is the belief that someone else will save it.",
-      category: "Environment",
-      author: "Robert Swan",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "It is our collective and individual responsibility to preserve and tend to the world in which we all live.",
-      category: "Environment",
-      author: "Dalai Lama",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "Nature is painting for us, day after day, pictures of infinite beauty.",
-      category: "Environment",
-      author: "John Ruskin",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "What we are doing to the world, we are doing to ourselves.",
-      category: "Environment",
-      author: "Vandana Shiva",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
-      category: "Environment",
-      author: "Lady Bird Johnson",
-      addedBy: "Pree46"
-    },
-    {
-      quote: "The Earth does not belong to us: we belong to the Earth.",
-      category: "Environment",
-      author: "Marlee Matlin",
-      addedBy: "Pree46"
-    }
+    quote:
+      "If you're not embarrassed by the first version of your product, you've launched too late.",
+    category: "Motivational",
+    author: "Reid Hoffman",
+    addedBy: "debsouryadatta",
+  },
 
-    {
-      quote: "The universe is transformation, life is opinion.",
-      category: "Philosophy",
-      author: "Marcus Aurelius",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "Failure is simply the opportunity to begin again, this time more intelligently.",
+    category: "Motivational",
+    author: "Henry Ford",
+    addedBy: "debsouryadatta",
+  },
 
-    {
-      quote: "Better to trip with the feet than with the tongue.",
-      category: "Philosophy",
-      author: "Zeno",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "Don't be afraid to give up the good to go for the great.",
+    category: "Motivational",
+    author: "John D. Rockefeller",
+    addedBy: "debsouryadatta",
+  },
 
-    {
-      quote: "It's not things that upset us but our judgments about things.",
-      category: "Philosophy",
-      author: "Epictetus",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "The only person you are destined to become is the person you decide to be.",
+    category: "Motivational",
+    author: "Ralph Waldo Emerson",
+    addedBy: "debsouryadatta",
+  },
 
-    {
-      quote: "A man who has committed a mistake and doesn't correct it is committing another mistake.",
-      category: "Philosophy",
-      author: "Confucius",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "The world is full of magic, but only for those who look for it.",
+    category: "Motivational",
+    author: "Albert Einstein",
+    addedBy: "debsouryadatta",
+  },
+  {
+    quote: "The Earth does not belong to us: we belong to the Earth.",
+    category: "Environment",
+    author: "Marlee Matlin",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "We won't have a society if we destroy the environment.",
+    category: "Environment",
+    author: "Margaret Mead",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "Nature always wears the colors of the spirit.",
+    category: "Environment",
+    author: "Ralph Waldo Emerson",
+    addedBy: "Pree46",
+  },
+  {
+    quote:
+      "What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another.",
+    category: "Environment",
+    author: "Mahatma Gandhi",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "In every walk with nature, one receives far more than he seeks.",
+    category: "Environment",
+    author: "John Muir",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "The Earth is what we all have in common.",
+    category: "Environment",
+    author: "Wendell Berry",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "We won't have a society if we destroy the environment.",
+    category: "Environment",
+    author: "Margaret Mead",
+    addedBy: "Pree46",
+  },
+  {
+    quote:
+      "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
+    category: "Environment",
+    author: "Lady Bird Johnson",
+    addedBy: "Pree46",
+  },
+  {
+    quote:
+      "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
+    category: "Environment",
+    author: "John Muir",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "The greatest threat to our planet is the belief that someone else will save it.",
+    category: "Environment",
+    author: "Robert Swan",
+    addedBy: "Pree46",
+  },
+  {
+    quote:
+      "It is our collective and individual responsibility to preserve and tend to the world in which we all live.",
+    category: "Environment",
+    author: "Dalai Lama",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "Nature is painting for us, day after day, pictures of infinite beauty.",
+    category: "Environment",
+    author: "John Ruskin",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "What we are doing to the world, we are doing to ourselves.",
+    category: "Environment",
+    author: "Vandana Shiva",
+    addedBy: "Pree46",
+  },
+  {
+    quote:
+      "The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.",
+    category: "Environment",
+    author: "Lady Bird Johnson",
+    addedBy: "Pree46",
+  },
+  {
+    quote: "The Earth does not belong to us: we belong to the Earth.",
+    category: "Environment",
+    author: "Marlee Matlin",
+    addedBy: "Pree46",
+  },
 
-    {
-      quote: "A little fragrance always clings to the hand that gives the roses.",
-      category: "Living",
-      author: "Chinese Proverb",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "The universe is transformation, life is opinion.",
+    category: "Philosophy",
+    author: "Marcus Aurelius",
+    addedBy: "therahulchaurasia",
+  },
 
-    {
-      quote: "Be not afraid of going slowly, be afraid only of standing still.",
-      category: "Living",
-      author: "Chinese Proverb",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "Better to trip with the feet than with the tongue.",
+    category: "Philosophy",
+    author: "Zeno",
+    addedBy: "therahulchaurasia",
+  },
 
-    {
-      quote: "You never know who's swimming naked until the tide goes out.",
-      category: "Entrepreneurship",
-      author: "Warren Buffett",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "It's not things that upset us but our judgments about things.",
+    category: "Philosophy",
+    author: "Epictetus",
+    addedBy: "therahulchaurasia",
+  },
 
-    {
-      quote: "Be greedy when others are fearful, and fearful when others are greedy.",
-      category: "Entrepreneurship",
-      author: "Warren Buffett",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote:
+      "A man who has committed a mistake and doesn't correct it is committing another mistake.",
+    category: "Philosophy",
+    author: "Confucius",
+    addedBy: "therahulchaurasia",
+  },
 
-    {
-      quote: "The measure of intelligence is the ability to change.",
-      category: "Learning",
-      author: "Albert Einstein",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "A little fragrance always clings to the hand that gives the roses.",
+    category: "Living",
+    author: "Chinese Proverb",
+    addedBy: "therahulchaurasia",
+  },
 
-    {
-      quote: "Often, in the real world, it's not the smart that get ahead but the bold.",
-      category: "Life",
-      author: "Robert Kiyosaki",
-      addedBy: "therahulchaurasia",
-    },
+  {
+    quote: "Be not afraid of going slowly, be afraid only of standing still.",
+    category: "Living",
+    author: "Chinese Proverb",
+    addedBy: "therahulchaurasia",
+  },
 
+  {
+    quote: "You never know who's swimming naked until the tide goes out.",
+    category: "Entrepreneurship",
+    author: "Warren Buffett",
+    addedBy: "therahulchaurasia",
+  },
+
+  {
+    quote: "Be greedy when others are fearful, and fearful when others are greedy.",
+    category: "Entrepreneurship",
+    author: "Warren Buffett",
+    addedBy: "therahulchaurasia",
+  },
+
+  {
+    quote: "The measure of intelligence is the ability to change.",
+    category: "Learning",
+    author: "Albert Einstein",
+    addedBy: "therahulchaurasia",
+  },
+
+  {
+    quote: "Often, in the real world, it's not the smart that get ahead but the bold.",
+    category: "Life",
+    author: "Robert Kiyosaki",
+    addedBy: "therahulchaurasia",
+  },
 ];
