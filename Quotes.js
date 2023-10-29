@@ -146,38 +146,6 @@ window.quotes = [
     author: "Peter Drucker",
     addedBy: "git-create-devben",
   },
-
-  {
-    quote: "You only live once, but if you do it right, once is enough.",
-    category: "Life",
-    author: "Mae West",
-    addedBy: "Yasar Labib",
-  },
-  {
-    quote: "In three words I can sum up everything I've learned about life: it goes on.",
-    category: "Life",
-    author: "Robert Frost",
-    addedBy: "Yasar Labib",
-  },
-  {
-    quote: "Cry. Forgive. Learn. Move on. Let your tears water the seeds of your future happiness.",
-    category: "Life",
-    author: "Steve Maraboli",
-    addedBy: "Yasar Labib",
-  },
-  {
-    quote: "One of the advantages of being disorganized is that one is always having surprising discoveries.",
-    category: "Life",
-    author: "A.A. Milne",
-    addedBy: "Yasar Labib",
-  },
-  {
-    quote: "To shine your brightest light is to be who you truly are.",
-    category: "Life",
-    author: "Roy T. Bennett",
-    addedBy: "Yasar Labib",
-  },
-
   {
     quote:
       "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",

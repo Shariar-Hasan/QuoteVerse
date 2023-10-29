@@ -1,0 +1,23 @@
+{
+  "name": "QuoteVerse",
+  "version": "1.0.0",
+  "description": "A place where you can find and add quotes of your choice",
+  "main": "index.html",
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shariar-Hasan/QuoteVerse.git"
+  },
+  "author": "Shariar-Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shariar-Hasan/QuoteVerse/issues"
+  },
+  "homepage": "https://github.com/Shariar-Hasan/QuoteVerse#readme"
+}
