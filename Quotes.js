@@ -2223,4 +2223,34 @@ window.quotes = [
     author: "Leo Tolstoy",
     addedBy: "amanjaiman1",
   },
+  {
+    quote:"You are enough , just as you are.",
+    category: "Positive",
+    author: "Meghan Markle",
+    addedBy: "IamAayush2080",
+  },
+  {
+    quote:"Every strike brings me closer to a home run.",
+    category: "Positive",
+    author: "Babe Ruth",
+    addedBy: "IamAayush2080",
+  },
+  {
+    quote:"Sucess is not final; Failure is not Fatal. It is the courage to continue that count.",
+    category: "Positive",
+    author: "Winston Curchill ",
+    addedBy: "IamAayush2080",
+  },
+  {
+    quote:"Open your mind. Get up off the couch. Move.",
+    category: "Positive",
+    author: "Anthony Bourdain",
+    addedBy: "IamAayush2080",
+  },
+  {
+    quote:"Let no one never come to you without living better and happier",
+    category: "Positive",
+    author: "Mother Teresa",
+    addedBy: "IamAayush2080",
+  }
 ];
