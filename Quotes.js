@@ -12,7 +12,7 @@ window.quotes = [
     author: "Peter Drucker",
     addedBy: "Kratin Aggarwal",
   },
-  
+
   {
     quote: "Education is not preparation for life; education is life itself.",
     category: "Educational",
@@ -1476,7 +1476,7 @@ window.quotes = [
     author: " Atal Bihari Vajpayee",
     addedBy: "aursh24"
   },
-{
+  {
     quote: "Any sufficiently advanced technology is indistinguishable from magic.",
     category: "Technology",
     author: "Arthur C. Clarke",
@@ -1593,154 +1593,436 @@ window.quotes = [
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"Life is what happens when you're busy making other plans.",
+    quote: "Life is what happens when you're busy making other plans.",
     category: "Life",
     author: "John Lennon",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     category: "Motivation",
     author: "Winston S. Churchill",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    quote: "In the end, we will remember not the words of our enemies, but the silence of our friends.",
     category: "Life",
     author: "Martin Luther King Jr.",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     category: "Motivation",
     author: "Nelson Mandela",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The way to get started is to quit talking and begin doing.",
+    quote: "The way to get started is to quit talking and begin doing.",
     category: "Motivation",
     author: "Walt Disney",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"If life were predictable it would cease to be life, and be without flavor.",
+    quote: "If life were predictable it would cease to be life, and be without flavor.",
     category: "Life",
     author: "Eleanor Roosevelt",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The only limit to our realization of tomorrow will be our doubts of today.",
+    quote: "The only limit to our realization of tomorrow will be our doubts of today.",
     category: "Motivation",
     author: "Franklin D. Roosevelt",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
     category: "Life",
     author: "Ralph Waldo Emerson",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The two most important days in your life are the day you are born and the day you find out why.",
+    quote: "The two most important days in your life are the day you are born and the day you find out why.",
     category: "Life",
     author: "Mark Twain",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"Don't count the days; make the days count.",
+    quote: "Don't count the days; make the days count.",
     category: "Motivation",
     author: "Muhammad Ali",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The only thing we have to fear is fear itself.",
+    quote: "The only thing we have to fear is fear itself.",
     category: "Motivation",
     author: "Franklin D. Roosevelt",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"In the midst of chaos, there is also opportunity.",
+    quote: "In the midst of chaos, there is also opportunity.",
     category: "Motivation",
     author: "Sun Tzu",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The only time to look back is to see how far you've come.",
+    quote: "The only time to look back is to see how far you've come.",
     category: "Motivation",
     author: "Unknown",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The best revenge is massive success.",
+    quote: "The best revenge is massive success.",
     category: "Motivation",
     author: "Frank Sinatra",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"Be yourself; everyone else is already taken.",
+    quote: "Be yourself; everyone else is already taken.",
     category: "Life",
     author: "Oscar Wilde",
     addedBy: "Vishnudas2003"
   },
   {
-    quote:"The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
     category: "Motivation",
     author: "Mark Zuckerberg",
     addedBy: "Vishnudas2003"
   },
-{
-  quote: "Often, in the real world, it's not the smart that get ahead but the bold.",
-  category: "Life",
-  author: "Robert Kiyosaki",
-  addedBy: "therahulchaurasia",
-},
+  {
+    quote: "Often, in the real world, it's not the smart that get ahead but the bold.",
+    category: "Life",
+    author: "Robert Kiyosaki",
+    addedBy: "therahulchaurasia",
+  },
 
-{
-  quote: "A real friend is one who walks in when the rest of the world walks out",
-  category: "Friendship",
-  author: "Walter Winchell",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "A real friend is one who walks in when the rest of the world walks out",
+    category: "Friendship",
+    author: "Walter Winchell",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "Friendship is the only cement that will ever hold the world together",
-  category: "Friendship",
-  author: "Woodrow Wilson",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "Friendship is the only cement that will ever hold the world together",
+    category: "Friendship",
+    author: "Woodrow Wilson",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "True friendship comes when the silence between two people is comfortable.",
-  category: "Friendship",
-  author: "David Tyson Gentry",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "True friendship comes when the silence between two people is comfortable.",
+    category: "Friendship",
+    author: "David Tyson Gentry",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "True friendship comes when the silence between two people is comfortable.",
-  category: "Friendship",
-  author: "David Tyson Gentry",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "True friendship comes when the silence between two people is comfortable.",
+    category: "Friendship",
+    author: "David Tyson Gentry",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "In the sweetness of friendship let there be laughter, and sharing of pleasures. For in the dew of little things the heart finds its morning and is refreshed.",
-  category: "Friendship",
-  author: "Khalil Gibran",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "In the sweetness of friendship let there be laughter, and sharing of pleasures. For in the dew of little things the heart finds its morning and is refreshed.",
+    category: "Friendship",
+    author: "Khalil Gibran",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "Friends give us the courage to lift the blinds on our hearts to open up and show what we generally keep hidden from the rest of world.",
-  category: "Friendship",
-  author: "Ritu Chaudhary",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "Friends give us the courage to lift the blinds on our hearts to open up and show what we generally keep hidden from the rest of world.",
+    category: "Friendship",
+    author: "Ritu Chaudhary",
+    addedBy: "amanjaiman1",
+  },
 
-{
-  quote: "A true friend is somebody who can make us feel better no matter how terrible things may be.",
-  category: "Friendship",
-  author: "Ralph Waldo Emerson",
-  addedBy: "amanjaiman1",
-},
+  {
+    quote: "A true friend is somebody who can make us feel better no matter how terrible things may be.",
+    category: "Friendship",
+    author: "Ralph Waldo Emerson",
+    addedBy: "amanjaiman1",
+  },
+  {
+    quote: "Ahimsa Parmo Dharma.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "In the world through which I travel, I am endlessly creating myself.",
+    "category": "Historical",
+    "author": "Frantz Fanon",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Swaraj is my birthright and I shall have it.",
+    "category": "Historical",
+    "author": "Bal Gangadhar Tilak",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Arise, awake and stop not until the goal is reached.",
+    "category": "Historical",
+    "author": "Swami Vivekananda",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Jai Jawan, Jai Kisan.",
+    "category": "Historical",
+    "author": "Lal Bahadur Shastri",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Satyameva Jayate.",
+    "category": "Historical",
+    "author": "Mundaka Upanishad",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The best way to find yourself is to lose yourself in the service of others.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "In a gentle way, you can shake the world.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "You must be the change you want to see in the world.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "A nation's culture resides in the hearts and in the soul of its people.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Give me blood, and I shall give you freedom.",
+    "category": "Historical",
+    "author": "Subhas Chandra Bose",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Life is as dear to a mute creature as it is to a man. Just as one wants happiness and fears pain, just as one wants to live and not die, so do other creatures.",
+    "category": "Historical",
+    "author": "Dalai Lama",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The mind is everything. What you think, you become.",
+    "category": "Historical",
+    "author": "Buddha",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": "Historical",
+    "author": "Nelson Mandela",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    "category": "Historical",
+    "author": "Abraham Lincoln",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The only thing we have to fear is fear itself.",
+    "category": "Historical",
+    "author": "Franklin D. Roosevelt",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
+    "category": "Historical",
+    "author": "Dr. APJ Abdul Kalam",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Change yourself – you are in control.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The future depends on what you do today.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.",
+    "category": "Historical",
+    "author": "Swami Vivekananda",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "You are never too old to set another goal or to dream a new dream.",
+    "category": "Historical",
+    "author": "C.S. Lewis",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Be the change that you wish to see in the world.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Where there is love, there is life.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "You can't cross the sea merely by standing and staring at the water.",
+    "category": "Historical",
+    "author": "Rabindranath Tagore",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "What you are is what you have been. What you'll be is what you do now.",
+    "category": "Historical",
+    "author": "Buddha",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Strength does not come from the body. It comes from the will.",
+    "category": "Historical",
+    "author": "Mahavira",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The only tyrant I accept in this world is the 'still small voice' within me.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The best way to find yourself is to lose yourself in the service of others.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "A nation's culture resides in the hearts and in the soul of its people.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Give me blood, and I shall give you freedom.",
+    "category": "Historical",
+    "author": "Subhas Chandra Bose",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Life is as dear to a mute creature as it is to a man. Just as one wants happiness and fears pain, just as one wants to live and not die, so do other creatures.",
+    "category": "Historical",
+    "author": "Dalai Lama",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The mind is everything. What you think, you become.",
+    "category": "Historical",
+    "author": "Buddha",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": "Historical",
+    "author": "Nelson Mandela",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    "category": "Historical",
+    "author": "Abraham Lincoln",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The only thing we have to fear is fear itself.",
+    "category": "Historical",
+    "author": "Franklin D. Roosevelt",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
+    "category": "Historical",
+    "author": "Dr. APJ Abdul Kalam",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Change yourself – you are in control.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The future depends on what you do today.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.",
+    "category": "Historical",
+    "author": "Swami Vivekananda",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "You are never too old to set another goal or to dream a new dream.",
+    "category": "Historical",
+    "author": "C.S. Lewis",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Be the change that you wish to see in the world.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Where there is love, there is life.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "You can't cross the sea merely by standing and staring at the water.",
+    "category": "Historical",
+    "author": "Rabindranath Tagore",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "What you are is what you have been. What you'll be is what you do now.",
+    "category": "Historical",
+    "author": "Buddha",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "Strength does not come from the body. It comes from the will.",
+    "category": "Historical",
+    "author": "Mahavira",
+    "addedBy": "gbb26"
+  },
+  {
+    quote: "The only tyrant I accept in this world is the 'still small voice' within me.",
+    "category": "Historical",
+    "author": "Mahatma Gandhi",
+    "addedBy": "gbb26"
+  }
 ];
