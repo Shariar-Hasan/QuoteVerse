@@ -2320,4 +2320,53 @@ window.quotes = [{
   author: "Robert Kiyosaki",
   addedBy: "therahulchaurasia",
 },
+
+{
+  quote: "A real friend is one who walks in when the rest of the world walks out",
+  category: "Friendship",
+  author: "Walter Winchell",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "Friendship is the only cement that will ever hold the world together",
+  category: "Friendship",
+  author: "Woodrow Wilson",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "True friendship comes when the silence between two people is comfortable.",
+  category: "Friendship",
+  author: "David Tyson Gentry",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "True friendship comes when the silence between two people is comfortable.",
+  category: "Friendship",
+  author: "David Tyson Gentry",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "In the sweetness of friendship let there be laughter, and sharing of pleasures. For in the dew of little things the heart finds its morning and is refreshed.",
+  category: "Friendship",
+  author: "Khalil Gibran",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "Friends give us the courage to lift the blinds on our hearts to open up and show what we generally keep hidden from the rest of world.",
+  category: "Friendship",
+  author: "Ritu Chaudhary",
+  addedBy: "amanjaiman1",
+},
+
+{
+  quote: "A true friend is somebody who can make us feel better no matter how terrible things may be.",
+  category: "Friendship",
+  author: "Ralph Waldo Emerson",
+  addedBy: "amanjaiman1",
+},
 ];
