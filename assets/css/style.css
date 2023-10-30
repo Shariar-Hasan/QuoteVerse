@@ -156,11 +156,11 @@ main {
   padding: 15px;
 }
 
-.share-buttons i{
+.share-buttons i {
   transition: 0.5s;
 }
 
-.share-buttons i:hover{
+.share-buttons i:hover {
   transform: translateY(-2px);
 }
 
