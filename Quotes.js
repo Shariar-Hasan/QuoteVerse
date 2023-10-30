@@ -2175,4 +2175,52 @@ window.quotes = [
     author: "Yasir Qadhi",
     addedBy: "aie007",
   },
+  {
+    quote: "The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.",
+    category: "Happiness",
+    author: "Socrates",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+    category: "Happiness",
+    author: "Nathaniel Hawthorne",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "Happiness is a choice. You can choose to be happy. There's going to be stress in life, but it's your choice whether you let it affect you or not.",
+    category: "Happiness",
+    author: "Valerie Bertinelli",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "The happiest people seem to be those who have no particular cause for being happy except that they are so.",
+    category: "Happiness",
+    author: "William Ralph Inge",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+    category: "Happiness",
+    author: "Ralph Marston",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "Happiness is a direction, not a place.",
+    category: "Happiness",
+    author: "Sydney J. Harris",
+    addedBy: "amanjaiman1",
+  },
+  
+  {
+    quote: "If you want to be happy, be.",
+    category: "Happiness",
+    author: "Leo Tolstoy",
+    addedBy: "amanjaiman1",
+  },
 ];
