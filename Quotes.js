@@ -1745,285 +1745,285 @@ window.quotes = [
   },
   {
     quote: "Ahimsa Parmo Dharma.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "In the world through which I travel, I am endlessly creating myself.",
-    "category": "Historical",
-    "author": "Frantz Fanon",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Frantz Fanon",
+    addedBy: "gbb26"
   },
   {
     quote: "Swaraj is my birthright and I shall have it.",
-    "category": "Historical",
-    "author": "Bal Gangadhar Tilak",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Bal Gangadhar Tilak",
+    addedBy: "gbb26"
   },
   {
     quote: "Arise, awake and stop not until the goal is reached.",
-    "category": "Historical",
-    "author": "Swami Vivekananda",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Swami Vivekananda",
+    addedBy: "gbb26"
   },
   {
     quote: "Jai Jawan, Jai Kisan.",
-    "category": "Historical",
-    "author": "Lal Bahadur Shastri",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Lal Bahadur Shastri",
+    addedBy: "gbb26"
   },
   {
     quote: "Satyameva Jayate.",
-    "category": "Historical",
-    "author": "Mundaka Upanishad",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mundaka Upanishad",
+    addedBy: "gbb26"
   },
   {
     quote: "The best way to find yourself is to lose yourself in the service of others.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "In a gentle way, you can shake the world.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "You must be the change you want to see in the world.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "The weak can never forgive. Forgiveness is the attribute of the strong.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "A nation's culture resides in the hearts and in the soul of its people.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "Give me blood, and I shall give you freedom.",
-    "category": "Historical",
-    "author": "Subhas Chandra Bose",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Subhas Chandra Bose",
+    addedBy: "gbb26"
   },
   {
     quote: "Life is as dear to a mute creature as it is to a man. Just as one wants happiness and fears pain, just as one wants to live and not die, so do other creatures.",
-    "category": "Historical",
-    "author": "Dalai Lama",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
   },
   {
     quote: "The mind is everything. What you think, you become.",
-    "category": "Historical",
-    "author": "Buddha",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Buddha",
+    addedBy: "gbb26"
   },
   {
     quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-    "category": "Historical",
-    "author": "Nelson Mandela",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Nelson Mandela",
+    addedBy: "gbb26"
   },
   {
     quote: "The best way to predict your future is to create it.",
-    "category": "Historical",
-    "author": "Abraham Lincoln",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
   },
   {
     quote: "The only thing we have to fear is fear itself.",
-    "category": "Historical",
-    "author": "Franklin D. Roosevelt",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Franklin D. Roosevelt",
+    addedBy: "gbb26"
   },
   {
     quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
-    "category": "Historical",
-    "author": "Dr. APJ Abdul Kalam",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Dr. APJ Abdul Kalam",
+    addedBy: "gbb26"
   },
   {
     quote: "Change yourself – you are in control.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "The future depends on what you do today.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.",
-    "category": "Historical",
-    "author": "Swami Vivekananda",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Swami Vivekananda",
+    addedBy: "gbb26"
   },
   {
     quote: "You are never too old to set another goal or to dream a new dream.",
-    "category": "Historical",
-    "author": "C.S. Lewis",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "C.S. Lewis",
+    addedBy: "gbb26"
   },
   {
     quote: "Be the change that you wish to see in the world.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "Where there is love, there is life.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "You can't cross the sea merely by standing and staring at the water.",
-    "category": "Historical",
-    "author": "Rabindranath Tagore",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Rabindranath Tagore",
+    addedBy: "gbb26"
   },
   {
     quote: "What you are is what you have been. What you'll be is what you do now.",
-    "category": "Historical",
-    "author": "Buddha",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Buddha",
+    addedBy: "gbb26"
   },
   {
     quote: "Strength does not come from the body. It comes from the will.",
-    "category": "Historical",
-    "author": "Mahavira",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahavira",
+    addedBy: "gbb26"
   },
   {
     quote: "The only tyrant I accept in this world is the 'still small voice' within me.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "The best way to find yourself is to lose yourself in the service of others.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "A nation's culture resides in the hearts and in the soul of its people.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "Give me blood, and I shall give you freedom.",
-    "category": "Historical",
-    "author": "Subhas Chandra Bose",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Subhas Chandra Bose",
+    addedBy: "gbb26"
   },
   {
     quote: "Life is as dear to a mute creature as it is to a man. Just as one wants happiness and fears pain, just as one wants to live and not die, so do other creatures.",
-    "category": "Historical",
-    "author": "Dalai Lama",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
   },
   {
     quote: "The mind is everything. What you think, you become.",
-    "category": "Historical",
-    "author": "Buddha",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Buddha",
+    addedBy: "gbb26"
   },
   {
     quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-    "category": "Historical",
-    "author": "Nelson Mandela",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Nelson Mandela",
+    addedBy: "gbb26"
   },
   {
     quote: "The best way to predict your future is to create it.",
-    "category": "Historical",
-    "author": "Abraham Lincoln",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
   },
   {
     quote: "The only thing we have to fear is fear itself.",
-    "category": "Historical",
-    "author": "Franklin D. Roosevelt",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Franklin D. Roosevelt",
+    addedBy: "gbb26"
   },
   {
     quote: "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
-    "category": "Historical",
-    "author": "Dr. APJ Abdul Kalam",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Dr. APJ Abdul Kalam",
+    addedBy: "gbb26"
   },
   {
     quote: "Change yourself – you are in control.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "The future depends on what you do today.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.",
-    "category": "Historical",
-    "author": "Swami Vivekananda",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Swami Vivekananda",
+    addedBy: "gbb26"
   },
   {
     quote: "You are never too old to set another goal or to dream a new dream.",
-    "category": "Historical",
-    "author": "C.S. Lewis",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "C.S. Lewis",
+    addedBy: "gbb26"
   },
   {
     quote: "Be the change that you wish to see in the world.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "Where there is love, there is life.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "You can't cross the sea merely by standing and staring at the water.",
-    "category": "Historical",
-    "author": "Rabindranath Tagore",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Rabindranath Tagore",
+    addedBy: "gbb26"
   },
   {
     quote: "What you are is what you have been. What you'll be is what you do now.",
-    "category": "Historical",
-    "author": "Buddha",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Buddha",
+    addedBy: "gbb26"
   },
   {
     quote: "Strength does not come from the body. It comes from the will.",
-    "category": "Historical",
-    "author": "Mahavira",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahavira",
+    addedBy: "gbb26"
   },
   {
     quote: "The only tyrant I accept in this world is the 'still small voice' within me.",
-    "category": "Historical",
-    "author": "Mahatma Gandhi",
-    "addedBy": "gbb26"
+    category: "Historical",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
   },
   {
     quote: "It is better to sit alone than in company with the bad and it is still better to sit with good than alone.",
@@ -2181,46 +2181,622 @@ window.quotes = [
     author: "Socrates",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
     category: "Happiness",
     author: "Nathaniel Hawthorne",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "Happiness is a choice. You can choose to be happy. There's going to be stress in life, but it's your choice whether you let it affect you or not.",
     category: "Happiness",
     author: "Valerie Bertinelli",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "The happiest people seem to be those who have no particular cause for being happy except that they are so.",
     category: "Happiness",
     author: "William Ralph Inge",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
     category: "Happiness",
     author: "Ralph Marston",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "Happiness is a direction, not a place.",
     category: "Happiness",
     author: "Sydney J. Harris",
     addedBy: "amanjaiman1",
   },
-  
+
   {
     quote: "If you want to be happy, be.",
     category: "Happiness",
     author: "Leo Tolstoy",
     addedBy: "amanjaiman1",
   },
-];
+  {
+    quote: "The only joy in the world is to begin.",
+    category: "Happiness",
+    author: "Cesare Pavese",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something ready made. It comes from your own actions.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to cheer yourself is to try to cheer someone else up.",
+    category: "Happiness",
+    author: "Mark Twain",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is when what you think, what you say, and what you do are in harmony.",
+    category: "Happiness",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The most wasted of all days is one without laughter.",
+    category: "Happiness",
+    author: "E.E. Cummings",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The purpose of our lives is to be happy.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Learn to let go. That is the key to happiness.",
+    category: "Happiness",
+    author: "Buddha",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The only thing that will make you happy is being happy with who you are.",
+    category: "Happiness",
+    author: "Goldie Hawn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a warm puppy.",
+    category: "Happiness",
+    author: "Charles M. Schulz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Count your age by friends, not years. Count your life by smiles, not tears.",
+    category: "Happiness",
+    author: "John Lennon",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    category: "Happiness",
+    author: "Albert Schweitzer",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is freedom... And the secret to freedom is courage.",
+    category: "Happiness",
+    author: "Thucydides",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a goal; it is a by-product.",
+    category: "Happiness",
+    author: "Eleanor Roosevelt",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something you postpone for the future; it is something you design for the present.",
+    category: "Happiness",
+    author: "Jim Rohn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    category: "Happiness",
+    author: "Franklin D. Roosevelt",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can give someone is the freedom to be themselves.",
+    category: "Happiness",
+    author: "Wim Hof",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not the absence of problems, it's the ability to deal with them.",
+    category: "Happiness",
+    author: "Steve Maraboli",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest source of happiness is the ability to be grateful at all times.",
+    category: "Happiness",
+    author: "Zig Ziglar",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state to arrive at, but a manner of traveling.",
+    category: "Happiness",
+    author: "Margaret Lee Runbeck",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiness of your life depends upon the quality of your thoughts.",
+    category: "Happiness",
+    author: "Marcus Aurelius",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is low expectations.",
+    category: "Happiness",
+    author: "Barry Schwartz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+    category: "Happiness",
+    author: "Ralph Marston",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiest people don't have the best of everything, they make the best of everything.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can feel is to help someone else feel happiness.",
+    category: "Happiness",
+    author: "M. Russell Ballard",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can achieve is knowing that you are loved.",
+    category: "Happiness",
+    author: "Victor Hugo",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state of mind, it's a way of life.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is the experience of loving life. Being happy is being in love with that momentary experience.",
+    category: "Happiness",
+    author: "Leo Tolstoy",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "J.M. Barrie",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a possession to be prized, it is a quality of thought, a state of mind.",
+    category: "Happiness",
+    author: "Daphne du Maurier",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    category: "Happiness",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something you postpone for the future; it is something you design for the present.",
+    category: "Happiness",
+    author: "Jim Rohn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not the absence of problems, it's the ability to deal with them.",
+    category: "Happiness",
+    author: "Steve Maraboli",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest source of happiness is the ability to be grateful at all times.",
+    category: "Happiness",
+    author: "Zig Ziglar",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state to arrive at, but a manner of traveling.",
+    category: "Happiness",
+    author: "Margaret Lee Runbeck",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiness of your life depends upon the quality of your thoughts.",
+    category: "Happiness",
+    author: "Marcus Aurelius",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is low expectations.",
+    category: "Happiness",
+    author: "Barry Schwartz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+    category: "Happiness",
+    author: "Ralph Marston",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiest people don't have the best of everything, they make the best of everything.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can feel is to help someone else feel happiness.",
+    category: "Happiness",
+    author: "M. Russell Ballard",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can achieve is knowing that you are loved.",
+    category: "Happiness",
+    author: "Victor Hugo",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state of mind, it's a way of life.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is the experience of loving life. Being happy is being in love with that momentary experience.",
+    category: "Happiness",
+    author: "Leo Tolstoy",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "J.M. Barrie",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a possession to be prized, it is a quality of thought, a state of mind.",
+    category: "Happiness",
+    author: "Daphne du Maurier",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    category: "Happiness",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a goal; it is a by-product.",
+    category: "Happiness",
+    author: "Eleanor Roosevelt",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something you postpone for the future; it is something you design for the present.",
+    category: "Happiness",
+    author: "Jim Rohn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    category: "Happiness",
+    author: "Franklin D. Roosevelt",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can give someone is the freedom to be themselves.",
+    category: "Happiness",
+    author: "Wim Hof",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not the absence of problems, it's the ability to deal with them.",
+    category: "Happiness",
+    author: "Steve Maraboli",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest source of happiness is the ability to be grateful at all times.",
+    category: "Happiness",
+    author: "Zig Ziglar",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state to arrive at, but a manner of traveling.",
+    category: "Happiness",
+    author: "Margaret Lee Runbeck",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiness of your life depends upon the quality of your thoughts.",
+    category: "Happiness",
+    author: "Marcus Aurelius",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is low expectations.",
+    category: "Happiness",
+    author: "Barry Schwartz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+    category: "Happiness",
+    author: "Ralph Marston",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiest people don't have the best of everything, they make the best of everything.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can feel is to help someone else feel happiness.",
+    category: "Happiness",
+    author: "M. Russell Ballard",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can achieve is knowing that you are loved.",
+    category: "Happiness",
+    author: "Victor Hugo",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state of mind, it's a way of life.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is the experience of loving life. Being happy is being in love with that momentary experience.",
+    category: "Happiness",
+    author: "Leo Tolstoy",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "J.M. Barrie",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a possession to be prized, it is a quality of thought, a state of mind.",
+    category: "Happiness",
+    author: "Daphne du Maurier",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    category: "Happiness",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something you postpone for the future; it is something you design for the present.",
+    category: "Happiness",
+    author: "Jim Rohn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not the absence of problems, it's the ability to deal with them.",
+    category: "Happiness",
+    author: "Steve Maraboli",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest source of happiness is the ability to be grateful at all times.",
+    category: "Happiness",
+    author: "Zig Ziglar",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state to arrive at, but a manner of traveling.",
+    category: "Happiness",
+    author: "Margaret Lee Runbeck",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiness of your life depends upon the quality of your thoughts.",
+    category: "Happiness",
+    author: "Marcus Aurelius",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is low expectations.",
+    category: "Happiness",
+    author: "Barry Schwartz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+    category: "Happiness",
+    author: "Ralph Marston",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The happiest people don't have the best of everything, they make the best of everything.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can feel is to help someone else feel happiness.",
+    category: "Happiness",
+    author: "M. Russell Ballard",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can achieve is knowing that you are loved.",
+    category: "Happiness",
+    author: "Victor Hugo",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a state of mind, it's a way of life.",
+    category: "Happiness",
+    author: "Unknown",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is the experience of loving life. Being happy is being in love with that momentary experience.",
+    category: "Happiness",
+    author: "Leo Tolstoy",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    category: "Happiness",
+    author: "J.M. Barrie",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not a possession to be prized, it is a quality of thought, a state of mind.",
+    category: "Happiness",
+    author: "Daphne du Maurier",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to predict your future is to create it.",
+    category: "Happiness",
+    author: "Abraham Lincoln",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The only joy in the world is to begin.",
+    category: "Happiness",
+    author: "Cesare Pavese",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is not something ready made. It comes from your own actions.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The best way to cheer yourself is to try to cheer someone else up.",
+    category: "Happiness",
+    author: "Mark Twain",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is when what you think, what you say, and what you do are in harmony.",
+    category: "Happiness",
+    author: "Mahatma Gandhi",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The most wasted of all days is one without laughter.",
+    category: "Happiness",
+    author: "E.E. Cummings",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    category: "Happiness",
+    author: "William Saroyan",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The purpose of our lives is to be happy.",
+    category: "Happiness",
+    author: "Dalai Lama",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Learn to let go. That is the key to happiness.",
+    category: "Happiness",
+    author: "Buddha",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The only thing that will make you happy is being happy with who you are.",
+    category: "Happiness",
+    author: "Goldie Hawn",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Happiness is a warm puppy.",
+    category: "Happiness",
+    author: "Charles M. Schulz",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Count your age by friends, not years. Count your life by smiles, not tears.",
+    category: "Happiness",
+    author: "John Lennon",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    category: "Happiness",
+    author: "Albert Schweitzer",
+    addedBy: "gbb26"
+  },
+  {
+    quote: "The secret to happiness is freedom... And the secret to freedom is courage.",
+    category: "Happiness",
+    author: "Thucydides",
+    addedBy: "gbb26"
+  }
+]
