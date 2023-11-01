@@ -32,23 +32,30 @@ body {
 .h-screen {
   height: 100vh;
 }
+
 .container {
-  background: rgba(237, 237, 237, 1);
+  background: rgb(255, 255, 255);
+  border: 10px solid black; 
   border-radius: 25px;
-  max-width: 1000px;
-  width: 100%;
+  max-width: 1100px;
+  width: 95%;
   margin: 0 auto;
   box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
   text-align: center;
   transition: background-color 0.3s ease;
   position: relative;
-  border: 25px solid #272727;
-  height: 100vh;
+  height: 90vh;
   padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
+
+
+
+
+
 .container section {
   width: 100%;
 }
@@ -222,7 +229,6 @@ main {
   width: 60%;
   text-align: center;
   display: inline-block;
-  /* margin: 0 auto; */
   margin: 2px auto;
   padding: 10px 20px;
   border-radius: 0 0 5px 5px;
@@ -264,6 +270,7 @@ main {
   z-index: 10;
   text-align: center;
 }
+
 
 .controller-group button,
 .controller-group select {
@@ -343,7 +350,38 @@ body {
   padding: 5px;
   background-color: #272727;
   border-radius: 0 9px 9px 0;
+  display: flex;
+  align-items: center;
 }
+
+#color_picker {
+  margin-right: 5px;
+  border-radius: 50%; /* Make the color picker button round */
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+}
+
+.button-text {
+  color: white;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.theme_changer_button input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0; /* Remove padding around the color picker */
+  border: none; /* Remove the border around the color picker */
+}
+
+.theme_changer_button input[type="color"]::-webkit-color-swatch {
+  border: none; /* Remove the border around the color picker */
+}
+
+
 
 .theme_changer_button div input {
   display: none;

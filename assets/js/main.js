@@ -28,6 +28,29 @@ document.addEventListener("DOMContentLoaded", () => {
   let webAddress = "https://quote-verse.netlify.app/";
   let themeColor = color_array[0];
 
+  // update the themeColor when the color picker changes
+document.getElementById("color_picker").addEventListener("input", (event) => {
+  themeColor = event.target.value;
+  container.style.background = themeColor;
+
+  const brightness = getBrightness(themeColor);
+  if (brightness < 128) {
+    container.style.color = "white";
+  } else {
+    container.style.color = "black";
+  }
+  setCanvas();
+});
+
+//calculating the brightness of the color picked
+function getBrightness(hexColor) {
+  const r = parseInt(hexColor.slice(1, 3), 16);
+  const g = parseInt(hexColor.slice(3, 5), 16);
+  const b = parseInt(hexColor.slice(5, 7), 16);
+  return (r * 299 + g * 587 + b * 114) / 1000;
+}
+
+
   // setting categories options
   const setCategories = () => {
     const quotes = window.quotes;
@@ -330,7 +353,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   })();
 
-  // theme changer section
+  
   color_selection.forEach((item) => {
     item.addEventListener("click", () => {
       var getItemNumber = item.getAttribute("data-number");

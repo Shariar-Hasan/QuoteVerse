@@ -41,22 +41,26 @@ body {
 }
 
 .container {
-    background: rgba(237, 237, 237, 1);
+    background: rgb(255, 255, 255);
+    border: 10px solid black;
     border-radius: 25px;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1100px;
+    width: 95%;
     margin: 0 auto;
     box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
     text-align: center;
     transition: background-color 0.3s ease;
-    position: relative;
-    border: 25px solid #272727;
-    height: 100vh;
-    padding: 1rem 1rem 0 1rem;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 90vh;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 nav{
     display: flex;
