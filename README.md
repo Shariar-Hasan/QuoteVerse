@@ -18,7 +18,7 @@ Quoteverse is a simple web application that generates random quotes to inspire, 
 
 ### 🥳🎉🎊Note : This Repository is under Hacktoberfest 2023
 
-### 🔴 For `hactoberfest` you have to STAR The Repository⭐, Open a PULL REQUEST & Get it Merged! 🎉
+### 🔴 For `hacktoberfest` you have to STAR The Repository⭐, Open a PULL REQUEST & Get it Merged! 🎉
 
 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the challenge and earn a limited edition rewards!🚀
 
