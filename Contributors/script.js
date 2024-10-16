@@ -3,18 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const prevPageBtn = document.getElementById('prev-page');
   const nextPageBtn = document.getElementById('next-page');
   const paginationInfo = document.getElementById('pagination-info');
+  const sortOptions = document.getElementById('sort-options');
   
   let pageCount = 1;
   let totalPages = 0;
-  const itemsPerPage = 10; // Display 10 contributors per page
+  const itemsPerPage = 12; // Display 12 contributors per page
+  let allContributors = []; // Store all contributors here
+  let sortedContributors = []; // Store sorted contributors here
 
-  loadContributors(pageCount, contributorsContainer);
+  // Load all contributors initially
+  loadAllContributors();
 
   prevPageBtn.addEventListener('click', (e) => {
     e.preventDefault();
     if (pageCount > 1) {
       pageCount--;
-      loadContributors(pageCount, contributorsContainer);
+      displayContributors(pageCount, contributorsContainer);
     }
   });
 
@@ -22,53 +26,85 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     if (pageCount < totalPages) {
       pageCount++;
-      loadContributors(pageCount, contributorsContainer);
+      displayContributors(pageCount, contributorsContainer);
     }
   });
 
-  function loadContributors(pageCount, contributorsContainer) {
-    fetch(`https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors?per_page=${itemsPerPage}&page=${pageCount}`)
-      .then(response => response.json())
-      .then(data => {
-        contributorsContainer.innerHTML = ""; // Clear previous results
+  // Handle sort changes
+  sortOptions.addEventListener('change', () => {
+    applySort(); // Apply sorting when the user changes the sorting option
+    pageCount = 1; // Reset to page 1 after sorting
+    displayContributors(pageCount, contributorsContainer); // Display sorted contributors
+  });
 
-        data.forEach(contributor => {
-          const contributorCard = getContributorCard();
-          contributorCard.href = contributor.html_url;
+  // Function to fetch and store all contributors across all pages
+  function loadAllContributors() {
+    let currentPage = 1;
+    const perPage = 100; // Fetch up to 100 contributors per API call
+    const contributorsUrl = `https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors`;
 
-          const img = contributorCard.querySelector('img');
-          img.src = contributor.avatar_url;
-          img.alt = contributor.login;
-
-          contributorCard.querySelector('.contributor-username').textContent = contributor.login;
-          contributorCard.querySelector('.contributor-commits').textContent =
-            contributor.contributions + (contributor.contributions === 1 ? " commit" : " commits");
-
-          contributorsContainer.appendChild(contributorCard);
+    function fetchContributorsPage(page) {
+      fetch(`${contributorsUrl}?per_page=${perPage}&page=${page}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.length > 0) {
+            allContributors = allContributors.concat(data); // Append contributors to the list
+            fetchContributorsPage(page + 1); // Fetch next page
+          } else {
+            sortedContributors = [...allContributors]; // Initially, sortedContributors is the same as allContributors
+            totalPages = Math.ceil(allContributors.length / itemsPerPage);
+            displayContributors(pageCount, contributorsContainer);
+          }
         });
+    }
 
-        // Update the pagination to reflect total contributors and pages
-        fetchTotalContributors().then(totalContributors => {
-          totalPages = Math.ceil(totalContributors / itemsPerPage);
-          paginationInfo.textContent = `Page ${pageCount} of ${totalPages}`;
-
-          prevPageBtn.disabled = pageCount === 1;
-          nextPageBtn.disabled = pageCount === totalPages;
-        });
-      });
+    fetchContributorsPage(currentPage); // Start fetching from the first page
   }
 
-  function fetchTotalContributors() {
-    return fetch('https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors')
-      .then(response => response.json())
-      .then(data => data.length); // Get total contributors count
+  // Display contributors for the current page
+  function displayContributors(pageCount, contributorsContainer) {
+    contributorsContainer.innerHTML = ""; // Clear previous results
+
+    const startIndex = (pageCount - 1) * itemsPerPage;
+    const endIndex = pageCount * itemsPerPage;
+    const contributorsToShow = sortedContributors.slice(startIndex, endIndex); // Get the sorted contributors for the current page
+
+    contributorsToShow.forEach(contributor => {
+      const contributorCard = getContributorCard();
+      contributorCard.href = contributor.html_url;
+
+      const img = contributorCard.querySelector('img');
+      img.src = contributor.avatar_url;
+      img.alt = contributor.login;
+
+      contributorCard.querySelector('.contributor-username').textContent = contributor.login;
+      contributorCard.querySelector('.contributor-commits').textContent =
+        contributor.contributions + (contributor.contributions === 1 ? " commit" : " commits");
+
+      contributorsContainer.appendChild(contributorCard);
+    });
+
+    paginationInfo.textContent = `Page ${pageCount} of ${totalPages}`;
+
+    prevPageBtn.disabled = pageCount === 1;
+    nextPageBtn.disabled = pageCount === totalPages;
+  }
+
+  // Apply sorting to all contributors before displaying
+  function applySort() {
+    const sortOption = sortOptions.value;
+
+    if (sortOption === "commits") {
+      sortedContributors.sort((a, b) => b.contributions - a.contributions); // Sort by contributions (descending)
+    } else if (sortOption === "name") {
+      sortedContributors.sort((a, b) => a.login.localeCompare(b.login)); // Sort by name (ascending)
+    }
   }
 
   function getContributorCard() {
     return document.querySelector('.contributor-card').cloneNode(true);
   }
 });
-
 
 // Search and Sorting
 function searchContributors() {
@@ -83,23 +119,4 @@ function searchContributors() {
       card.style.display = "none";
     }
   });
-}
-
-function sortContributors() {
-  let sortOption = document.getElementById('sort-options').value;
-  let contributors = Array.from(document.getElementsByClassName('contributor-card'));
-
-  if (sortOption === "commits") {
-    contributors.sort((a, b) => {
-      return parseInt(b.querySelector('.contributor-commits').textContent.split(" ")[0]) -
-             parseInt(a.querySelector('.contributor-commits').textContent.split(" ")[0]);
-    });
-  } else if (sortOption === "name") {
-    contributors.sort((a, b) => {
-      return a.querySelector('.contributor-username').textContent.localeCompare(b.querySelector('.contributor-username').textContent);
-    });
-  }
-
-  let container = document.getElementById('contributors-container');
-  contributors.forEach(contributor => container.appendChild(contributor));
 }
