@@ -26,13 +26,31 @@
                 </a>
                 <h2>Contributors</h2>
             </nav>
-            <div class="contributors-container" id="contributors-container">
+
+            <!-- Search and Sort Section -->
+            <div class="search-sort-container">
+                <div class="search-bar-container">
+                    <input type="text" id="search-bar" placeholder="Search contributors" onkeyup="searchContributors()">
+                </div>
+                <div class="sort-container">
+                    <select id="sort-options" onchange="sortContributors()">
+                        <option value="commits">Sort by Commits</option>
+                        <option value="name">Sort by Name</option>
+                    </select>
+                </div>
             </div>
-            <div class="pagination">
-                <button id="load-more" class="active">Load More</button>
+
+            <div class="contributors-container" id="contributors-container"></div>
+
+            <!-- Pagination Section -->
+            <div class="pagination-container">
+                <button id="prev-page" class="pagination-btn">Previous</button>
+                <span id="pagination-info">Page 1 of X</span>
+                <button id="next-page" class="pagination-btn">Next</button>
             </div>
         </div>
     </main>
+
     <hidden>
         <a href="#" target="_blank" rel="noopener noreferrer" class="contributor-card">
             <img src="" alt="img" />
@@ -47,6 +65,7 @@
             </h4>
         </a>
     </hidden>
+
     <script src="./script.js"></script>
 </body>
 </html>
