@@ -63,8 +63,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 nav a svg {
@@ -75,10 +76,11 @@ nav a svg {
 
 nav h2 {
     font-weight: bold;
+    margin-left: 30%;
 }
 
 .contributors-container {
-    height: calc(100vh - 250px); /* Adjust height for fixed container */
+    height: calc(100vh - 200px); /* Adjust height for fixed container */
     width: 100%;
     overflow-y: auto; /* Enable scroll only for this section */
     display: grid;
