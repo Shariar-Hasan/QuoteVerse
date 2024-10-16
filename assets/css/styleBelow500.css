@@ -1,56 +1,59 @@
-@media screen and (width <=500px) {
+@media screen and (max-width: 500px) {
+  /* Adjust button and select width */
   .controller-group button,
   .controller-group select {
     width: 100%;
     padding: 8px;
   }
+
+  /* Make controller full-width and adjust padding */
   .controller {
     width: 100%;
     padding: 10px;
   }
+
+  /* Adjust container padding and border size */
   .container {
-    padding: 3rem 1rem;
-    border: 15px solid #272727;
+    padding: 2rem 1rem;
+    border: 10px solid #272727;
+    height: auto; /* Adjust height to auto for better fit */
   }
-  /* .container {
-    background: rgba(237, 237, 237, 1);
-    border-radius: 25px;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
-    text-align: center;
-    transition: background-color 0.3s ease;
-    position: relative;
-    border: 25px solid #272727;
-    height: 100vh;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
+
+  /* Adjust quote text size */
   .quote-text {
     font-size: 1.3rem;
   }
+
+  /* Adjust quote margins */
   .quote {
     margin: 0;
     padding: 40px 0 0 0;
   }
+
+  /* Adjust author text size */
   .quote-author {
     font-size: 0.8rem;
   }
+
+  /* Make hover-to-share text smaller */
   .hoverToShare,
   .added-by-box {
     font-size: smaller;
   }
+
+  /* Adjust button font size */
   .controller-group button,
   .controller-group select {
-    font-size: sm;
+    font-size: small;
     font-weight: 400;
   }
+
+  /* Ensure controller section takes full width */
   .controllerSection {
     width: 100%;
   }
+
+  /* Position theme changer button */
   .theme_changer_button {
     position: fixed;
     top: 0px;
@@ -59,18 +62,84 @@
     display: flex;
     border-radius: 0 0 9px 9px;
   }
+
+  /* Adjust theme changer button label size */
   .theme_changer_button div label {
     margin: 7px 9px;
     width: 20px;
     height: 20px;
   }
 
+  /* Contribute button adjustments */
   .controller .contribute1 {
     width: 90%;
     font-size: x-small;
   }
+
   .controller .contribute2 {
     width: 60%;
     font-size: x-small;
+  }
+
+  /* Ensure pagination buttons and select options fit mobile view */
+  .pagination-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Adjust padding for search and sort inputs */
+  #search-bar, #sort-options {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust contributor card size */
+  .contributors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between cards */
+    gap: 1rem;
+  }
+  
+  .contributor-card {
+    width: 45%; /* Take up 45% of the container's width for 2 cards per row */
+    margin-bottom: 1rem;
+  }
+
+  .contributor-card img {
+    width: 75px; /* Smaller avatar */
+    height: 75px;
+  }
+
+  .contributor-card h4 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* Adjust font size in pagination */
+  .pagination-container, .pagination-info {
+    font-size: 0.85rem;
+  }
+
+  /* Adjust spacing between navigation and header elements */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a svg {
+    width: 18px; /* Reduce back arrow size */
+    height: 18px;
+  }
+
+  /* Ensure sorting and pagination buttons don't overflow */
+  .controller-group, .search-sort-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Center the content properly */
+  .container {
+    max-width: 100%;
   }
 }
