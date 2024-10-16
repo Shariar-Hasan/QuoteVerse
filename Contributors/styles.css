@@ -12,14 +12,14 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
 }
-:root{
-    --color:rgb(41, 41, 41);
+
+:root {
+    --color: rgb(41, 41, 41);
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -50,70 +50,74 @@ body {
     box-shadow: 0 0 80px 1px rgb(255 255 255 / 30%);
     text-align: center;
     transition: background-color 0.3s ease;
-    position: absolute; 
+    position: relative; /* Change absolute to relative */
     top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    transform: translateY(-50%); /* Vertically center the container */
     height: 90vh;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden; /* Ensure no overflow */
 }
 
-
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav a svg{
+nav a svg {
     stroke: var(--color);
     display: inline-block;
     vertical-align: bottom;
 }
-nav h2{
+
+nav h2 {
     font-weight: bold;
 }
-.contributors-container{
-    height: calc(100vh - 119px);
+
+.contributors-container {
+    height: calc(100vh - 250px); /* Adjust height for fixed container */
     width: 100%;
-    overflow-y: auto;
-    display: flex;
-    flex-wrap: wrap;
+    overflow-y: auto; /* Enable scroll only for this section */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Grid layout for contributors */
     gap: 1rem;
-    align-content: flex-start;
-    justify-content: center;
     padding-top: 1rem;
+    justify-content: center;
+    align-content: start;
 }
-.contributor-card{
+
+.contributor-card {
     text-align: center;
     padding: 1rem;
     background-color: #D9D9D9;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     box-shadow: 0px 0px 8px #b0b0b0;
     transition-duration: 250ms;
     border: solid 1px #a0a0a0;
 }
 
-.contributor-card:hover{
-    scale: 103%;
+.contributor-card:hover {
+    scale: 1.03; /* Smooth hover effect */
     box-shadow: 2px 2px 5px 2px gray;
     background-color: #E9E9E9;
 }
 
-.contributor-card img{
+.contributor-card img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     display: inline-block;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
-.contributor-card h4{
+
+.contributor-card h4 {
     width: 130px;
 }
-.contributor-card h4 span{
+
+.contributor-card h4 span {
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 90px;
@@ -121,24 +125,28 @@ nav h2{
     white-space: nowrap;
     font-size: 14px;
 }
-.contributor-card h4 svg,.contributor-card h4 span{
+
+.contributor-card h4 svg, .contributor-card h4 span {
     display: inline-block;
     vertical-align: middle;
 }
-main + hidden{
+
+main + hidden {
     display: none;
 }
 
-.pagination {
+/* Pagination */
+.pagination-container {
     width: 100%;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    margin-top: 1.5rem;
 }
 
-.pagination button {
+.pagination-btn {
     padding: 0.5rem 0.75rem;
     font-size: 0.75rem;
     background-color: #272727;
@@ -148,13 +156,18 @@ main + hidden{
     cursor: pointer;
 }
 
-.active:hover {
+.pagination-btn:hover {
     background-color: #576574;
 }
 
-.blocked {
-    color: #a0a0a0 !important;
-    cursor:not-allowed !important;
+.pagination-btn:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+}
+
+#pagination-info {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* Search and Sort Section */
@@ -199,38 +212,4 @@ main + hidden{
     border-color: #272727;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Pagination Styles */
-.pagination-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-}
-
-.pagination-btn {
-    padding: 0.75rem 1.25rem;
-    background-color: #272727;
-    color: #E9E9E9;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.pagination-btn:hover {
-    background-color: #576574;
-}
-
-.pagination-btn:disabled {
-    background-color: #a0a0a0;
-    cursor: not-allowed;
-}
-
-#pagination-info {
-    font-size: 1rem;
-    font-weight: bold;
 }

@@ -47,12 +47,21 @@ document.addEventListener('DOMContentLoaded', () => {
           contributorsContainer.appendChild(contributorCard);
         });
 
-        totalPages = Math.ceil(data.length / itemsPerPage);
-        paginationInfo.textContent = `Page ${pageCount} of ${totalPages}`;
+        // Update the pagination to reflect total contributors and pages
+        fetchTotalContributors().then(totalContributors => {
+          totalPages = Math.ceil(totalContributors / itemsPerPage);
+          paginationInfo.textContent = `Page ${pageCount} of ${totalPages}`;
 
-        prevPageBtn.disabled = pageCount === 1;
-        nextPageBtn.disabled = pageCount === totalPages;
+          prevPageBtn.disabled = pageCount === 1;
+          nextPageBtn.disabled = pageCount === totalPages;
+        });
       });
+  }
+
+  function fetchTotalContributors() {
+    return fetch('https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors')
+      .then(response => response.json())
+      .then(data => data.length); // Get total contributors count
   }
 
   function getContributorCard() {
