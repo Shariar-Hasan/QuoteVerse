@@ -1,50 +1,96 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const contributorsContainer = document.getElementById(
-    'contributors-container'
-  );
-  const load_more_btn = document.getElementById("load-more")
+  const contributorsContainer = document.getElementById('contributors-container');
+  const prevPageBtn = document.getElementById('prev-page');
+  const nextPageBtn = document.getElementById('next-page');
+  const paginationInfo = document.getElementById('pagination-info');
+  
+  let pageCount = 1;
+  let totalPages = 0;
+  const itemsPerPage = 10; // Display 10 contributors per page
 
-  let page_count = 1;
-  loadMore(page_count, contributorsContainer);
+  loadContributors(pageCount, contributorsContainer);
 
-  load_more_btn.addEventListener("click", (e) => {
+  prevPageBtn.addEventListener('click', (e) => {
     e.preventDefault();
+    if (pageCount > 1) {
+      pageCount--;
+      loadContributors(pageCount, contributorsContainer);
+    }
+  });
 
-    page_count++;
-    return loadMore(page_count, contributorsContainer, load_more_btn);
-  })
+  nextPageBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (pageCount < totalPages) {
+      pageCount++;
+      loadContributors(pageCount, contributorsContainer);
+    }
+  });
+
+  function loadContributors(pageCount, contributorsContainer) {
+    fetch(`https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors?per_page=${itemsPerPage}&page=${pageCount}`)
+      .then(response => response.json())
+      .then(data => {
+        contributorsContainer.innerHTML = ""; // Clear previous results
+
+        data.forEach(contributor => {
+          const contributorCard = getContributorCard();
+          contributorCard.href = contributor.html_url;
+
+          const img = contributorCard.querySelector('img');
+          img.src = contributor.avatar_url;
+          img.alt = contributor.login;
+
+          contributorCard.querySelector('.contributor-username').textContent = contributor.login;
+          contributorCard.querySelector('.contributor-commits').textContent =
+            contributor.contributions + (contributor.contributions === 1 ? " commit" : " commits");
+
+          contributorsContainer.appendChild(contributorCard);
+        });
+
+        totalPages = Math.ceil(data.length / itemsPerPage);
+        paginationInfo.textContent = `Page ${pageCount} of ${totalPages}`;
+
+        prevPageBtn.disabled = pageCount === 1;
+        nextPageBtn.disabled = pageCount === totalPages;
+      });
+  }
+
+  function getContributorCard() {
+    return document.querySelector('.contributor-card').cloneNode(true);
+  }
 });
 
-function loadMore(page_count, contributorsContainer, load_more_btn) {
-  fetch(`https://api.github.com/repos/Shariar-Hasan/QuoteVerse/contributors?per_page=30&page=${page_count}`)
-    .then((response) => response.json())
-    .then((data) => {
 
-      if (data.length === 0) {
-          load_more_btn.classList.remove("active")
-          load_more_btn.classList.add("blocked")
-          return;
-      }
+// Search and Sorting
+function searchContributors() {
+  let input = document.getElementById('search-bar').value.toLowerCase();
+  let contributorCards = document.getElementsByClassName('contributor-card');
 
-      data.forEach((contributor) => {
-        const contributor_card = getContributorCard();
-        contributor_card.href = contributor.html_url;
-
-        const img = contributor_card.querySelector('img');
-        img.src = contributor.avatar_url;
-        img.alt = contributor.login;
-
-        contributor_card.querySelector('.contributor-username').textContent = contributor.login;
-        if (contributor.contributions == 1) {
-          contributor_card.querySelector(".contributor-commits").textContent = contributor.contributions + " commit";
-        } else {
-          contributor_card.querySelector(".contributor-commits").textContent = contributor.contributions + " commits";
-        }
-        contributorsContainer.appendChild(contributor_card);
-      });
-    });
+  Array.from(contributorCards).forEach(card => {
+    let contributorName = card.querySelector('.contributor-username').textContent.toLowerCase();
+    if (contributorName.includes(input)) {
+      card.style.display = "";
+    } else {
+      card.style.display = "none";
+    }
+  });
 }
 
-function getContributorCard() {
-  return document.querySelector('.contributor-card').cloneNode(true);
+function sortContributors() {
+  let sortOption = document.getElementById('sort-options').value;
+  let contributors = Array.from(document.getElementsByClassName('contributor-card'));
+
+  if (sortOption === "commits") {
+    contributors.sort((a, b) => {
+      return parseInt(b.querySelector('.contributor-commits').textContent.split(" ")[0]) -
+             parseInt(a.querySelector('.contributor-commits').textContent.split(" ")[0]);
+    });
+  } else if (sortOption === "name") {
+    contributors.sort((a, b) => {
+      return a.querySelector('.contributor-username').textContent.localeCompare(b.querySelector('.contributor-username').textContent);
+    });
+  }
+
+  let container = document.getElementById('contributors-container');
+  contributors.forEach(contributor => container.appendChild(contributor));
 }
