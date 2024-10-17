@@ -72,6 +72,46 @@
       content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png"
     />
     <meta name="twitter:site" content="@iShariarHasan" />
+
+    <style>
+      .popup {
+    position: fixed; /* Change to fixed for centering */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset to perfectly center */
+    background: white;
+    border: 2px solid #007bff; /* Stylish border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    z-index: 1000;
+    padding: 20px; /* More padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    display: none; /* Initially hidden */
+    width: 300px; /* Fixed width for consistency */
+    text-align: center; /* Center text inside popup */
+}
+
+.popup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popup li {
+    margin: 10px 0; /* Spacing between links */
+}
+
+.popup a {
+    text-decoration: none;
+    color: #007bff; /* Stylish link color */
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.popup a:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+
+    </style>
   </head>
 
   <body>
@@ -95,13 +135,19 @@
         <section class="controllerSection">
           <div class="controller">
             <!-- Share Button -->
-
             <div class="shareAndcontribute">
               <div class="shareWith text-right">
-                <span class="hoverToShare"
-                  >Share with <i class="fa fa-share" aria-hidden="true"></i
-                ></span>
-                <div class="share-buttons" id="shareBtns"></div>
+                <button id="share-button" class="hoverToShare">
+                  Share with <i class="fa fa-share" aria-hidden="true"></i>
+                </button>
+                <div class="popup" id="share-popup" style="display: none;">
+                  <ul>
+                    <li><a href="#" class="share-link" data-platform="copy">Copy Link</a></li>
+                    <li><a href="#" class="share-link" data-platform="x">Share on X</a></li>
+                    <li><a href="#" class="share-link" data-platform="facebook">Share on Facebook</a></li>
+                    <li><a href="#" class="share-link" data-platform="whatsapp">Share on WhatsApp</a></li>
+                  </ul>
+                </div>
               </div>
               <div class="added-by-box animate text-left" id="addedByTag"></div>
             </div>
@@ -151,15 +197,62 @@
     <script src="./assets/js/others.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
-      var color_selection = document.querySelectorAll(".select_color");
-      var color_array = [
-        "rgba(237, 237, 237, 1)",
-        "rgb(57 150 255 / 90%)",
-        "rgb(154 72 89/ 70%)",
-        "rgb(36 183 158 / 90%)",
-        "rgb(255 255 145 / 70%)",
-      ];
-
+      const shareButton = document.getElementById('share-button');
+      const sharePopup = document.getElementById('share-popup');
+  
+      shareButton.addEventListener('click', (event) => {
+        event.stopPropagation(); // Prevent event bubbling
+        sharePopup.style.display = sharePopup.style.display === 'none' || sharePopup.style.display === '' ? 'block' : 'none'; // Toggle visibility
+      });
+  
+      // Close the popup if clicking outside
+      document.addEventListener('click', (event) => {
+        if (!shareButton.contains(event.target) && !sharePopup.contains(event.target)) {
+          sharePopup.style.display = 'none'; // Hide the popup
+        }
+      });
+  
+      // Function to encode the quote and author for sharing
+      function encodeQuote(quote, author) {
+        return encodeURIComponent(`"${quote}" - ${author}`);
+      }
+  
+      // Handle share link click
+      document.querySelectorAll('.share-link').forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          const platform = event.target.dataset.platform;
+          
+          // Get the quote text and author from the DOM
+          const quoteText = document.getElementById('quoteTextTag').innerText;
+          const quoteAuthor = document.getElementById('quoteAuthorTag').innerText;
+          
+          const encodedQuote = encodeQuote(quoteText, quoteAuthor);
+          const shareUrl = `https://quote-verse.netlify.app/`; // Change this to your actual website URL
+  
+          switch (platform) {
+            case 'copy':
+              navigator.clipboard.writeText(shareUrl + "\n" + encodedQuote)
+                .then(() => alert('Link copied to clipboard!'))
+                .catch(err => console.error('Failed to copy text: ', err));
+              break;
+            case 'x':
+              window.open(`https://twitter.com/intent/tweet?text=${encodedQuote}&url=${shareUrl}`, '_blank');
+              break;
+            case 'facebook':
+              window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`, '_blank');
+              break;
+            case 'whatsapp':
+              window.open(`https://api.whatsapp.com/send?text=${encodedQuote} ${shareUrl}`, '_blank');
+              break;
+            default:
+              console.log('Unknown platform');
+          }
+          
+          // Close the popup after sharing
+          sharePopup.style.display = 'none';
+        });
+      });
     </script>
   </body>
 </html>
