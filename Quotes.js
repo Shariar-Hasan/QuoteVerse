@@ -1,4 +1,28 @@
 window.quotes = [
+  {
+    quote: "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.",
+    category: "Growth",
+    author: "Carl Bard",
+    addedBy: "Dev Kumar Pal"
+  },
+  {
+    quote: "Change is the law of life and those who look only to the past or present are certain to miss the future.",
+    category: "Growth",
+    author: "John F. Kennedy",
+    addedBy: "Dev Kumar Pal"
+  },
+   {
+    quote: "Stay afraid, but do it anyway. What’s important is the action. You don’t have to wait to be confident. Just do it and eventually the confidence will follow.",
+    category: "Growth",
+    author: "Carrie Fisher",
+    addedBy: "Dev Kumar Pal"
+  },
+  {
+    quote: "If there is no struggle, there is no progress.",
+    category: "Growth",
+    author: "Frederick Douglass",
+    addedBy: "Dev Kumar Pal"
+  },
 
   {
     quote: "Education is not the filling of a pail, but the lighting of a fire.",
