@@ -2833,6 +2833,41 @@ window.quotes = [
     category: "Positive",
     author: "Mother Teresa",
     addedBy: "IamAayush2080",
+  },
+  
+  {
+    quote:"Education is one thing no one can take away from you",
+    category: "Education",
+    author: "Elin Nordegren",
+    addedBy: "AbdulRehmanGHub",
+  },
+
+  {
+    quote:"Education is the key that unlocks the golden door to freedom",
+    category: "Education",
+    author: "George Washington Carver",
+    addedBy: "AbdulRehmanGHub",
+  },
+
+  {
+    quote:"We learn from failure, not from success!",
+    category: "Education",
+    author: "Bram Stoker",
+    addedBy: "AbdulRehmanGHub",
+  },
+  
+  {
+    quote:"The purpose of education is to turn mirrors into windows",
+    category: "Education",
+    author: "Sydney J. Harris",
+    addedBy: "AbdulRehmanGHub",
+  },
+
+  {
+    quote:"A child without education is like a bird without wings",
+    category: "Education",
+    author: "Tibetan Proverb",
+    addedBy: "AbdulRehmanGHub",
   }
 
 
