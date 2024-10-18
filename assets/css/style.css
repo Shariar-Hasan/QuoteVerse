@@ -538,3 +538,149 @@ i {
     top: 0;
   }
 }
+
+
+#share-button {
+  margin: 4px;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  padding: 12px 24px; /* Padding for a medium-sized button */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+  gap: 8px; /* Space between text and icon */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover and click effects */
+}
+
+#share-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#share-button:active {
+  transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+.hoverToShare .fa-share {
+  transition: transform 0.3s ease-in-out;
+}
+
+#share-button:hover .fa-share {
+  transform: rotate(360deg); /* Spin the share icon on hover */
+}
+
+
+.icon-list {
+  display: flex;  /* Arrange items in a row */
+  list-style: none;  /* Remove bullet points */
+  padding: 0;  /* Remove padding */
+  margin: 0;  /* Remove margin */
+}
+
+.icon-list li {
+  margin-right: 10px;  /* Add spacing between icons */
+}
+
+.icon-list li:last-child {
+  margin-right: 0;  /* Remove right margin for the last item */
+}
+
+
+
+
+/* Centered popup container */
+.popup {
+  position: fixed; /* Fixed position so it stays centered when scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the popup */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000;
+  width: 250px; /* Adjust the width */
+  display: none; /* Hidden by default */
+}
+
+/* Popup list */
+.popup ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each share link */
+.popup ul li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.popup ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333; /* Default text color */
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for each share icon */
+.popup ul li a i {
+  margin-right: 10px;
+  color: #0077b5; /* Change to the default color for the platform */
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the share links */
+.popup ul li a:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.popup ul li a:hover i {
+  transform: scale(1.1);
+}
+
+/* Specific platform colors on hover */
+.popup ul li a[data-platform="facebook"] i {
+  color: #4267B2;
+}
+
+.popup ul li a[data-platform="telegram"] i {
+  color: #0088cc;
+}
+
+.popup ul li a[data-platform="twitter"] i {
+  color: #1DA1F2;
+}
+
+.popup ul li a[data-platform="linkedin"] i {
+  color: #0077B5;
+}
+
+.popup ul li a[data-platform="weixin"] i {
+  color: #1AAD19;
+}
+
+/* Optional: mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .popup {
+    width: 200px;
+    padding: 15px;
+  }
+
+  .popup ul li a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .popup ul li a i {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+}
+

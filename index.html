@@ -1,258 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- favicon here  -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon/android-chrome-512x512.png">
-    <!-- favicon end here  -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/styleBelow500.css" />
-    <title>QuoteVerse</title>
-    <meta
-      name="title"
-      content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses"
-    />
-    <meta
-      name="description"
-      content="Discover a world of inspiration at QuoteVerse! Dive into a collection of meaningful quotes, soul-stirring poems, and thought-provoking verses."
-    />
-    <meta
-      name="keywords"
-      content="Inspirational Quotes, Motivational Verses, Thoughtful Poems, Meaningful Sayings, Wisdom Quotes, Positive Affirmations, Empowering Words, Life Lessons, Poetry Collection, Daily Inspiration, Uplifting Quotes, Emotional Verses, Heartfelt Poetry, Encouraging Sayings, Spiritual Quotes, Quote Library, Inspiring Poets, Famous Authors, Creative Expression, Words of Encouragement"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="English" />
-    <meta name="revisit-after" content="1 day" />
-    <meta name="author" content="Shariar Hasan" />
-    <!-- Open Graph Meta Tags -->
-    <meta
-      property="og:title"
-      content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses"
-    />
-    <meta
-      property="og:description"
-      content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world."
-    />
-    <meta
-      property="og:image"
-      content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png"
-    />
-    <meta property="og:url" content="https://quote-verse.netlify.app/" />
-    <meta property="og:type" content="website" />
 
-    <!-- Twitter Card Meta Tags (for Twitter sharing) -->
-    <meta
-      name="twitter:card"
-      content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world."
-    />
-    <meta
-      name="twitter:title"
-      content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses"
-    />
-    <meta
-      name="twitter:description"
-      content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world."
-    />
-    <meta
-      name="twitter:image"
-      content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png"
-    />
-    <meta name="twitter:site" content="@iShariarHasan" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- favicon here  -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon/android-chrome-512x512.png">
+  <!-- favicon end here  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/styleBelow500.css" />
+  <title>QuoteVerse</title>
+  <meta name="title" content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses" />
+  <meta name="description"
+    content="Discover a world of inspiration at QuoteVerse! Dive into a collection of meaningful quotes, soul-stirring poems, and thought-provoking verses." />
+  <meta name="keywords"
+    content="Inspirational Quotes, Motivational Verses, Thoughtful Poems, Meaningful Sayings, Wisdom Quotes, Positive Affirmations, Empowering Words, Life Lessons, Poetry Collection, Daily Inspiration, Uplifting Quotes, Emotional Verses, Heartfelt Poetry, Encouraging Sayings, Spiritual Quotes, Quote Library, Inspiring Poets, Famous Authors, Creative Expression, Words of Encouragement" />
+  <meta name="robots" content="index,follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="1 day" />
+  <meta name="author" content="Shariar Hasan" />
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses" />
+  <meta property="og:description"
+    content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world." />
+  <meta property="og:image" content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png" />
+  <meta property="og:url" content="https://quote-verse.netlify.app/" />
+  <meta property="og:type" content="website" />
 
-    <style>
-      .popup {
-    position: fixed; /* Change to fixed for centering */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset to perfectly center */
-    background: white;
-    border: 2px solid #007bff; /* Stylish border */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
-    z-index: 1000;
-    padding: 20px; /* More padding for better spacing */
-    border-radius: 10px; /* Rounded corners */
-    display: none; /* Initially hidden */
-    width: 300px; /* Fixed width for consistency */
-    text-align: center; /* Center text inside popup */
-}
+  <!-- Twitter Card Meta Tags (for Twitter sharing) -->
+  <meta name="twitter:card"
+    content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world." />
+  <meta name="twitter:title" content="QuoteVerse - Explore Inspirational Quotes, Poems, and Verses" />
+  <meta name="twitter:description"
+    content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world." />
+  <meta name="twitter:image" content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png" />
+  <meta name="twitter:site" content="@iShariarHasan" />
 
-.popup ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+  
+  
+</head>
 
-.popup li {
-    margin: 10px 0; /* Spacing between links */
-}
-
-.popup a {
-    text-decoration: none;
-    color: #007bff; /* Stylish link color */
-    font-weight: bold; /* Bold links */
-    transition: color 0.3s; /* Smooth color transition */
-}
-
-.popup a:hover {
-    color: #0056b3; /* Darker color on hover */
-}
-
-    </style>
-  </head>
-
-  <body>
-    <main class="w-full h-screen">
-      <div class="container">
-        <!-- Quote Section -->
-        <section>
-          <div class="quote" title="Click to copy quote to clipboard">
-            <h1 class="quote-text" id="quoteTextTag">
-              <!-- Quote will appear here  -->
-            </h1>
-            <h5 class="quote-author" id="quoteAuthorTag">
-              <!-- Quote Author will appear here  -->
-            </h5>
-            <span id="copy_tooltip"></span>
-          </div>
-          <canvas id="quoteCanvas" class="quote-img" style="visibility: hidden; display: none;">Canvas is not supported by your web browser</canvas>
-        </section>
-
-        <!-- Control Section Section -->
-        <section class="controllerSection">
-          <div class="controller">
-            <!-- Share Button -->
-            <div class="shareAndcontribute">
-              <div class="shareWith text-right">
-                <button id="share-button" class="hoverToShare">
-                  Share with <i class="fa fa-share" aria-hidden="true"></i>
-                </button>
-                <div class="popup" id="share-popup" style="display: none;">
-                  <ul>
-                    <li><a href="#" class="share-link" data-platform="copy">Copy Link</a></li>
-                    <li><a href="#" class="share-link" data-platform="x">Share on X</a></li>
-                    <li><a href="#" class="share-link" data-platform="facebook">Share on Facebook</a></li>
-                    <li><a href="#" class="share-link" data-platform="whatsapp">Share on WhatsApp</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="added-by-box animate text-left" id="addedByTag"></div>
-            </div>
-            <div class="controller-wrapper w-full">
-              <div class="controller-group w-full">
-                <button class="btn-generator w-full" id="generateQuoteBtn">
-                  Generate <i class="fa-solid fa-rotate"></i>
-                </button>
-                <select
-                  name="selectedCategoryTag"
-                  id="selectedCategoryTag"
-                  class="capitalise w-full"
-                ></select>
-              </div>
-              <div class="w-full text-center">
-                <span class="contribute1" id="contributor">
-                  <a
-                    class="contributor"
-                    href="./Contributors/contributors.html"
-                  >
-                    See all Contributors
-                    <i class="fa fa-arrow-right px-3" aria-hidden="true"></i>
-                  </a>
-                </span>
-                <span class="contribute2">
-                  <a
-                    href="https://github.com/Shariar-Hasan/QuoteVerse"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github px-3" aria-hidden="true"></i>Click
-                    to contribute</a
-                  ></span
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-        <div id="theme_changer_button" class="theme_changer_button">
-          <span class="button-text">Color</span>
-          <input type="color" id="color_picker" value="#ededed">
+<body>
+  <main class="w-full h-screen">
+    <div class="container">
+      <!-- Quote Section -->
+      <section>
+        <div class="quote" title="Click to copy quote to clipboard">
+          <h1 class="quote-text" id="quoteTextTag">
+            <!-- Quote will appear here  -->
+          </h1>
+          <h5 class="quote-author" id="quoteAuthorTag">
+            <!-- Quote Author will appear here  -->
+          </h5>
+          <span id="copy_tooltip"></span>
         </div>
-        
-    </main>
+        <canvas id="quoteCanvas" class="quote-img" style="visibility: hidden; display: none;">Canvas is not supported by
+          your web browser</canvas>
+      </section>
 
-    <script src="./Quotes.js"></script>
-    <script src="./assets/js/others.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script>
-      const shareButton = document.getElementById('share-button');
-      const sharePopup = document.getElementById('share-popup');
-  
-      shareButton.addEventListener('click', (event) => {
-        event.stopPropagation(); // Prevent event bubbling
-        sharePopup.style.display = sharePopup.style.display === 'none' || sharePopup.style.display === '' ? 'block' : 'none'; // Toggle visibility
-      });
-  
-      // Close the popup if clicking outside
-      document.addEventListener('click', (event) => {
-        if (!shareButton.contains(event.target) && !sharePopup.contains(event.target)) {
-          sharePopup.style.display = 'none'; // Hide the popup
-        }
-      });
-  
-      // Function to encode the quote and author for sharing
-      function encodeQuote(quote, author) {
-        return encodeURIComponent(`"${quote}" - ${author}`);
+      <!-- Control Section Section -->
+      <section class="controllerSection">
+        <div class="controller">
+          <!-- Share Button -->
+          <div class="shareAndcontribute">
+            <div class="shareWith text-right">
+              <button id="share-button" class="hoverToShare">
+                Share <i class="fa fa-share" aria-hidden="true"></i>
+              </button>
+              <div class="popup" id="share-popup" style="display: none;">
+                <ul>
+                  <li><a href="#" class="share-link" data-platform="facebook" title="Share on Facebook"><i class="fab fa-facebook fa-3x"></i>facebook</a></li>
+                  <li><a href="#" class="share-link" data-platform="telegram" title="Share on Telegram"><i class="fab fa-telegram fa-3x"></i>telegram</a></li>
+                  <li><a href="#" class="share-link" data-platform="twitter" title="Share on Twitter"><i class="fab fa-twitter fa-3x"></i>twitter</a></li>
+                  <li><a href="#" class="share-link" data-platform="linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin fa-3x"></i>linkedin</a></li>
+                  <li><a href="#" class="share-link" data-platform="weixin" title="Share on Zalo"><i class="fab fa-weixin fa-3x"></i>copy</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="added-by-box animate text-left" id="addedByTag"></div>
+          </div>
+          <div class="controller-wrapper w-full">
+            <div class="controller-group w-full">
+              <button class="btn-generator w-full" id="generateQuoteBtn">
+                Generate <i class="fa-solid fa-rotate"></i>
+              </button>
+              <select name="selectedCategoryTag" id="selectedCategoryTag" class="capitalise w-full"></select>
+            </div>
+            <div class="w-full text-center">
+              <span class="contribute1" id="contributor">
+                <a class="contributor" href="./Contributors/contributors.html">
+                  See all Contributors
+                  <i class="fa fa-arrow-right px-3" aria-hidden="true"></i>
+                </a>
+              </span>
+              <span class="contribute2">
+                <a href="https://github.com/Shariar-Hasan/QuoteVerse" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github px-3" aria-hidden="true"></i>Click
+                  to contribute</a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="theme_changer_button" class="theme_changer_button">
+        <span class="button-text">Color</span>
+        <input type="color" id="color_picker" value="#ededed">
+      </div>
+
+  </main>
+
+  <!-- Other existing script tags -->
+<script src="./Quotes.js"></script>
+<script src="./assets/js/others.js"></script>
+<script src="./assets/js/main.js"></script>
+
+<script>
+  const shareButton = document.getElementById('share-button');
+  const sharePopup = document.getElementById('share-popup');
+
+  shareButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    sharePopup.style.display = sharePopup.style.display === 'none' || sharePopup.style.display === '' ? 'block' : 'none';
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!shareButton.contains(event.target) && !sharePopup.contains(event.target)) {
+      sharePopup.style.display = 'none';
+    }
+  });
+
+  function encodeQuote(quote, author) {
+    return encodeURIComponent(`"${quote}" - ${author}`);
+  }
+
+  document.querySelectorAll('.popup a').forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const platform = event.currentTarget.getAttribute('title').split(' ')[2].toLowerCase();
+
+      const quoteText = document.getElementById('quoteTextTag').innerText;
+      const quoteAuthor = document.getElementById('quoteAuthorTag').innerText;
+
+      const encodedQuote = encodeQuote(quoteText, quoteAuthor);
+      const shareUrl = `https://quote-verse.netlify.app/`;
+
+      switch (platform) {
+        case 'facebook':
+          window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`, '_blank');
+          break;
+        case 'telegram':
+          window.open(`https://t.me/share/url?url=${shareUrl}&text=${encodedQuote}`, '_blank');
+          break;
+        case 'twitter':
+          window.open(`https://twitter.com/intent/tweet?text=${encodedQuote}&url=${shareUrl}`, '_blank');
+          break;
+        case 'linkedin':
+          window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}&title=${encodedQuote}`, '_blank');
+          break;
+        default:
+          console.log('Unknown platform');
       }
-  
-      // Handle share link click
-      document.querySelectorAll('.share-link').forEach(link => {
-        link.addEventListener('click', (event) => {
-          event.preventDefault();
-          const platform = event.target.dataset.platform;
-          
-          // Get the quote text and author from the DOM
-          const quoteText = document.getElementById('quoteTextTag').innerText;
-          const quoteAuthor = document.getElementById('quoteAuthorTag').innerText;
-          
-          const encodedQuote = encodeQuote(quoteText, quoteAuthor);
-          const shareUrl = `https://quote-verse.netlify.app/`; // Change this to your actual website URL
-  
-          switch (platform) {
-            case 'copy':
-              navigator.clipboard.writeText(shareUrl + "\n" + encodedQuote)
-                .then(() => alert('Link copied to clipboard!'))
-                .catch(err => console.error('Failed to copy text: ', err));
-              break;
-            case 'x':
-              window.open(`https://twitter.com/intent/tweet?text=${encodedQuote}&url=${shareUrl}`, '_blank');
-              break;
-            case 'facebook':
-              window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`, '_blank');
-              break;
-            case 'whatsapp':
-              window.open(`https://api.whatsapp.com/send?text=${encodedQuote} ${shareUrl}`, '_blank');
-              break;
-            default:
-              console.log('Unknown platform');
-          }
-          
-          // Close the popup after sharing
-          sharePopup.style.display = 'none';
-        });
-      });
-    </script>
-  </body>
+
+      sharePopup.style.display = 'none';
+    });
+  });
+</script>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
 </html>
