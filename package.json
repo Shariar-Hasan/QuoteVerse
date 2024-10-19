@@ -4,9 +4,9 @@
   "description": "A place where you can find and add quotes of your choice",
   "main": "index.html",
   "dependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "QuoteVerse": "file:"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
