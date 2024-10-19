@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector(".container");
   const quoteSection = document.querySelector(".quote");
   const color_selection = document.querySelectorAll(".select_color");
+  const heartIcon = document.querySelector(".heart-icon");
 
   // overall global variable to use in all function
 
@@ -41,6 +42,34 @@ document.getElementById("color_picker").addEventListener("input", (event) => {
   }
   setCanvas();
 });
+
+heartIcon.addEventListener('click', function () {
+  let quote = quoteTextTag.textContent.trim(); 
+  let quoteInd = -1;
+
+  for (let i = 0; i < window.quotes.length; i++) {
+    if ('"' + window.quotes[i].quote + '"' === quote) {  
+      quoteInd = i;
+      break;
+    }
+  }
+
+  let isLiked = JSON.parse(localStorage.getItem(`quote-liked-${quoteInd}`)) || false;
+
+  isLiked = !isLiked;
+
+  if (isLiked) {
+    this.classList.add('active'); 
+    localStorage.setItem(`quote-liked-${quoteInd}`, JSON.stringify(true));
+  } else {
+    this.classList.remove('active'); 
+    localStorage.removeItem(`quote-liked-${quoteInd}`);
+  }
+
+  console.log("Heart clicked on quote index: ", quoteInd, "Liked:", isLiked);
+});
+
+
 
 //calculating the brightness of the color picked
 function getBrightness(hexColor) {
@@ -82,6 +111,8 @@ function getBrightness(hexColor) {
   // set up the selected quote
   const setQuote = () => {
     selectedCategory = selectedCategoryTag.value;
+    
+    
 
     // categorically selected quotes
     const quotes = window.quotes
@@ -98,6 +129,23 @@ function getBrightness(hexColor) {
     selectedQuoteText = selectedQuote.quote;
     selectedQuoteAuthor = selectedQuote.author;
     selectedQuoteAddedBy = selectedQuote.addedBy;
+
+    let quote = quoteTextTag.textContent.trim(); 
+    let quoteInd = -1;
+    for (let i = 0; i < window.quotes.length; i++) {
+      if ('"' + window.quotes[i].quote + '"' === quote) {  
+        quoteInd = i;
+        break;
+      }
+    }
+
+    if (localStorage.getItem(`quote-liked-${quoteInd}`)){
+      console.log("already liked : quote ind - ", quoteInd);
+      heartIcon.classList.add('active');
+    }else{
+      console.log("not liked");
+      heartIcon.classList.remove('active');
+    }
 
     // setting the visual innerhtml values
     setValue(quoteTextTag, `"${selectedQuote.quote}"`);
@@ -120,7 +168,7 @@ function getBrightness(hexColor) {
     // set canvas to generate image to download
     setCanvas();
   };
-
+  
   // function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
   const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
     let words = text.split(" ");

@@ -26,6 +26,27 @@ body {
   color: rgb(41, 41, 41);
   font-family: "Lato", sans-serif;
 }
+
+.heart-icon {
+  cursor: pointer;
+  color: black; 
+  font-variation-settings:
+    'FILL' 0,  
+    'wght' 400,
+    'GRAD' 11,
+    'opsz' 24;
+}
+
+.heart-icon.active {
+  color: rgb(255, 30, 116);
+  font-variation-settings:
+    'FILL' 1,  
+    'wght' 400,
+    'GRAD' 11,
+    'opsz' 24;
+}
+
+
 .w-full {
   width: 100%;
 }
