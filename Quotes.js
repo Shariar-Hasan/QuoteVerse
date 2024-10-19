@@ -2894,5 +2894,11 @@ window.quotes = [
     addedBy: "AbdulRehmanGHub",
   }
 
+  {
+    quote: "The future is already here - it's just not evenly distributed.",
+    category: "Science Fiction",
+    author: "William Gibson",
+    addedBy: "CristinaEU1",
+  }
 
 ];
