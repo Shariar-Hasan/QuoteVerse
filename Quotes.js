@@ -2879,49 +2879,42 @@ window.quotes = [
     author: "Bram Stoker",
     addedBy: "AbdulRehmanGHub",
   },
-  
   {
     quote:"The purpose of education is to turn mirrors into windows",
     category: "Education",
     author: "Sydney J. Harris",
     addedBy: "AbdulRehmanGHub",
   },
-
   {
     quote:"A child without education is like a bird without wings",
     category: "Education",
     author: "Tibetan Proverb",
     addedBy: "AbdulRehmanGHub",
-  }
-
+  },
   {
     quote: "The future is already here - it's just not evenly distributed.",
     category: "Science Fiction",
     author: "William Gibson",
     addedBy: "CristinaEU1",
-  }
-
+  },
  {
     quote: "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
     category: "Science Fiction",
     author: "Isaac Asimov",
     addedBy: "CristinaEU1",
-  }
-
+  },
    {
     quote: "The future is already here - it's just not evenly distributed.",
     category: "Science Fiction",
     author: "Arthur C. Clarke",
     addedBy: "CristinaEU1",
-  }
-
+  },
    {
     quote: "We are an impossibility in an impossible universe.",
     category: "Science Fiction",
     author: "Ray Bradbury",
     addedBy: "CristinaEU1",
-  }
-
+  },
    {
     quote: "The only way to predict the future is to create it.",
     category: "Science Fiction",
