@@ -97,7 +97,9 @@ main {
   font-size: 16px;
   margin-right: 5px;
 }
-
+.ml-4{
+  margin-left: 4rem;
+}
 .quote {
   text-align: center;
   box-sizing: border-box;
@@ -250,7 +252,7 @@ main {
   width: 60%;
   text-align: center;
   display: inline-block;
-  margin: 2px auto;
+  margin-top:8px ;
   padding: 10px 20px;
   border-radius: 0 0 5px 5px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
@@ -262,6 +264,7 @@ main {
   text-align: center;
   display: inline-block;
   padding: 10px 20px;
+  margin-top: 8px;
   border-radius: 0 0 5px 5px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
   background-color: #262626;
