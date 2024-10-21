@@ -2903,19 +2903,21 @@ window.quotes = [
     author: "Isaac Asimov",
     addedBy: "CristinaEU1",
   },
-  {
+   {
     quote: "The future is already here - it's just not evenly distributed.",
     category: "Science Fiction",
     author: "Arthur C. Clarke",
     addedBy: "CristinaEU1",
   },
-  {
+
+   {
     quote: "We are an impossibility in an impossible universe.",
     category: "Science Fiction",
     author: "Ray Bradbury",
     addedBy: "CristinaEU1",
   },
-  {
+
+   {
     quote: "The only way to predict the future is to create it.",
     category: "Science Fiction",
     author: "William Gibson",
