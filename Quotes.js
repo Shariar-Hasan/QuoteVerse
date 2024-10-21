@@ -2903,23 +2903,82 @@ window.quotes = [
     author: "Isaac Asimov",
     addedBy: "CristinaEU1",
   },
-   {
+  {
     quote: "The future is already here - it's just not evenly distributed.",
     category: "Science Fiction",
     author: "Arthur C. Clarke",
     addedBy: "CristinaEU1",
   },
-   {
+  {
     quote: "We are an impossibility in an impossible universe.",
     category: "Science Fiction",
     author: "Ray Bradbury",
     addedBy: "CristinaEU1",
   },
-   {
+  {
     quote: "The only way to predict the future is to create it.",
     category: "Science Fiction",
     author: "William Gibson",
     addedBy: "CristinaEU1",
-  }
-
+  },
+  {
+    quote: "All our dreams can come true, if we have the courage to pursue them.",
+    category: "Motivation",
+    author: "Walt Disney",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "I am lucky that whatever fear I have inside me, my desire to win is always stronger.",
+    category: "Motivation",
+    author: "Serena Williams",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    category: "Motivation",
+    author: "Theodore Roosevelt",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "Life shrinks or expands in proportion to one’s courage.",
+    category: "Motivation",
+    author: "Anaïs Nin",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "All dreams are within reach. All you have to do is keep moving towards them.",
+    category: "Motivation",
+    author: "Viola Davis",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "Hard things will happen to us. We will recover. We will learn from it. We will grow more resilient because of it.",
+    category: "Motivation",
+    author: "Taylor Swift",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "Your story is what you have, what you will always have. It is something to own.",
+    category: "Motivation",
+    author: "Michelle Obama",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "If you prioritize yourself, you are going to save yourself.",
+    category: "Motivation",
+    author: "Gabrielle Union",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "The most common way people give up their power is by thinking they don’t have any.",
+    category: "Motivation",
+    author: "Alice Walker",
+    addedBy: "nicegrrrl",
+  },
+  {
+    quote: "Try to be a rainbow in someone's cloud.",
+    category: "Motivation",
+    author: "Maya Angelou",
+    addedBy: "nicegrrrl",
+  },
 ];
