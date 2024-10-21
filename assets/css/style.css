@@ -252,7 +252,7 @@ main {
   width: 60%;
   text-align: center;
   display: inline-block;
-  margin-top:8px ;
+  margin-top:6px ;
   padding: 10px 20px;
   border-radius: 0 0 5px 5px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
@@ -264,7 +264,7 @@ main {
   text-align: center;
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 8px;
+  margin-top: 6px;
   border-radius: 0 0 5px 5px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.515);
   background-color: #262626;
