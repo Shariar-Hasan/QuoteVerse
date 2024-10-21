@@ -139,6 +139,8 @@ main {
   width: 60%;
   margin: 10px auto;
   position: relative;
+  overflow-y: scroll;
+
 }
 
 .controller .clip-box {
