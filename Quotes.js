@@ -3054,4 +3054,46 @@ window.quotes = [
     author: "Maya Angelou",
     addedBy: "nicegrrrl",
   },
+  {
+    quote: "Have no fear of perfection, you'll never reach it.",
+    category: "Living",
+    author: "Marie Curie",
+    addedBy: "aditi",
+  },
+   {
+    quote: "In science, we must be interested in things, not in persons.",
+    category: "Philosophical",
+    author: "Marie Curie",
+    addedBy: "aditi",
+  },
+   {
+    quote: "Just be yourself, there is no one better.",
+    category: "Life",
+    author: "Taylor Swift",
+    addedBy: "aditi",
+  },
+  {
+    quote: "If you're lucky enough to be different, never change",
+    category: "Life",
+    author: "Taylor Swift",
+    addedBy: "aditi",
+  },
+  {
+    quote: "Speak your mind, even if your voice shakes.",
+    category: "Learning",
+    author: "Maggie Smith",
+    addedBy: "aditi",
+  },
+  {
+    quote: "What makes you different or weird, that's your strength",
+    category: "Life",
+    author: "Meryl Streep",
+    addedBy: "aditi",
+  },
+  {
+    quote: "It is time for us to do what we have been doing and that time is every day.",
+    category: "Inspirational",
+    author: "Kamala Harris",
+    addedBy: "aditi",
+  }
 ];
