@@ -45,6 +45,10 @@
     content="QuoteVerse is a platform dedicated to sharing inspirational and motivational quotes to inspire and uplift your spirit. Explore a wide collection of quotes on various topics and share your favorites with the world." />
   <meta name="twitter:image" content="https://i.ibb.co/LvkdXrP/Quote-Verse-Cover.png" />
   <meta name="twitter:site" content="@iShariarHasan" />
+  
+
+
+ 
 
   
   
@@ -52,11 +56,35 @@
 
 <body>
   <main class="w-full h-screen">
+    
+    <!-- Language Selection Dropdown -->
+    <div class="language-selector">
+      <select id="languageSwitcher">
+
+        <option value="en" selected>English</option>
+        <option value="hi">Hindi</option>
+        <option value="ta">Tamil</option>
+        <option value="kn">Kannada</option>
+        <option value="ml">Malayalam</option>
+        <option value="mr">Marathi</option>
+        <option value="bn">Bengali</option>
+        <option value="ar">Arabic</option>
+        <option value="ru">Russian</option>
+        <option value="es">Spanish</option>
+        <option value="zh">Chinese (Simplified)</option>
+        <option value="de">German</option>
+        <option value="fr">French</option>
+        <option value="pt">Portuguese</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+      </select>
+    </div>
+  
     <div class="container">
       <!-- Quote Section -->
       <section>
         <div class="quote" title="Click to copy quote to clipboard">
-          <h1 class="quote-text" id="quoteTextTag">
+          <h1 class="quote-text" id="quoteTextTag" >
             <!-- Quote will appear here  -->
           </h1>
           <h5 class="quote-author" id="quoteAuthorTag">
@@ -77,7 +105,7 @@
           <!-- Share Button -->
           <div class="shareAndcontribute">
             <div class="shareWith text-right">
-              <button id="share-button" class="hoverToShare">
+              <button data-i18n="share" id="share-button" class="hoverToShare">
                 Share <i class="fa fa-share" aria-hidden="true"></i>
               </button>
               <div class="popup" id="share-popup" style="display: none;">
@@ -95,34 +123,45 @@
           </div>
           <div class="controller-wrapper w-full">
             <div class="controller-group w-full">
-              <button class="btn-generator w-full" id="generateQuoteBtn">
+              <button class="btn-generator w-full" id="generateQuoteBtn" data-i18n="generate">
                 Generate <i class="fa-solid fa-rotate"></i>
               </button>
               <select name="selectedCategoryTag" id="selectedCategoryTag" class="capitalise w-full"></select>
             </div>
             <div class="w-full text-center">
               <span class="contribute1" id="contributor">
-                <a class="contributor" href="./Contributors/contributors.html">
+                <a class="contributor" data-i18n="see_all_contributors" href="./Contributors/contributors.html">
                   See all Contributors
                   <i class="fa fa-arrow-right px-3" aria-hidden="true"></i>
                 </a>
               </span>
-              <span class="contribute2">
-                <a href="https://github.com/Shariar-Hasan/QuoteVerse" target="_blank" rel="noopener noreferrer">
+              <span class="contribute2" id="contributeButton">
+                <a href="https://github.com/Shariar-Hasan/QuoteVerse" data-i18n="click_to_contribute" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-github px-3" aria-hidden="true"></i>Click
-                  to contribute</a></span>
+                  to contribute</a>
+              </span>
             </div>
           </div>
         </div>
       </section>
+      
+
       <div id="theme_changer_button" class="theme_changer_button">
-        <span class="button-text">Color</span>
+        <span class="button-text" data-i18n="color">Color</span>
         <input type="color" id="color_picker" value="#ededed">
       </div>
 
   </main>
 
-  <!-- Other existing script tags -->
+
+
+<!-- Other existing script tags -->
+<script src="./node_modules/i18next/i18next.js"></script>
+<script src="./node_modules/i18next-http-backend/i18nextHttpBackend.js"></script>
+<script src="./node_modules/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/jquery-i18next/jquery-i18next.js"></script>
+<script type="module" src="./assets/js/lang.js"></script>
 <script src="./Quotes.js"></script>
 <script src="./assets/js/others.js"></script>
 <script src="./assets/js/main.js"></script>
@@ -179,8 +218,8 @@
   });
 </script>
 
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
 </html>

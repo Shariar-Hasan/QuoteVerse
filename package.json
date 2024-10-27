@@ -4,6 +4,12 @@
   "description": "A place where you can find and add quotes of your choice",
   "main": "index.html",
   "dependencies": {
+    "i18next": "^23.16.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.6.2",
+    "install": "^0.13.0",
+    "jquery": "^3.7.1",
+    "jquery-i18next": "^1.2.1",
     "prettier": "^3.0.3",
     "QuoteVerse": "file:"
   },

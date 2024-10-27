@@ -1,22 +1,76 @@
 window.quotes = [
   {
-    quote: "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.",
-    category: "Growth",
-    author: "Carl Bard",
-    addedBy: "Dev Kumar Pal"
+    "quote": "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.",
+    "category": "Growth",
+    "author": "Carl Bard",
+    "addedBy": "Dev Kumar Pal",
+    "translations": {
+      "fr": "Bien que personne ne puisse revenir en arrière et faire un nouveau départ, tout le monde peut commencer maintenant et créer une nouvelle fin.",
+      "es": "Aunque nadie puede retroceder y hacer un nuevo comienzo, cualquiera puede empezar desde ahora y hacer un nuevo final.",
+      "ru": "Хотя никто не может вернуться назад и начать сначала, любой может начать с настоящего момента и создать новый конец.",
+      "it": "Anche se nessuno può tornare indietro e fare un nuovo inizio, chiunque può iniziare da ora e creare una nuova fine.",
+      "de": "Obwohl niemand zurückgehen und einen neuen Anfang machen kann, kann jeder von jetzt an beginnen und ein neues Ende schaffen.",
+      "ja": "誰も過去に戻って新しいスタートを切ることはできませんが、誰でも今から始めて新しいエンディングを作ることができます。",
+      "zh": "虽然没有人可以回到过去重新开始，但任何人都可以从现在开始，创造一个全新的结局。",
+      "pt": "Embora ninguém possa voltar atrás e fazer um novo começo, qualquer um pode começar agora e criar um novo final.",
+      "ar": "على الرغم من أن لا أحد يمكنه العودة وبدء بداية جديدة، يمكن لأي شخص أن يبدأ الآن ويصنع نهاية جديدة.",
+      "hi": "हालांकि कोई भी वापस जाकर एक नई शुरुआत नहीं कर सकता, कोई भी अब से शुरू करके एक नई समाप्ति बना सकता है।",
+      "mr": "जरी कोणीही मागे जाऊन नवीन सुरुवात करू शकत नाही, तरीही कोणीही आता पासून सुरुवात करून एक नवीन शेवट करू शकतो.",
+      "bn": "যদিও কেউ ফিরে গিয়ে একটি নতুন সূচনা করতে পারে না, যে কেউ এখন থেকে শুরু করতে পারে এবং একটি নতুন সমাপ্তি তৈরি করতে পারে।",
+      "kn": "ಯಾರೂ ಹಿಂದಕ್ಕೆ ಹೋಗಿ ಹೊಸ ಪ್ರಾರಂಭವನ್ನು ಮಾಡಲಾಗುವುದಿಲ್ಲ, ಯಾರಾದರೂ ಈಗಿನಿಂದ ಪ್ರಾರಂಭಿಸಿ ಹೊಸ ಅಂತ್ಯವನ್ನು ಮಾಡಬಹುದು.",
+      "ta": "யாரும் பின்சென்று புதிய துவக்கத்தை உருவாக்க முடியாது, எவரும் இப்பொழுது துவங்கி புதிய முடிவை உருவாக்கலாம்.",
+      "te": "ఎవరూ వెనక్కి వెళ్లి కొత్త ప్రారంభాన్ని చేయలేరు, ఎవరైనా ఇప్పుడు నుండి ప్రారంభించి కొత్త ముగింపును చేయవచ్చు.",
+      "ml": "ആർക്കും തിരിച്ചുപോകാനും ഒരു പുതിയ തുടക്കം ഉണ്ടാക്കാനും കഴിയില്ല, ആരും ഇപ്പോൾ ആരംഭിച്ച് ഒരു പുതിയ അവസാനമുണ്ടാക്കാൻ കഴിയും."
+    }
   },
   {
-    quote: "Change is the law of life and those who look only to the past or present are certain to miss the future.",
-    category: "Growth",
-    author: "John F. Kennedy",
-    addedBy: "Dev Kumar Pal"
-  },
-   {
-    quote: "Stay afraid, but do it anyway. What’s important is the action. You don’t have to wait to be confident. Just do it and eventually the confidence will follow.",
-    category: "Growth",
-    author: "Carrie Fisher",
-    addedBy: "Dev Kumar Pal"
-  },
+    "quote": "Change is the law of life and those who look only to the past or present are certain to miss the future.",
+    "category": "Growth",
+    "author": "John F. Kennedy",
+    "addedBy": "Dev Kumar Pal",
+    "translations": {
+        "fr": "Le changement est la loi de la vie et ceux qui ne regardent que le passé ou le présent sont certains de manquer l'avenir.",
+        "es": "El cambio es la ley de la vida, y aquellos que solo miran al pasado o al presente están destinados a perderse el futuro.",
+        "ru": "Изменение — это закон жизни, и те, кто смотрит только в прошлое или настоящее, наверняка упустят будущее.",
+        "it": "Il cambiamento è la legge della vita e chi guarda solo al passato o al presente rischia di perdere il futuro.",
+        "de": "Veränderung ist das Gesetz des Lebens, und diejenigen, die nur in die Vergangenheit oder Gegenwart blicken, verpassen mit Sicherheit die Zukunft.",
+        "ja": "変化は人生の法則であり、過去や現在しか見ていない人は未来を見逃す運命にあります。",
+        "zh": "改变是生命的法则，那些只关注过去或现在的人注定会错过未来。",
+        "pt": "A mudança é a lei da vida, e aqueles que olham apenas para o passado ou o presente certamente perderão o futuro.",
+        "ar": "التغيير هو قانون الحياة، وأولئك الذين ينظرون فقط إلى الماضي أو الحاضر مؤكد أنهم سيفوتون المستقبل.",
+        "hi": "परिवर्तन जीवन का नियम है और जो केवल अतीत या वर्तमान की ओर देखते हैं, वे निश्चित रूप से भविष्य को चूक जाएंगे।",
+        "mr": "बदल हा जीवनाचा नियम आहे आणि जे फक्त भूतकाळ किंवा वर्तमानाकडे पाहतात ते नक्कीच भविष्य चुकवतील.",
+        "bn": "পরিবর্তন জীবনের নিয়ম এবং যারা শুধুমাত্র অতীত বা বর্তমানের দিকে তাকিয়ে থাকে তারা নিশ্চিতভাবে ভবিষ্যত মিস করবে।",
+        "kn": "ಬದಲಾವಣೆ ಜೀವನದ ನಿಯಮವಾಗಿದೆ ಮತ್ತು ಅತೀತ ಅಥವಾ ವರ್ತಮಾನವನ್ನು ಮಾತ್ರ ನೋಡುವವರು ಭವಿಷ್ಯವನ್ನು ತಪ್ಪಿಸುತ್ತಾರೆ.",
+        "ta": "மாற்றம் வாழ்க்கையின் சட்டம் மற்றும் கடந்தகாலம் அல்லது தற்போதையதை மட்டுமே பார்க்கும்வர்கள் நிச்சயமாக எதிர்காலத்தை தவறவிடுவார்கள்.",
+        "te": "మార్పు జీవన నియమం మరియు భవిష్యత్తును మిస్ చేయడం ఖాయం.",
+        "ml": "മാറ്റം ജീവിതത്തിന്റെ നിയമമാണ്, അഴിഞ്ഞെ നോക്കുന്നവർ ഭാവിയെ നഷ്ടപ്പെടുത്താൻ നിർഭാഗ്യരായിരിക്കും."
+    }
+},
+{
+  "quote": "Stay afraid, but do it anyway. What’s important is the action. You don’t have to wait to be confident. Just do it and eventually, the confidence will follow.",
+  "category": "Growth",
+  "author": "Carrie Fisher",
+  "addedBy": "Dev Kumar Pal",
+  "translations": {
+      "fr": "Restez effrayé, mais faites-le quand même. Ce qui est important, c'est l'action. Vous n'avez pas besoin d'attendre d'être confiant. Faites-le et la confiance viendra avec le temps.",
+      "es": "Sigue teniendo miedo, pero hazlo de todos modos. Lo importante es la acción. No tienes que esperar a sentirte seguro. Solo hazlo, y eventualmente, la confianza vendrá.",
+      "ru": "Оставайтесь напуганными, но все равно делайте это. Главное — это действие. Вам не нужно ждать уверенности, просто сделайте это, и со временем придет уверенность.",
+      "it": "Rimani spaventato, ma fallo comunque. L'importante è l'azione. Non devi aspettare di sentirti sicuro. Fallo e la fiducia arriverà.",
+      "de": "Bleib ängstlich, aber tu es trotzdem. Wichtig ist die Tat. Du musst nicht warten, um selbstbewusst zu sein. Tue es einfach und das Selbstvertrauen wird folgen.",
+      "ja": "怖いままでいいから、それでもやってください。重要なのは行動です。自信がつくのを待つ必要はありません。ただやってください、そしてやがて自信がついてきます。",
+      "zh": "保持害怕，但仍然去做。重要的是行动。你不必等到有信心。只要去做，自信就会随之而来。",
+      "pt": "Fique com medo, mas faça de qualquer forma. O que importa é a ação. Você não precisa esperar para ter confiança. Apenas faça, e eventualmente a confiança seguirá.",
+      "ar": "ابق خائفًا، لكن افعل ذلك على أي حال. ما يهم هو الفعل. لا تحتاج إلى انتظار الثقة. فقط افعلها، وستأتي الثقة فيما بعد.",
+      "hi": "डरते रहें, लेकिन इसे फिर भी करें। महत्वपूर्ण है कार्रवाई। आपको आत्मविश्वास होने का इंतजार करने की आवश्यकता नहीं है। इसे करें और आत्मविश्वास स्वाभाविक रूप से आएगा।",
+      "mr": "भयभीत राहा, पण ते तरी करा. महत्त्वाचे म्हणजे कृती. आत्मविश्वास येईपर्यंत थांबण्याची आवश्यकता नाही. फक्त करा आणि आत्मविश्वास येईल.",
+      "bn": "ভীত থাকুন, কিন্তু তাও করুন। গুরুত্বপূর্ণ হল কর্ম। আত্মবিশ্বাসের জন্য অপেক্ষা করার প্রয়োজন নেই। কেবল করুন, এবং আত্মবিশ্বাস আসবে।",
+      "kn": "ಭಯಭೀತರಾಗಿರಿ, ಆದರೆ ಅದನ್ನು ಹಚ್ಚಿ. ಮುಖ್ಯವಾದದ್ದು ಕ್ರಿಯೆ. ಆತ್ಮವಿಶ್ವಾಸಕ್ಕಾಗಿ ನಿರೀಕ್ಷಿಸಬೇಕಾದ ಅಗತ್ಯವಿಲ್ಲ. ಅದನ್ನು ಮಾಡಿ, ಮತ್ತು ಕಾಲಕ్రమೇಣ ಆತ್ಮವಿಶ್ವಾಸ ಬರುತ್ತದೆ.",
+      "ta": "பயந்தே இருங்கள், ஆனால் அதைNonetheless செய்யுங்கள். முக்கியமானது நடவடிக்கை. நம்பிக்கைக்காக காத்திருக்க வேண்டியதில்லை. அதைச் செய்யுங்கள், நம்பிக்கை பின்வரும்.",
+      "te": "భయపడుతున్నా, దానిని Nonetheless చేయండి. ముఖ్యమైనది చర్య. భరోసా కోసం వేచిచూడాల్సిన అవసరం లేదు. దానిని చేయండి, భరోసా వస్తుంది.",
+      "ml": "ഭയന്നു നില്‍ക്കൂ, പക്ഷെ Nonetheless അത് ചെയ്തു കാണൂ. പ്രധാനമാണ് നടപടി. ആത്മവിശ്വാസത്തിനായി കാത്തിരിക്കാന്‍ ആവശ്യമില്ല. അത് ചെയ്ത് കൊള്ളൂ, ആത്മവിശ്വാസം അവശേഷിക്കും."
+  }
+},
   {
     quote: "If there is no struggle, there is no progress.",
     category: "Growth",
@@ -567,12 +621,29 @@ window.quotes = [
     addedBy: "iqbalcodes6602",
   },
   {
-    quote:
-      "If you always make the right decision, the safe decision, the one most people make, you will be the same as everyone else.",
-    category: "College",
-    author: "Patrick Bet-David",
-    addedBy: "rohits-web03",
-  },
+    "quote": "If you always make the right decision, the safe decision, the one most people make, you will be the same as everyone else.",
+    "category": "College",
+    "author": "Patrick Bet-David",
+    "addedBy": "rohits-web03",
+    "translations": {
+      "fr": "Si vous faites toujours la bonne décision, la décision sûre, celle que la plupart des gens prennent, vous serez le même que tout le monde.",
+      "es": "Si siempre tomas la decisión correcta, la decisión segura, la que la mayoría de la gente toma, serás igual que todos los demás.",
+      "ru": "Если вы всегда принимаете правильное решение, безопасное решение, то, которое принимают большинство людей, вы будете таким же, как и все остальные.",
+      "it": "Se prendi sempre la decisione giusta, la decisione sicura, quella che fanno la maggior parte delle persone, sarai uguale a tutti gli altri.",
+      "de": "Wenn Sie immer die richtige Entscheidung treffen, die sichere Entscheidung, die die meisten Menschen treffen, werden Sie wie alle anderen sein.",
+      "ja": "もしあなたが常に正しい決定を下し、安全な決定を下し、ほとんどの人が下す決定を下すなら、あなたは他の誰とも同じになります。",
+      "zh": "如果你总是做出正确的决定，安全的决定，也就是大多数人做出的决定，你就会和其他人一样。",
+      "pt": "Se você sempre tomar a decisão certa, a decisão segura, aquela que a maioria das pessoas toma, será igual a todos os outros.",
+      "ar": "إذا كنت دائمًا تتخذ القرار الصحيح، القرار الآمن، الذي يتخذه معظم الناس، فستكون مثل الجميع.",
+      "hi": "यदि आप हमेशा सही निर्णय लेते हैं, सुरक्षित निर्णय लेते हैं, वही निर्णय जो अधिकांश लोग लेते हैं, तो आप सभी के समान होंगे।",
+      "mr": "जर तुम्ही नेहमी योग्य निर्णय घेतला, सुरक्षित निर्णय घेतला, जो निर्णय सर्वात जास्त लोक घेतात, तर तुम्ही इतर सर्वांप्रमाणेच असाल.",
+      "bn": "যদি আপনি সবসময় সঠিক সিদ্ধান্ত নেন, নিরাপদ সিদ্ধান্ত নেন, যা বেশিরভাগ লোকেরা নেয়, তাহলে আপনি অন্য সবার মতোই হয়ে যাবেন।",
+      "kn": "ನೀವು ಯಾವಾಗಲೂ ಸರಿ ಆದ ನಿರ್ಧಾರವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ, ಸುರಕ್ಷಿತ ನಿರ್ಧಾರವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ, ಬಹುತೇಕ ಎಲ್ಲಾ ಜನರು ತೆಗೆದುಕೊಳ್ಳುವ ನಿರ್ಧಾರ, ನೀವು ಎಲ್ಲರಂತೆ ಆಗುತ್ತೀರಿ.",
+      "ta": "நீங்கள் எப்போதும் சரியான முடிவுகளை எடுப்பீர்கள், பாதுகாப்பான முடிவுகளை எடுப்பீர்கள், மற்றவர்கள் எடுக்குமாறு எடுப்பீர்கள் என்றால், நீங்கள் மற்றவர்கள் போல் இருக்கிறீர்கள்.",
+      "te": "మీరు ఎల్లప్పుడూ సరైన నిర్ణయం తీసుకుంటే, సురక్షితమైన నిర్ణయం తీసుకుంటే, చాలా మంది చేసే నిర్ణయం, మీరు ఇతరులకంటే విభిన్నంగా ఉండరు.",
+      "ml": "നിങ്ങൾ എല്ലായ്പ്പോഴും ശരിയായ തീരുമാനമെടുക്കുകയാണെങ്കിൽ, സുരക്ഷിതമായ തീരുമാനമെടുക്കുകയാണെങ്കിൽ, ഏറ്റവും കൂടുതൽ ആളുകൾ എടുക്കുന്ന തീരുമാനം, നിങ്ങൾ മറ്റെല്ലാവരുപോലെയായിരിക്കും."
+    }
+  },  
   {
     quote:
       "The downside is that a person spends $20 to watch that hero instead of being that hero himself.",

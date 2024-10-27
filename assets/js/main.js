@@ -29,6 +29,16 @@ document.addEventListener("DOMContentLoaded", () => {
   let webAddress = "https://quote-verse.netlify.app/";
   let themeColor = color_array[0];
 
+  let currentQuoteIndex = -1; // Variable to store the index of the currently selected quote
+  // categorically selected quotes
+  var quotes = window.quotes
+  .sort(() => Math.random() - 0.6)
+  .filter(
+    (quote) =>
+      isIncluded(quote.category, selectedCategory) ||
+      isIncluded(selectedCategory, "Random")
+  );
+
   // update the themeColor when the color picker changes
 document.getElementById("color_picker").addEventListener("input", (event) => {
   themeColor = event.target.value;
@@ -45,6 +55,8 @@ document.getElementById("color_picker").addEventListener("input", (event) => {
 
 heartIcon.addEventListener('click', function () {
   let quote = quoteTextTag.textContent.trim(); 
+  console.log(quote);
+  console.log("##############################");
   let quoteInd = -1;
 
   for (let i = 0; i < window.quotes.length; i++) {
@@ -109,26 +121,51 @@ function getBrightness(hexColor) {
   };
 
   // set up the selected quote
-  const setQuote = () => {
+  const setQuote = (isLanguageChange = false, isCategoryChange = false) => {
+    const selectedLanguage = document.getElementById("languageSwitcher").value;
+    console.log("selectedLanguage",selectedLanguage);
+    console.log(currentQuoteIndex);
+    console.log(isLanguageChange);
+
     selectedCategory = selectedCategoryTag.value;
+    console.log(quotes);
+    
+
     
     
 
-    // categorically selected quotes
-    const quotes = window.quotes
+    // If the language is changed, keep the current quote but find the translation
+    if (isLanguageChange && currentQuoteIndex !== -1) {
+      // Use the same quote's index to find the translation
+      var selectedQuote = quotes[currentQuoteIndex];
+    }else {
+      // categorically selected quotes
+      quotes = window.quotes
       .sort(() => Math.random() - 0.6)
       .filter(
         (quote) =>
           isIncluded(quote.category, selectedCategory) ||
           isIncluded(selectedCategory, "Random")
       );
+      // Pick a new random quote if it's not a language change
+      selectedQuote = quotes[randomInteger(0, quotes.length)];
+      currentQuoteIndex = quotes.indexOf(selectedQuote); // Store the index of the selected quote
+      
+      
+    }
 
-    // make a random selection from quotes\
-    const selectedQuote = quotes[randomInteger(0, quotes.length)];
+    console.log("quote",selectedQuote);
+
     // setting global variable
-    selectedQuoteText = selectedQuote.quote;
+    if ("translations" in selectedQuote){
+      selectedQuoteText = selectedQuote.translations[selectedLanguage] || selectedQuote.quote;
+    }else{
+      selectedQuoteText = selectedQuote.quote;
+    }
+    
     selectedQuoteAuthor = selectedQuote.author;
     selectedQuoteAddedBy = selectedQuote.addedBy;
+
 
     let quote = quoteTextTag.textContent.trim(); 
     let quoteInd = -1;
@@ -148,8 +185,8 @@ function getBrightness(hexColor) {
     }
 
     // setting the visual innerhtml values
-    setValue(quoteTextTag, `"${selectedQuote.quote}"`);
-    setValue(quoteAuthorTag, `- ${selectedQuote.author}`);
+    setValue(quoteTextTag, `"${selectedQuoteText}"`);
+    setValue(quoteAuthorTag, `- ${selectedQuoteAuthor}`);
     setValue(
       addedByTag,
       `Added by <br/> <a
@@ -168,6 +205,7 @@ function getBrightness(hexColor) {
     // set canvas to generate image to download
     setCanvas();
   };
+
   
   // function to wrap text; reference: https://fjolt.com/article/html-canvas-how-to-wrap-text
   const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
@@ -304,9 +342,17 @@ function getBrightness(hexColor) {
   // set all funtionalities
   setCategories();
   setQuote();
+ // making event listener for language change
+  document.getElementById('languageSwitcher').addEventListener('change', function (){
+    setQuote(true);
+  });
   // when generate button clicked
-  generateQuoteBtn.addEventListener("click", setQuote);
-  selectedCategoryTag.addEventListener("change", setQuote);
+  generateQuoteBtn.addEventListener("click", function(){
+    setQuote();
+  });
+  selectedCategoryTag.addEventListener("change", function(){
+    setQuote(false,true);
+  });
 
   // Function to replace icon class with a fade effect
   function replaceIconClass(item, newClass) {
@@ -411,3 +457,6 @@ function getBrightness(hexColor) {
     });
   });
 });
+
+
+

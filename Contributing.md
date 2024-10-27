@@ -84,11 +84,30 @@ There can be many things you can do.
 - Make sure to follow the below example.
    ```javascript
    {
-      quote: "your-quote-text",
-      category: "quote-category",
-      author: "author-of-the-quote",
-      addedBy: "your-github-username"
-   }
+        "quote": "your-quote-text",
+        "category": "quote-category",
+        "author": "author-of-the-quote",
+        "addedBy": "your-github-username",
+        "translations": {
+            "fr": "translated-quote-in-french",
+            "es": "translated-quote-in-spanish",
+            "ru": "translated-quote-in-russian",
+            "it": "translated-quote-in-italian",
+            "de": "translated-quote-in-german",
+            "ja": "translated-quote-in-japanese",
+            "zh": "translated-quote-in-chinese",
+            "pt": "translated-quote-in-portuguese",
+            "ar": "translated-quote-in-arabic",
+            "hi": "translated-quote-in-hindi",
+            "mr": "translated-quote-in-marathi",
+            "bn": "translated-quote-in-bengali",
+            "kn": "translated-quote-in-kannada",
+            "ta": "translated-quote-in-tamil",
+            "te": "translated-quote-in-telugu",
+            "ml": "translated-quote-in-malayalam"
+        }
+    }
+
    ```
 - No need to add quote in JSON format.
 - In case you want to add a quote which is already in our list, then you can not add it.
@@ -96,11 +115,12 @@ There can be many things you can do.
 - Be carefull about long quote. Quote length must not exceed 30 words.
 - You must add valid Quote. you can not add a made up quote, we will manually review your added quotes. You can copy paste any quote from the internet, in your own concern.
 - While adding Quotes in pull request, add `feat:` in prefix of your PR title. 
-   
+
    For example:
    ```sh
    feat: adding quotes of inspirational category
    ```
+- Also you can add translations for already existing quotes in files in the same format because many quotes are not in the given format after multilingual support updation. Don't add any extra language.
 
 ## Rules for adding features
 
